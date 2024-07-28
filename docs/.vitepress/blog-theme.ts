@@ -55,6 +55,13 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
+      nickname: '旧博客',
+      des: '成功始于方法,巩固才能提高.',
+      avatar:
+        'https://ytazwc.top/images/ok.avif',
+      url: 'https://ytazwc.top',
+    },
+    {
       nickname: '粥里有勺糖',
       des: '你的指尖用于改变世界的力量',
       avatar:
