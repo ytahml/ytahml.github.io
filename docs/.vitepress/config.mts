@@ -15,7 +15,7 @@ import { blogTheme } from './blog-theme'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  // base,
+  base: '/blog/',
   lang: 'zh-cn',
   title: '花木凋零成兰',
   description: '成功始于方法,巩固才能提高',
