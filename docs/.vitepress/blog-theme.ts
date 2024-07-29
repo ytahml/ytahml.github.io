@@ -115,13 +115,13 @@ const blogTheme = getThemeConfig({
   //   duration: 0
   // },
 
-  // comment: {
-  //   repo: 'YTAZWC/blog',
-  //   repoId: 'MDEwOlJlcG9zaXRvcnkyNDEyNDUyOTk',
-  //   category: 'Announcements',
-  //   categoryId: 'DIC_kwDODmEcc84COVc6',
-  //   inputPosition: 'top',
-  // }
+  comment: {
+    repo: 'YTAZWC/blog',
+    repoId: 'R_kgDOMcKScw',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOMcKSc84ChPpf',
+    inputPosition: 'top',
+  }
 
 })
 
