@@ -28,9 +28,6 @@ const blogTheme = getThemeConfig({
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
 
-  // 是否开启精选
-  hotArticle: false,
-
   // 页脚
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
@@ -80,25 +77,37 @@ const blogTheme = getThemeConfig({
   // 推荐文章的展示卡片
   recommend: false,
 
+  // 热门文章
+  hotArticle: {
+    title: '🔥 精选文章',
+    nextText: '换一组',
+    pageSize: 9,
+    empty: '暂无精选内容'
+  },
+
   // 公告
   popover: {
     title: '公告',
+    duration: -1,
+    mobileMinify: false,
+    reopen: true,
+    twinkle: false,
     body: [
       { type: 'text', content: '👇 我的微信 👇---👇 我的 QQ 👇' },
       {
         type: 'image',
-        src: 'https://ytazwc.top/blog/wechat.png',
+        src: 'https://github.com/YTAZWC/picx-images-hosting/raw/master/杂记/wechat.webp',
         style: 'display: inline-block;width:46%;padding-right:6px'
       },
       {
         type: 'image',
-        src: 'https://ytazwc.top/blog/qq.png',
+        src: 'https://github.com/YTAZWC/picx-images-hosting/raw/master/杂记/qq.webp',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
         type: 'text',
         content: '欢迎大家私信交流(备注:博客)'
-      },
+      }
       // {
       //   type: 'text',
       //   content: '文章首/文尾有群二维码',
@@ -118,7 +127,6 @@ const blogTheme = getThemeConfig({
       //   link: '18570354653@163.com',
       // }
     ],
-    duration: 0
   },
 
   comment: {
