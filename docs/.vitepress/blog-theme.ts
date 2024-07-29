@@ -81,39 +81,45 @@ const blogTheme = getThemeConfig({
   recommend: false,
 
   // 公告
-  // popover: {
-  //   title: '公告',
-  //   body: [
-  //     { type: 'text', content: '👇公众号👇---👇 微信 👇' },
-  //     {
-  //       type: 'image',
-  //       src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp'
-  //     },
-  //     {
-  //       type: 'text',
-  //       content: '欢迎大家加群&私信交流'
-  //     },
-  //     {
-  //       type: 'text',
-  //       content: '文章首/文尾有群二维码',
-  //       style: 'padding-top:0'
-  //     },
-  //     {
-  //       type: 'button',
-  //       content: '作者博客',
-  //       link: 'https://sugarat.top'
-  //     },
-  //     {
-  //       type: 'button',
-  //       content: '加群交流',
-  //       props: {
-  //         type: 'success'
-  //       },
-  //       link: 'https://theme.sugarat.top/group.html',
-  //     }
-  //   ],
-  //   duration: 0
-  // },
+  popover: {
+    title: '公告',
+    body: [
+      { type: 'text', content: '👇 我的微信 👇---👇 我的 QQ 👇' },
+      {
+        type: 'image',
+        src: '/blog/wechat.png',
+        style: 'display: inline-block;width:46%;padding-right:6px'
+      },
+      {
+        type: 'image',
+        src: '/blog/qq.png',
+        style: 'display: inline-block;width:46%;padding-left:6px'
+      },
+      {
+        type: 'text',
+        content: '欢迎大家私信交流(备注:博客)'
+      },
+      // {
+      //   type: 'text',
+      //   content: '文章首/文尾有群二维码',
+      //   style: 'padding-top:0'
+      // },
+      // {
+      //   type: 'button',
+      //   content: '作者博客',
+      //   link: 'https://sugarat.top'
+      // },
+      // {
+      //   type: 'button',
+      //   content: '作者邮箱',
+      //   // props: {
+      //   //   type: 'success'
+      //   // },
+      //   link: '18570354653@163.com',
+      // }
+    ],
+    duration: 0
+  },
 
   comment: {
     repo: 'YTAZWC/blog',
