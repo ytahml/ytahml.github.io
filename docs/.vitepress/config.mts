@@ -144,15 +144,15 @@ export default defineConfig({
   
   themeConfig: {
     // 官方vitePress内置搜索
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: '',
-        apiKey: '',
-        indexName: '',
-        placeholder: '请输入要搜索的内容...'
-      }
-    },
+    // search: {
+    //   provider: 'algolia',
+    //   options: {
+    //     appId: '',
+    //     apiKey: '',
+    //     indexName: '',
+    //     placeholder: '请输入要搜索的内容...'
+    //   }
+    // },
     
     // 展示 2,3 级标题在目录中
     outline: {

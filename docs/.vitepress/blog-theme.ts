@@ -23,7 +23,7 @@ const blogTheme = getThemeConfig({
 
   // 搜索
   // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
-  search: false,
+  // search: false,
 
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
@@ -64,6 +64,12 @@ const blogTheme = getThemeConfig({
       avatar:
         'https://ytazwc.top/images/ok.avif',
       url: 'https://ytazwc.top/blogs',
+    },
+    {
+      nickname: '@sugarat/theme',
+      des: '博客主题',
+      avatar: 'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
+      url: 'https://theme.sugarat.top/'
     },
     {
       nickname: '粥里有勺糖',
