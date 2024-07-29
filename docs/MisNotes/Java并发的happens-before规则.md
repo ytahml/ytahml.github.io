@@ -17,6 +17,6 @@ author: 花木凋零成兰
 7. **线程中断规则：** 对线程 interrupt 方法的调用 happens-before 被中断线程代码检测到中断事件;
 8. **对象终结规则：** 一个对象的构造函数执行的结束 happens-before 它的 finalize() 方法;
 
-## 参考文章：
+## **参考文章**
 
 - [阿里面试题：Java 并发编程之 happens-before 规则](https://blog.51cto.com/u_11812862/3002287)

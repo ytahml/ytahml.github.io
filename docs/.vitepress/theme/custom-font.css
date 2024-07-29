@@ -5,12 +5,43 @@
          /*url('./assets/LXGWWenKaiMonoLite-Regular.ttf') format('truetype'),*/
          /*url('./assets/LXGWWenKaiMonoLite-Bold.ttf') format('truetype'),*/
          url('./assets/LXGWWenKaiScreen.ttf') format('truetype');
-    /* 替换成你自己的字体文件 */
+}
+
+@font-face {
+    font-family: 'customFontMono';
+    /*src: url('./assets/LXGWWenKaiScreen.ttf') format('truetype');*/
+    src:
+        /*url('./assets/LXGWWenKaiMonoLite-Regular.ttf') format('truetype'),*/
+        url('./assets/LXGWWenKaiMonoLite-Bold.ttf') format('truetype'),
+        url('./assets/LXGWWenKaiScreen.ttf') format('truetype');
 }
 
 :root {
-    --vp-sidebar-width: 300px;
-    --vp-font-family-base: "customFont"
+    /*--vp-sidebar-width: 300px;*/
+    --vp-font-family-base: "customFont";
+    /*--vp-font-family-mono: "customFontMono"; !* code font *!*/
+    --vp-font-size-base: 18px; /* 定义基础字体大小 */
+    --code-font-size: 1.2em; /* 定义代码字体大小变量 */
+}
+
+body {
+    font-size: var(--vp-font-size-base);
+}
+/* 代码字体大小 */
+div[class*='language-'] {
+    font-size: var(--code-font-size);
+}
+
+h1 {
+    font-size: 2.2em; /* 34.8px */
+}
+
+h2 {
+    font-size: 1.75em; /* 31.5px */
+}
+
+h3 {
+    font-size: 1.5em; /* 27px */
 }
 
 strong {
