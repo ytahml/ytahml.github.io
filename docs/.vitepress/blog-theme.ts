@@ -52,11 +52,18 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
-      nickname: '旧博客',
+      nickname: 'Hexo旧博客',
       des: '成功始于方法,巩固才能提高.',
       avatar:
         'https://ytazwc.top/images/ok.avif',
       url: 'https://ytazwc.top',
+    },
+    {
+      nickname: 'vuepress旧博客',
+      des: '成功始于方法,巩固才能提高.',
+      avatar:
+        'https://ytazwc.top/images/ok.avif',
+      url: 'https://ytazwc.top/blogs',
     },
     {
       nickname: '粥里有勺糖',
