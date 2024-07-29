@@ -177,13 +177,13 @@ export default defineConfig({
           text: '热题100',
           collapsed: false,
           items: [
-            { text: '1.两数之和', link: '/Leetcode/Hot100/1.两数之和.md' },
-            { text: '11.盛最多水的容器', link: '/Leetcode/Hot100/11.盛最多水的容器.md' },
-            { text: '15.三数之和', link: '/Leetcode/Hot100/15.三数之和.md' },
-            { text: '42.接雨水', link: '/Leetcode/Hot100/42.接雨水.md' },
-            { text: '49.字母异位词分组', link: '/Leetcode/Hot100/49.字母异位词分组.md' },
-            { text: '128.最长连续序列', link: '/Leetcode/Hot100/128.最长连续序列.md' },
-            { text: '283.移动零', link: '/Leetcode/Hot100/283.移动零.md' },
+            { text: '1.两数之和', link: '/Leetcode/Hot100/1.两数之和' },
+            { text: '11.盛最多水的容器', link: '/Leetcode/Hot100/11.盛最多水的容器' },
+            { text: '15.三数之和', link: '/Leetcode/Hot100/15.三数之和' },
+            { text: '42.接雨水', link: '/Leetcode/Hot100/42.接雨水' },
+            { text: '49.字母异位词分组', link: '/Leetcode/Hot100/49.字母异位词分组' },
+            { text: '128.最长连续序列', link: '/Leetcode/Hot100/128.最长连续序列' },
+            { text: '283.移动零', link: '/Leetcode/Hot100/283.移动零' },
           ]
         }
       ]

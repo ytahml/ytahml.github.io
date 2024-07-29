@@ -87,12 +87,12 @@ const blogTheme = getThemeConfig({
       { type: 'text', content: '👇 我的微信 👇---👇 我的 QQ 👇' },
       {
         type: 'image',
-        src: '/blog/wechat.png',
+        src: 'https://ytazwc.top/blog/wechat.png',
         style: 'display: inline-block;width:46%;padding-right:6px'
       },
       {
         type: 'image',
-        src: '/blog/qq.png',
+        src: 'https://ytazwc.top/blog/qq.png',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
