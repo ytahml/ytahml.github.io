@@ -1,99 +1,99 @@
 import { defineConfig } from 'vitepress'
 import mathjax3 from 'markdown-it-mathjax3';
-import { SearchPlugin } from 'vitepress-plugin-search'
-import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
+// import { SearchPlugin } from 'vitepress-plugin-search'
+// import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
 
-// const customElements = [
-//   'mjx-container',
-//   'mjx-assistive-mml',
-//   'math',
-//   'maction',
-//   'maligngroup',
-//   'malignmark',
-//   'menclose',
-//   'merror',
-//   'mfenced',
-//   'mfrac',
-//   'mi',
-//   'mlongdiv',
-//   'mmultiscripts',
-//   'mn',
-//   'mo',
-//   'mover',
-//   'mpadded',
-//   'mphantom',
-//   'mroot',
-//   'mrow',
-//   'ms',
-//   'mscarries',
-//   'mscarry',
-//   'mscarries',
-//   'msgroup',
-//   'mstack',
-//   'mlongdiv',
-//   'msline',
-//   'mstack',
-//   'mspace',
-//   'msqrt',
-//   'msrow',
-//   'mstack',
-//   'mstack',
-//   'mstyle',
-//   'msub',
-//   'msup',
-//   'msubsup',
-//   'mtable',
-//   'mtd',
-//   'mtext',
-//   'mtr',
-//   'munder',
-//   'munderover',
-//   'semantics',
-//   'math',
-//   'mi',
-//   'mn',
-//   'mo',
-//   'ms',
-//   'mspace',
-//   'mtext',
-//   'menclose',
-//   'merror',
-//   'mfenced',
-//   'mfrac',
-//   'mpadded',
-//   'mphantom',
-//   'mroot',
-//   'mrow',
-//   'msqrt',
-//   'mstyle',
-//   'mmultiscripts',
-//   'mover',
-//   'mprescripts',
-//   'msub',
-//   'msubsup',
-//   'msup',
-//   'munder',
-//   'munderover',
-//   'none',
-//   'maligngroup',
-//   'malignmark',
-//   'mtable',
-//   'mtd',
-//   'mtr',
-//   'mlongdiv',
-//   'mscarries',
-//   'mscarry',
-//   'msgroup',
-//   'msline',
-//   'msrow',
-//   'mstack',
-//   'maction',
-//   'semantics',
-//   'annotation',
-//   'annotation-xml',
-// ];
+const customElements = [
+  'mjx-container',
+  'mjx-assistive-mml',
+  'math',
+  'maction',
+  'maligngroup',
+  'malignmark',
+  'menclose',
+  'merror',
+  'mfenced',
+  'mfrac',
+  'mi',
+  'mlongdiv',
+  'mmultiscripts',
+  'mn',
+  'mo',
+  'mover',
+  'mpadded',
+  'mphantom',
+  'mroot',
+  'mrow',
+  'ms',
+  'mscarries',
+  'mscarry',
+  'mscarries',
+  'msgroup',
+  'mstack',
+  'mlongdiv',
+  'msline',
+  'mstack',
+  'mspace',
+  'msqrt',
+  'msrow',
+  'mstack',
+  'mstack',
+  'mstyle',
+  'msub',
+  'msup',
+  'msubsup',
+  'mtable',
+  'mtd',
+  'mtext',
+  'mtr',
+  'munder',
+  'munderover',
+  'semantics',
+  'math',
+  'mi',
+  'mn',
+  'mo',
+  'ms',
+  'mspace',
+  'mtext',
+  'menclose',
+  'merror',
+  'mfenced',
+  'mfrac',
+  'mpadded',
+  'mphantom',
+  'mroot',
+  'mrow',
+  'msqrt',
+  'mstyle',
+  'mmultiscripts',
+  'mover',
+  'mprescripts',
+  'msub',
+  'msubsup',
+  'msup',
+  'munder',
+  'munderover',
+  'none',
+  'maligngroup',
+  'malignmark',
+  'mtable',
+  'mtd',
+  'mtr',
+  'mlongdiv',
+  'mscarries',
+  'mscarry',
+  'msgroup',
+  'msline',
+  'msrow',
+  'mstack',
+  'maction',
+  'semantics',
+  'annotation',
+  'annotation-xml',
+];
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -124,17 +124,17 @@ export default defineConfig({
   // Latex渲染
   markdown: {
     config: (md) => {
-      md.use(mathjax3)
+      md.use(mathjax3 as any)
     },
-    math: true
+    // math: true
   },
-  // vue: {
-  //   template: {
-  //     compilerOptions: {
-  //       isCustomElement: (tag) => customElements.includes(tag)
-  //     }
-  //   }
-  // },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag)
+      }
+    }
+  },
 
   // vite: {
   //   plugins: [pagefindPlugin({
@@ -180,6 +180,7 @@ export default defineConfig({
     nav: [
       { text: '力扣', link: '/Leetcode/' },
       { text: '卡码网', link: '/KamaCoder/' },
+      { text: '杂记', link: '/MisNotes/' },
       {
         text: '我的',
         items: [
@@ -193,6 +194,11 @@ export default defineConfig({
     ],
     // 侧边栏
     sidebar: {
+      
+      "/MisNotes/": [
+        { text: 'Java并发的happens-before规则', link: '/MisNotes/Java并发的happens-before规则' },
+      ],
+      
       "/Leetcode/": [
         {
           text: '热题100',

@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'customFont';
-    src: url('./assets/LXGWWenKaiScreen.ttf') format('truetype');
+    /*src: url('./assets/LXGWWenKaiScreen.ttf') format('truetype');*/
+    src:
+         /*url('./assets/LXGWWenKaiMonoLite-Regular.ttf') format('truetype'),*/
+         /*url('./assets/LXGWWenKaiMonoLite-Bold.ttf') format('truetype'),*/
+         url('./assets/LXGWWenKaiScreen.ttf') format('truetype');
     /* 替换成你自己的字体文件 */
 }
 
@@ -8,3 +12,9 @@
     --vp-sidebar-width: 300px;
     --vp-font-family-base: "customFont"
 }
+
+strong {
+    text-shadow: 0.5px 0;
+}
+
+
