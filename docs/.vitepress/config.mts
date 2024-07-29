@@ -159,6 +159,7 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '力扣', link: '/Leetcode/' },
+      { text: '卡码网', link: '/KamaCoder/' },
       {
         text: '我的',
         items: [
@@ -186,7 +187,38 @@ export default defineConfig({
             { text: '283.移动零', link: '/Leetcode/Hot100/283.移动零' },
           ]
         }
-      ]
+      ],
+      "/KamaCoder/": [
+        {
+          text: '题库',
+          collapsed: false,
+          items: [
+            { text: '1.A+B问题I', link: '/KamaCoder/题库/1.A+B问题I' },
+            { text: '2.A+B问题II', link: '/KamaCoder/题库/2.A+B问题II' },
+            { text: '3.A+B问题III', link: '/KamaCoder/题库/3.A+B问题III' },
+            { text: '4.A+B问题IV', link: '/KamaCoder/题库/4.A+B问题IV' },
+            { text: '5.A+B问题VII', link: '/KamaCoder/题库/5.A+B问题VII' },
+            { text: '6.A+B问题VIII', link: '/KamaCoder/题库/6.A+B问题VIII' },
+            { text: '8.摆平积木', link: '/KamaCoder/题库/8.摆平积木' },
+            { text: '9.奇怪的信', link: '/KamaCoder/题库/9.奇怪的信' },
+            { text: '10.运营商活动', link: '/KamaCoder/题库/10.运营商活动' },
+            { text: '11.共同祖先', link: '/KamaCoder/题库/11.共同祖先' },
+            { text: '12.打印数字图形', link: '/KamaCoder/题库/12.打印数字图形' },
+            { text: '13.镂空三角形', link: '/KamaCoder/题库/13.镂空三角形' },
+            { text: '14.句子缩写', link: '/KamaCoder/题库/14.句子缩写' },
+            { text: '15.神秘字符', link: '/KamaCoder/题库/15.神秘字符' },
+            { text: '16.位置互换', link: '/KamaCoder/题库/16.位置互换' },
+            { text: '17.出栈合法性', link: '/KamaCoder/题库/17.出栈合法性' },
+            { text: '18.链表的基本操作', link: '/KamaCoder/题库/18.链表的基本操作' },
+            { text: '19.单链表反转', link: '/KamaCoder/题库/19.单链表反转' },
+            { text: '20.删除重复元素', link: '/KamaCoder/题库/20.删除重复元素' },
+            { text: '21.构造二叉树', link: '/KamaCoder/题库/21.构造二叉树' },
+            { text: '46.携带研究材料', link: '/KamaCoder/题库/46.携带研究材料' },
+            { text: '54.替换数字', link: '/KamaCoder/题库/54.替换数字' },
+            { text: '55.右旋字符串', link: '/KamaCoder/题库/55.右旋字符串' },
+          ]
+        }
+      ],
     },
     socialLinks: [
       {
