@@ -8,3 +8,5 @@ top: 10
 # 随记
 
 记录未归类的笔记
+
+- [Java并发的happens-before规则](Java并发的happens-before规则.md)
