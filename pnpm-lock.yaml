@@ -20,10 +20,19 @@ importers:
       markdown-it-katex:
         specifier: ^2.0.3
         version: 2.0.3
+      vitepress-plugin-pagefind:
+        specifier: ^0.4.9
+        version: 0.4.9(pagefind@1.1.0)(typescript@5.5.4)
       vue:
         specifier: 3.4.26
         version: 3.4.26(typescript@5.5.4)
     devDependencies:
+      flexsearch:
+        specifier: ^0.7.43
+        version: 0.7.43
+      markdown-it:
+        specifier: ^14.1.0
+        version: 14.1.0
       markdown-it-mathjax3:
         specifier: ^4.3.2
         version: 4.3.2
@@ -39,6 +48,9 @@ importers:
       vitepress:
         specifier: 1.3.1
         version: 1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4)
+      vitepress-plugin-search:
+        specifier: 1.0.4-alpha.22
+        version: 1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4))(vue@3.4.26(typescript@5.5.4))
 
 packages:
 
@@ -488,6 +500,9 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
+  '@types/flexsearch@0.7.6':
+    resolution: {integrity: sha512-H5IXcRn96/gaDmo+rDl2aJuIJsob8dgOXDqf8K0t8rWZd1AFNaaspmRsElESiU+EWE33qfbFPgI0OC/B1g9FCA==}
+
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
@@ -502,6 +517,9 @@ packages:
 
   '@types/lodash@4.17.7':
     resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
+
+  '@types/markdown-it@12.2.3':
+    resolution: {integrity: sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==}
 
   '@types/markdown-it@13.0.9':
     resolution: {integrity: sha512-1XPwR0+MgXLWfTn9gCsZ55AHOKW1WN+P9vr0PaQh5aerR9LLQXUbjfEAFhjmEmyoYFWAyuN2Mqkn40MZ4ukjBw==}
@@ -1021,6 +1039,9 @@ packages:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
 
+  flexsearch@0.7.43:
+    resolution: {integrity: sha512-c5o/+Um8aqCSOXGcZoqZOm+NqtVwNsvVpWv6lfmSclU954O3wvQKxxK8zj74fPaSJbXpSLTs4PRhh+wnoCXnKg==}
+
   focus-trap@7.5.4:
     resolution: {integrity: sha512-N7kHdlgsO/v+iD/dMoJKtsSqs5Dz/dXZVebRgJw23LDk+jMi/974zyiOYDziY2JPp8xivq9BmUGwIJMiuSBi7w==}
 
@@ -1039,6 +1060,9 @@ packages:
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
+
+  glob-to-regexp@0.4.1:
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
   gray-matter@4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==}
@@ -1134,6 +1158,9 @@ packages:
   linkify-it@4.0.1:
     resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}
 
+  linkify-it@5.0.0:
+    resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
+
   lit-element@4.0.6:
     resolution: {integrity: sha512-U4sdJ3CSQip7sLGZ/uJskO5hGiqtlpxndsLr6mt3IQIjheg93UKYeGQjWMRql1s/cXNOaRrCzC2FQwjIwSUqkg==}
 
@@ -1175,6 +1202,10 @@ packages:
     resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
 
+  markdown-it@14.1.0:
+    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+    hasBin: true
+
   match-at@0.1.1:
     resolution: {integrity: sha512-h4Yd392z9mST+dzc+yjuybOGFNOZjmXIPKWjxBd1Bb23r4SmDOsk2NYCU2BMUBGbSpZqwVsZYNq26QS3xfaT3Q==}
 
@@ -1189,6 +1220,9 @@ packages:
 
   mdurl@1.0.1:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
+
+  mdurl@2.0.0:
+    resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
 
   memoize-one@6.0.0:
     resolution: {integrity: sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==}
@@ -1360,6 +1394,10 @@ packages:
   preact@10.23.1:
     resolution: {integrity: sha512-O5UdRsNh4vdZaTieWe3XOgSpdMAmkIYBCT3VhQDlKrzyCm8lUYsk0fmVEvoQQifoOjFRTaHZO69ylrzTW2BH+A==}
 
+  punycode.js@2.3.1:
+    resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
+    engines: {node: '>=6'}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -1483,6 +1521,9 @@ packages:
   uc.micro@1.0.6:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
 
+  uc.micro@2.1.0:
+    resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
+
   unist-util-stringify-position@3.0.3:
     resolution: {integrity: sha512-k5GzIBZ/QatR8N5X2y+drfpWG8IDBzdnVj6OInRNWm1oXrzydiaAT2OQiA8DPRRZyAKb9b6I2a6PxYklZD0gKg==}
 
@@ -1545,6 +1586,14 @@ packages:
     resolution: {integrity: sha512-mHspllOSNvsd1RDpUbT49fWV2piQxAjL7hgAlDw8F3tK+Qgo6tq+irUxGEvb+GHKoiXTujetRIUt2MFCTafKuQ==}
     peerDependencies:
       vitepress: ^1
+
+  vitepress-plugin-search@1.0.4-alpha.22:
+    resolution: {integrity: sha512-IAOEJu+kjVY+0pb6/PeRjIbr175HFFbnMdLmLjqcy7VWxkabIRZbLoQL1VUYDZl804o/Or+GaX02gsiMOnVxFA==}
+    engines: {node: ^14.13.1 || ^16.7.0 || >=18}
+    peerDependencies:
+      flexsearch: ^0.7.31
+      vitepress: ^1.0.0-rc.35
+      vue: '3'
 
   vitepress-plugin-tabs@0.2.0:
     resolution: {integrity: sha512-jTdtz4Z5fHllzcDAJaJK/bxE/2PhJSqetFUFgiB7xzw23O4yI+ntJrN+D3oP8XH/0559QUbrYd0K3YLoRaHbAA==}
@@ -2018,6 +2067,8 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
+  '@types/flexsearch@0.7.6': {}
+
   '@types/hast@3.0.4':
     dependencies:
       '@types/unist': 3.0.2
@@ -2031,6 +2082,11 @@ snapshots:
       '@types/lodash': 4.17.7
 
   '@types/lodash@4.17.7': {}
+
+  '@types/markdown-it@12.2.3':
+    dependencies:
+      '@types/linkify-it': 5.0.0
+      '@types/mdurl': 2.0.0
 
   '@types/markdown-it@13.0.9':
     dependencies:
@@ -2671,6 +2727,8 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
+  flexsearch@0.7.43: {}
+
   focus-trap@7.5.4:
     dependencies:
       tabbable: 6.2.0
@@ -2687,6 +2745,8 @@ snapshots:
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
+
+  glob-to-regexp@0.4.1: {}
 
   gray-matter@4.0.3:
     dependencies:
@@ -2778,6 +2838,10 @@ snapshots:
     dependencies:
       uc.micro: 1.0.6
 
+  linkify-it@5.0.0:
+    dependencies:
+      uc.micro: 2.1.0
+
   lit-element@4.0.6:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.2.0
@@ -2831,6 +2895,15 @@ snapshots:
       mdurl: 1.0.1
       uc.micro: 1.0.6
 
+  markdown-it@14.1.0:
+    dependencies:
+      argparse: 2.0.1
+      entities: 4.5.0
+      linkify-it: 5.0.0
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
+
   match-at@0.1.1: {}
 
   mathjax-full@3.2.2:
@@ -2862,6 +2935,8 @@ snapshots:
       '@types/mdast': 3.0.15
 
   mdurl@1.0.1: {}
+
+  mdurl@2.0.0: {}
 
   memoize-one@6.0.0: {}
 
@@ -3096,6 +3171,8 @@ snapshots:
 
   preact@10.23.1: {}
 
+  punycode.js@2.3.1: {}
+
   queue-microtask@1.2.3: {}
 
   readdirp@3.6.0:
@@ -3210,6 +3287,8 @@ snapshots:
 
   uc.micro@1.0.6: {}
 
+  uc.micro@2.1.0: {}
+
   unist-util-stringify-position@3.0.3:
     dependencies:
       '@types/unist': 2.0.10
@@ -3263,6 +3342,16 @@ snapshots:
       fast-glob: 3.3.2
       feed: 4.2.2
       vitepress: 1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4)
+
+  vitepress-plugin-search@1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4))(vue@3.4.26(typescript@5.5.4)):
+    dependencies:
+      '@types/flexsearch': 0.7.6
+      '@types/markdown-it': 12.2.3
+      flexsearch: 0.7.43
+      glob-to-regexp: 0.4.1
+      markdown-it: 13.0.2
+      vitepress: 1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4)
+      vue: 3.4.26(typescript@5.5.4)
 
   vitepress-plugin-tabs@0.2.0(vitepress@1.3.1(@algolia/client-search@4.24.0)(async-validator@4.2.5)(fuse.js@6.6.2)(markdown-it-mathjax3@4.3.2)(postcss@8.4.40)(sass@1.77.8)(search-insights@2.15.0)(typescript@5.5.4))(vue@3.4.26(typescript@5.5.4)):
     dependencies:

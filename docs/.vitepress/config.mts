@@ -1,97 +1,99 @@
 import { defineConfig } from 'vitepress'
 import mathjax3 from 'markdown-it-mathjax3';
+import { SearchPlugin } from 'vitepress-plugin-search'
+import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
 
-const customElements = [
-  'mjx-container',
-  'mjx-assistive-mml',
-  'math',
-  'maction',
-  'maligngroup',
-  'malignmark',
-  'menclose',
-  'merror',
-  'mfenced',
-  'mfrac',
-  'mi',
-  'mlongdiv',
-  'mmultiscripts',
-  'mn',
-  'mo',
-  'mover',
-  'mpadded',
-  'mphantom',
-  'mroot',
-  'mrow',
-  'ms',
-  'mscarries',
-  'mscarry',
-  'mscarries',
-  'msgroup',
-  'mstack',
-  'mlongdiv',
-  'msline',
-  'mstack',
-  'mspace',
-  'msqrt',
-  'msrow',
-  'mstack',
-  'mstack',
-  'mstyle',
-  'msub',
-  'msup',
-  'msubsup',
-  'mtable',
-  'mtd',
-  'mtext',
-  'mtr',
-  'munder',
-  'munderover',
-  'semantics',
-  'math',
-  'mi',
-  'mn',
-  'mo',
-  'ms',
-  'mspace',
-  'mtext',
-  'menclose',
-  'merror',
-  'mfenced',
-  'mfrac',
-  'mpadded',
-  'mphantom',
-  'mroot',
-  'mrow',
-  'msqrt',
-  'mstyle',
-  'mmultiscripts',
-  'mover',
-  'mprescripts',
-  'msub',
-  'msubsup',
-  'msup',
-  'munder',
-  'munderover',
-  'none',
-  'maligngroup',
-  'malignmark',
-  'mtable',
-  'mtd',
-  'mtr',
-  'mlongdiv',
-  'mscarries',
-  'mscarry',
-  'msgroup',
-  'msline',
-  'msrow',
-  'mstack',
-  'maction',
-  'semantics',
-  'annotation',
-  'annotation-xml',
-];
+// const customElements = [
+//   'mjx-container',
+//   'mjx-assistive-mml',
+//   'math',
+//   'maction',
+//   'maligngroup',
+//   'malignmark',
+//   'menclose',
+//   'merror',
+//   'mfenced',
+//   'mfrac',
+//   'mi',
+//   'mlongdiv',
+//   'mmultiscripts',
+//   'mn',
+//   'mo',
+//   'mover',
+//   'mpadded',
+//   'mphantom',
+//   'mroot',
+//   'mrow',
+//   'ms',
+//   'mscarries',
+//   'mscarry',
+//   'mscarries',
+//   'msgroup',
+//   'mstack',
+//   'mlongdiv',
+//   'msline',
+//   'mstack',
+//   'mspace',
+//   'msqrt',
+//   'msrow',
+//   'mstack',
+//   'mstack',
+//   'mstyle',
+//   'msub',
+//   'msup',
+//   'msubsup',
+//   'mtable',
+//   'mtd',
+//   'mtext',
+//   'mtr',
+//   'munder',
+//   'munderover',
+//   'semantics',
+//   'math',
+//   'mi',
+//   'mn',
+//   'mo',
+//   'ms',
+//   'mspace',
+//   'mtext',
+//   'menclose',
+//   'merror',
+//   'mfenced',
+//   'mfrac',
+//   'mpadded',
+//   'mphantom',
+//   'mroot',
+//   'mrow',
+//   'msqrt',
+//   'mstyle',
+//   'mmultiscripts',
+//   'mover',
+//   'mprescripts',
+//   'msub',
+//   'msubsup',
+//   'msup',
+//   'munder',
+//   'munderover',
+//   'none',
+//   'maligngroup',
+//   'malignmark',
+//   'mtable',
+//   'mtd',
+//   'mtr',
+//   'mlongdiv',
+//   'mscarries',
+//   'mscarry',
+//   'msgroup',
+//   'msline',
+//   'msrow',
+//   'mstack',
+//   'maction',
+//   'semantics',
+//   'annotation',
+//   'annotation-xml',
+// ];
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -122,18 +124,36 @@ export default defineConfig({
   // Latex渲染
   markdown: {
     config: (md) => {
-      md.use(mathjax3 as any)
-    }
+      md.use(mathjax3)
+    },
+    math: true
   },
-  vue: {
-    template: {
-      compilerOptions: {
-        isCustomElement: (tag) => customElements.includes(tag)
-      }
-    }
-  },
+  // vue: {
+  //   template: {
+  //     compilerOptions: {
+  //       isCustomElement: (tag) => customElements.includes(tag)
+  //     }
+  //   }
+  // },
 
+  // vite: {
+  //   plugins: [pagefindPlugin({
+  //     customSearchQuery: chineseSearchOptimize
+  //   })]
+  // },
+  
   themeConfig: {
+    // 官方vitePress内置搜索
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: '',
+        apiKey: '',
+        indexName: '',
+        placeholder: '请输入要搜索的内容...'
+      }
+    },
+    
     // 展示 2,3 级标题在目录中
     outline: {
       level: [2, 3],
