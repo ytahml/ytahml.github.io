@@ -4,7 +4,9 @@ import BlogTheme from '@sugarat/theme'
 import './style.scss'
 
 // 自定义字体
-import './custom-font.css'
+// import './custom-font.css'
+
+import './custom.css'
 
 // 自定义主题色
 // import './user-theme.css'
