@@ -143,7 +143,7 @@ const blogTheme = getThemeConfig({
   },
 
   comment: {
-    repo: 'YTAZWC/blog',
+    repo: 'YTAZWC/YTAZWC.github.io',
     repoId: 'R_kgDOMcKScw',
     category: 'Announcements',
     categoryId: 'DIC_kwDOMcKSc84ChPpf',
