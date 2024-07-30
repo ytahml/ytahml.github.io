@@ -194,12 +194,13 @@ export default defineConfig({
       {
         text: '常用工具与网站',
         items: [
-          { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
-          { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
+          { text: 'PicX图床', link: 'https://picx.xpoet.cn/#/upload' },
           { text: '开发常用网址', link: 'https://doc.istio.tech/index.html' },
-          { text: '图床', link: 'https://picx.xpoet.cn/#/upload' },
+          { text: 'Google 翻译', link: 'https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=en&tl=zh-CN&op=translate' },
+          { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
+          { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
           { text: 'Mermaid 中文网', link: 'https://mermaid.nodejs.cn/' },
-          { text: 'Google翻译', link: 'https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=en&tl=zh-CN&op=translate' }
+          
         ]
       },
     ],
@@ -208,6 +209,7 @@ export default defineConfig({
       
       "/MisNotes/": [
         { text: 'Java并发的happens-before规则', link: '/MisNotes/Java并发的happens-before规则' },
+        { text: '乐观锁和悲观锁', link: '/MisNotes/乐观锁和悲观锁' },
       ],
       
       "/Leetcode/": [
