@@ -1,5 +1,3 @@
-@import 'lxgw-wenkai-screen-webfont/style.css';
-
 :root {
     --vp-font-family-base: 'LXGW WenKai Screen';
     --vp-font-size-base: 18px; /* 定义基础字体大小 */
@@ -10,6 +8,15 @@ body {
     font-size: var(--vp-font-size-base);
     line-height: 1.5;
 }
+
+/* Latex字体 */
+.MJXc-display {
+    font-size: 1.2em; /* 根据需要调整 */
+}
+.MJXc-text {
+    font-size: 1em; /* 根据需要调整 */
+}
+
 /* 代码字体大小 */
 div[class*='language-'] {
     font-size: var(--code-font-size);
@@ -17,19 +24,19 @@ div[class*='language-'] {
 
 h1 {
     font-size: 2.2em; /* 34.8px */
-    text-shadow: 0.5px 0;
+    text-shadow: 0.6px 0;
 }
 
 h2 {
     font-size: 1.75em; /* 31.5px */
-    text-shadow: 0.5px 0;
+    text-shadow: 0.6px 0;
 }
 
 h3 {
     font-size: 1.5em; /* 27px */
-    text-shadow: 0.5px 0;
+    text-shadow: 0.6px 0;
 }
 
 strong {
-    text-shadow: 0.5px 0;
+    text-shadow: 0.6px 0;
 }
