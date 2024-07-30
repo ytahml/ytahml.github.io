@@ -4,7 +4,7 @@ layout: home
 blog:
  name: '花木凋零成兰'
  author: '花木凋零成兰'
- logo: /ok.png
+ logo: /ok.jpg
  motto: 成功始于方法,巩固才能提高!
  inspiring:
   - 千万不要因为走得太久，而忘记了我们为什么出发
