@@ -210,6 +210,7 @@ export default defineConfig({
       "/MisNotes/": [
         { text: 'Java并发的happens-before规则', link: '/MisNotes/Java并发的happens-before规则' },
         { text: '乐观锁和悲观锁', link: '/MisNotes/乐观锁和悲观锁' },
+        { text: 'Synchronized.关键字', link: '/MisNotes/Synchronized.关键字' },
       ],
       
       "/Leetcode/": [
