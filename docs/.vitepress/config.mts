@@ -99,7 +99,7 @@ const customElements = [
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
 // const base = process.env.GITHUB_ACTIONS === 'true'
-//   ? '/vitepress-blog-sugar-template/'
+//   ? '/blog/'
 //   : '/'
 
 // Vitepress 默认配置
@@ -107,7 +107,7 @@ const customElements = [
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  base: '/blog/',
+  base: '/',
   lang: 'zh-cn',
   title: '花木凋零成兰',
   description: '成功始于方法,巩固才能提高',
@@ -117,7 +117,7 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: '/blog/ok.ico' }],
+    ['link', { rel: 'icon', href: '/ok.ico' }],
     // ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }]
   ],
 
@@ -260,7 +260,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/YTAZWC/blog'
+        link: 'https://github.com/YTAZWC/YTAZWC.github.io'
       },
     ],
     
