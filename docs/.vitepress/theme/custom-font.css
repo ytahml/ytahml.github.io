@@ -34,14 +34,17 @@ div[class*='language-'] {
 
 h1 {
     font-size: 2.2em; /* 34.8px */
+    text-shadow: 0.5px 0;
 }
 
 h2 {
     font-size: 1.75em; /* 31.5px */
+    text-shadow: 0.5px 0;
 }
 
 h3 {
     font-size: 1.5em; /* 27px */
+    text-shadow: 0.5px 0;
 }
 
 strong {

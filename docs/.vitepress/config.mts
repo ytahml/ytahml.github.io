@@ -147,9 +147,9 @@ export default defineConfig({
     // search: {
     //   provider: 'algolia',
     //   options: {
-    //     appId: '',
-    //     apiKey: '',
-    //     indexName: '',
+    //     appId: 'O57HYNLTB4',
+    //     apiKey: 'f2e6bea3ad9c32ac475c192dfe52365c',
+    //     indexName: 'ytazwc',
     //     placeholder: '请输入要搜索的内容...'
     //   }
     // },
@@ -165,7 +165,7 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
 
     // 设置logo
-    logo: '/ok.png',
+    logo: '/ok-modified.png',
     // editLink: {
     //   pattern:
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
@@ -190,7 +190,18 @@ export default defineConfig({
           { text: '旧博客', link: 'https://ytazwc.top' },
           { text: '邮箱', link: 'mailto:18570354653@163.com' }
         ]
-      }
+      },
+      {
+        text: '常用工具与网站',
+        items: [
+          { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
+          { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
+          { text: '开发常用网址', link: 'https://doc.istio.tech/index.html' },
+          { text: '图床', link: 'https://picx.xpoet.cn/#/upload' },
+          { text: 'Mermaid 中文网', link: 'https://mermaid.nodejs.cn/' },
+          { text: 'Google翻译', link: 'https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=en&tl=zh-CN&op=translate' }
+        ]
+      },
     ],
     // 侧边栏
     sidebar: {
