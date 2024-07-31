@@ -200,7 +200,7 @@ export default defineConfig({
           { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
           { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
           { text: 'Mermaid 中文网', link: 'https://mermaid.nodejs.cn/' },
-          
+          { text: '视频无损压缩90%', link: 'https://tools.rotato.app/compress' },
         ]
       },
     ],
