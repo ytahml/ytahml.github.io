@@ -4,9 +4,9 @@ date: 2024/7/29
 author: 花木凋零成兰
 ---
 
-# **Java并发的happens-before规则**
+# Java并发的happens-before规则
 
-## **happens-before规则**
+## happens-before规则
 
 1. **程序次序规则：** 同一个线程内一段代码的执行顺序是有序的, 即前面的操作 happens-before 后面的操作; 但还是有可能发生指令重排序, 不过重排序后的结果与顺序执行的结果一致;
 2. **管程锁定规则：** 对一个锁的解锁操作 happens-before 后续对这个锁的加锁操作; 即后续的加锁操作能够感知到前面解锁的变化, `synchronized` 就是管程的实现;
@@ -17,6 +17,6 @@ author: 花木凋零成兰
 7. **线程中断规则：** 对线程 interrupt 方法的调用 happens-before 被中断线程代码检测到中断事件;
 8. **对象终结规则：** 一个对象的构造函数执行的结束 happens-before 它的 finalize() 方法;
 
-## **参考文章**
+## 参考文章
 
 - [阿里面试题：Java 并发编程之 happens-before 规则](https://blog.51cto.com/u_11812862/3002287)
