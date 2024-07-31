@@ -188,7 +188,7 @@ export default defineConfig({
           { text: 'Gitee', link: 'https://gitee.com/ytaml' },
           { text: 'CSDN', link: 'https://blog.csdn.net/qq_61457746' },
           { text: '旧博客', link: 'https://ytazwc.top/blog' },
-          { text: '邮箱', link: 'mailto:18570354653@163.com' }
+          // { text: '邮箱', link: 'mailto:18570354653@163.com' }
         ]
       },
       {

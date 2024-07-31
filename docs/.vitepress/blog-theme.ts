@@ -120,7 +120,11 @@ const blogTheme = getThemeConfig({
       {
         type: 'text',
         content: '欢迎大家私信交流(备注:博客)'
-      }
+      },
+      // {
+      //   type: 'text',
+      //   content: '邮箱：18570354653@163.com'
+      // },
       // {
       //   type: 'text',
       //   content: '文章首/文尾有群二维码',
@@ -134,10 +138,10 @@ const blogTheme = getThemeConfig({
       // {
       //   type: 'button',
       //   content: '作者邮箱',
-      //   // props: {
-      //   //   type: 'success'
-      //   // },
-      //   link: '18570354653@163.com',
+      //   props: {
+      //     type: 'success'
+      //   },
+      //   link: 'mailto:18570354653@163.com',
       // }
     ],
   },
