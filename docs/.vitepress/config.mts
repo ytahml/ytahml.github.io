@@ -180,8 +180,8 @@ export default defineConfig({
     nav: [
       { text: '力扣', link: '/Leetcode/' },
       { text: '卡码网', link: '/KamaCoder/' },
-      { text: '杂记', link: '/MisNotes/' },
       { text: '多线程练习题', link: '/MultiThread/exercises/' },
+      { text: '杂记', link: '/MisNotes/' },
       {
         text: '我的',
         items: [
@@ -216,6 +216,7 @@ export default defineConfig({
         { text: 'Java并发的happens-before规则', link: '/MisNotes/Java并发的happens-before规则' },
         { text: '乐观锁和悲观锁', link: '/MisNotes/乐观锁和悲观锁' },
         { text: 'Synchronized关键字', link: '/MisNotes/Synchronized关键字' },
+        { text: '为什么要使用双亲委派机制？', link: '/MisNotes/为什么要使用双亲委派机制？' },
       ],
       
       "/Leetcode/": [

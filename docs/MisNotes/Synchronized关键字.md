@@ -2,7 +2,7 @@
 title: synchronized关键字
 date: 2024/7/30
 tags:
-  - java
+  - Java
   - 并发
   - 多线程
 author: 花木凋零成兰

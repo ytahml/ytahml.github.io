@@ -12,3 +12,4 @@ top: 10
 - [Java并发的happens-before规则](./Java并发的happens-before规则.md)
 - [乐观锁和悲观锁](./乐观锁和悲观锁.md)
 - [Synchronized关键字](./Synchronized关键字.md)
+- [Synchronized关键字](./为什么要使用双亲委派机制？.md)
