@@ -181,6 +181,7 @@ export default defineConfig({
       { text: '力扣', link: '/Leetcode/' },
       { text: '卡码网', link: '/KamaCoder/' },
       { text: '杂记', link: '/MisNotes/' },
+      { text: '多线程练习题', link: '/MultiThread/exercises/' },
       {
         text: '我的',
         items: [
@@ -206,6 +207,10 @@ export default defineConfig({
     ],
     // 侧边栏
     sidebar: {
+      "/MultiThread/exercises/": [
+        { text: '双线程轮流打印1-100', link: '/MultiThread/exercises/双线程轮流打印1-100.md' },
+
+      ],
       
       "/MisNotes/": [
         { text: 'Java并发的happens-before规则', link: '/MisNotes/Java并发的happens-before规则' },
