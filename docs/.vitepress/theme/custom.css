@@ -1,7 +1,7 @@
 :root {
     --vp-font-family-base: 'LXGW WenKai Screen';
     --vp-font-size-base: 18px; /* 定义基础字体大小 */
-    --code-font-size: 1.2em; /* 定义代码字体大小变量 */
+    --code-font-size: 1em; /* 定义代码字体大小变量 */
 }
 
 body {
