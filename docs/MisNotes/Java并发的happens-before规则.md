@@ -1,6 +1,10 @@
 ---
 title: Java并发的happens-before规则
 date: 2024/7/29
+tags: 
+  - java
+  - 并发
+  - 多线程
 author: 花木凋零成兰
 ---
 

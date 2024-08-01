@@ -38,7 +38,7 @@ const blogTheme = getThemeConfig({
     //   link: 'https://beian.miit.gov.cn/'
     // },
     // securityRecord: {
-    //   name: '公网安备xxxxx',
+    //   name: '公网安备',
     //   link: 'https://www.beian.gov.cn/portal/index.do'
     // },
   },
@@ -146,14 +146,24 @@ const blogTheme = getThemeConfig({
     ],
   },
 
+  // 评论
   comment: {
     repo: 'YTAZWC/YTAZWC.github.io',
     repoId: 'R_kgDOMcKScw',
     category: 'Announcements',
     categoryId: 'DIC_kwDOMcKSc84ChPpf',
     inputPosition: 'top',
-  }
+  },
 
+  // 作者信息列表
+  authorList: [
+    {
+      nickname: '花木凋零成兰',
+      url: '',
+      des: '成功始于方法, 巩固才能提高!'
+    }
+  ],
+  
 })
 
 export { blogTheme }
