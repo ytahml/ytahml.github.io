@@ -209,6 +209,7 @@ export default defineConfig({
     sidebar: {
       "/MultiThread/exercises/": [
         { text: '双线程轮流打印1-100', link: '/MultiThread/exercises/双线程轮流打印1-100.md' },
+        { text: '三线程顺序打印1-100', link: '/MultiThread/exercises/三线程顺序打印1-100.md' },
 
       ],
       
