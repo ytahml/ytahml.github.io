@@ -219,6 +219,7 @@ export default defineConfig({
         { text: '乐观锁和悲观锁', link: '/MisNotes/乐观锁和悲观锁' },
         { text: 'Synchronized关键字', link: '/MisNotes/Synchronized关键字' },
         { text: '为什么要使用双亲委派机制？', link: '/MisNotes/为什么要使用双亲委派机制？' },
+        { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
       ],
       
       "/Leetcode/": [
