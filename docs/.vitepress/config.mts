@@ -211,6 +211,7 @@ export default defineConfig({
         { text: '双线程轮流打印1-100', link: '/MultiThread/exercises/双线程轮流打印1-100' },
         { text: '三线程顺序打印1-100', link: '/MultiThread/exercises/三线程顺序打印1-100' },
         { text: '三线程分别打印1、2、3', link: '/MultiThread/exercises/三线程分别打印1、2、3' },
+        { text: '100个线程各累加100次', link: '/MultiThread/exercises/100个线程各累加100次' },
 
       ],
       
