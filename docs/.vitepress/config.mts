@@ -223,6 +223,7 @@ export default defineConfig({
         { text: '三线程顺序打印1-100', link: '/MultiThread/exercises/三线程顺序打印1-100' },
         { text: '三线程分别打印1、2、3', link: '/MultiThread/exercises/三线程分别打印1、2、3' },
         { text: '100个线程各累加100次', link: '/MultiThread/exercises/100个线程各累加100次' },
+        { text: '线程交叉打印12A34B56C等', link: '/MultiThread/exercises/线程交叉打印12A34B56C等' },
 
       ],
       
