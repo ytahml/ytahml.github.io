@@ -147,13 +147,13 @@ const blogTheme = getThemeConfig({
   },
 
   // 评论
-  comment: {
-    repo: 'YTAZWC/YTAZWC.github.io',
-    repoId: 'R_kgDOMcKScw',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOMcKSc84ChPpf',
-    inputPosition: 'top',
-  },
+  // comment: {
+  //   repo: 'YTAZWC/YTAZWC.github.io',
+  //   repoId: 'R_kgDOMcKScw',
+  //   category: 'Announcements',
+  //   categoryId: 'DIC_kwDOMcKSc84ChPpf',
+  //   inputPosition: 'top',
+  // },
 
   // 作者信息列表
   authorList: [
