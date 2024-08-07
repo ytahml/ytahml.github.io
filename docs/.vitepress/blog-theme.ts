@@ -37,10 +37,10 @@ const blogTheme = getThemeConfig({
       name: '湘ICP备2024077074号',
       link: 'https://beian.miit.gov.cn/'
     },
-    // securityRecord: {
-    //   name: '公网安备',
-    //   link: 'https://www.beian.gov.cn/portal/index.do'
-    // },
+    securityRecord: {
+      name: '湘公网安备43018102000552号',
+      link: 'https://www.beian.gov.cn/portal/index.do'
+    },
   },
 
   // 主题色修改
