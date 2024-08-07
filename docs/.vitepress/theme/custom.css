@@ -4,6 +4,7 @@
 }
 
 :root {
+    --vp-sidebar-width: 300px;
     --vp-font-family-base: 'LXGW WenKai Screen';
     --vp-font-family-mono: 'code font';
     --vp-font-size-base: 18px; /* 定义基础字体大小 */

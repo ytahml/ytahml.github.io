@@ -14,3 +14,5 @@ top: 10
 - [Synchronized关键字](./Synchronized关键字.md)
 - [为什么要使用双亲委派机制？](./为什么要使用双亲委派机制？.md)
 - [Spring的配置类分为Full和Lite两种模式](./Spring的配置类分为Full和Lite两种模式.md)
+- [MySQL 触发器](./MySQL触发器)
+- [MySQL执行SQL时权限检查在哪个阶段？](./MySQL执行SQL时权限检查在哪个阶段？.md)
