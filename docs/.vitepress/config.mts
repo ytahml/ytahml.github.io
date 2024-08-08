@@ -234,7 +234,7 @@ export default defineConfig({
         { text: 'Synchronized关键字', link: '/MisNotes/Synchronized关键字' },
         { text: '为什么要使用双亲委派机制？', link: '/MisNotes/为什么要使用双亲委派机制？' },
         { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
-        { text: 'MySQL 触发器', link: '/MisNotes/MySQL 触发器' },
+        { text: 'MySQL 触发器', link: '/MisNotes/MySQL触发器' },
         { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/MisNotes/MySQL执行SQL时权限检查在哪个阶段？' },
       ],
       

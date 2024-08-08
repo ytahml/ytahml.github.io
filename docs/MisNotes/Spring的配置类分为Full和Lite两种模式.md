@@ -43,11 +43,11 @@ public @interface Configuration {
 - 配置类内部不能通过方法调用来处理依赖, 否则, 每次生成的都是一个新实例而非Ioc容器内的单例;
 
 即按照如下所示, `datasource()` 方法不会被注入 Ioc 容器中的单例, 而是会 new 一个新的实例对象;
-  ![image](https://github.com/YTAZWC/picx-images-hosting/raw/master/杂记/image.3rb4zhlncs.webp)
+![](https://img.upyun.ytazwc.top/image202408082315507.png)
 
 需要通过以下方式来配置类内部处理依赖：
 
-![image](https://github.com/YTAZWC/picx-images-hosting/raw/master/杂记/image.99t9fmwu2l.webp)
+![](https://img.upyun.ytazwc.top/image202408082316496.png)
 
 - 配置类是普通Java类, 内部的 `@Bean` 方法可以使用 `private/final` 等进行修饰;
 
