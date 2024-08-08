@@ -56,14 +56,14 @@ const blogTheme = getThemeConfig({
       nickname: 'Hexo旧博客',
       des: '成功始于方法,巩固才能提高.',
       avatar:
-        'https://img.upyun.ytazwc.top/weixin.jpg',
+        'https://img.upyun.ytazwc.top/ok.jpg',
       url: 'https://ytazwc.top',
     },
     {
       nickname: 'vuepress旧博客',
       des: '成功始于方法,巩固才能提高.',
       avatar:
-        'https://img.upyun.ytazwc.top/weixin.jpg',
+        'https://img.upyun.ytazwc.top/ok.jpg',
       url: 'https://ytazwc.top/blogs',
     },
     {
@@ -160,7 +160,7 @@ const blogTheme = getThemeConfig({
   authorList: [
     {
       nickname: '花木凋零成兰',
-      url: '',
+      url: 'https://ytazwc.top',
       des: '成功始于方法, 巩固才能提高!'
     }
   ],
