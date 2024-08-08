@@ -56,14 +56,14 @@ const blogTheme = getThemeConfig({
       nickname: 'Hexo旧博客',
       des: '成功始于方法,巩固才能提高.',
       avatar:
-        '/ok.ico',
+        'https://img.upyun.ytazwc.top/weixin.jpg',
       url: 'https://ytazwc.top',
     },
     {
       nickname: 'vuepress旧博客',
       des: '成功始于方法,巩固才能提高.',
       avatar:
-        '/ok.ico',
+        'https://img.upyun.ytazwc.top/weixin.jpg',
       url: 'https://ytazwc.top/blogs',
     },
     {
@@ -110,12 +110,12 @@ const blogTheme = getThemeConfig({
       { type: 'text', content: '👇 我的微信 👇---👇 我的 QQ 👇' },
       {
         type: 'image',
-        src: '/wechat.jpg',
+        src: 'https://img.upyun.ytazwc.top/weixin.jpg',
         style: 'display: inline-block;width:46%;padding-right:6px'
       },
       {
         type: 'image',
-        src: '/qq.jpg',
+        src: 'https://img.upyun.ytazwc.top/qq.jpg',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
