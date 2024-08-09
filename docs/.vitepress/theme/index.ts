@@ -11,4 +11,17 @@ import './custom.css'
 // 自定义主题色
 // import './user-theme.css'
 
-export default BlogTheme
+import busuanzi from 'busuanzi.pure.js'
+import { inBrowser } from 'vitepress'
+export default {
+  extends: BlogTheme,
+  enhanceApp({ app , router }) {
+    if (inBrowser) {
+      router.onAfterRouteChanged = () => {
+         busuanzi.fetch()
+      }
+    }
+  },
+}
+
+// export default BlogTheme

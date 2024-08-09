@@ -24,7 +24,9 @@ const blogTheme = getThemeConfig({
   // 搜索
   // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
   // search: false,
-
+  
+  
+  
   imageStyle: {
     coverPreview: [
       // 又拍云
@@ -51,7 +53,10 @@ const blogTheme = getThemeConfig({
       name: '湘公网安备43018102000552号',
       link: 'https://www.beian.gov.cn/portal/index.do'
     },
-    message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="display:flex;align-items:center;justify-content:center;">本网站由 <img src="https://img.upyun.ytazwc.top/blog/202408091125124.png" style="width:56px;height:24px;" alt="又拍云"> 提供CDN加速/云存储服务</a>'
+    message: [
+        '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="display:flex;align-items:center;justify-content:center;">本网站由 <img src="https://img.upyun.ytazwc.top/blog/202408091125124.png" style="width:56px;height:24px;" alt="又拍云"> 提供CDN加速/云存储服务</a>',
+        '总访问量 <span id="busuanzi_value_site_pv" /> 次  <br/>   访客数 <span id="busuanzi_value_site_uv" /> 人次',
+    ]
   },
 
   // 主题色修改

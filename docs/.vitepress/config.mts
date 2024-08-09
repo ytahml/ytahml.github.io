@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 import mathjax3 from 'markdown-it-mathjax3';
 // import { SearchPlugin } from 'vitepress-plugin-search'
 // import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
@@ -122,7 +122,7 @@ export default defineConfig({
     ['link', {rel: 'canonical', href: 'https://www.ytazwc.top' }],
     // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
-
+  
   // Sitemap
   sitemap: {
     hostname: 'https://www.ytazwc.top',
@@ -131,24 +131,8 @@ export default defineConfig({
   
   // Latex渲染
   markdown: {
-    // config: (md) => {
-    //   md.use(mathjax3 as any)
-    // },
     math: true,
   },
-  // vue: {
-  //   template: {
-  //     compilerOptions: {
-  //       isCustomElement: (tag) => customElements.includes(tag)
-  //     }
-  //   }
-  // },
-
-  // vite: {
-  //   plugins: [pagefindPlugin({
-  //     customSearchQuery: chineseSearchOptimize
-  //   })]
-  // },
   
   themeConfig: {
     // 官方vitePress内置搜索
@@ -171,7 +155,7 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '相关文章',
     lastUpdatedText: '上次更新于',
-
+    
     // 设置logo
     logo: '/ok-modified.webp',
     // editLink: {
