@@ -5,6 +5,7 @@ tags:
   - Java
   - Spring
 author: 花木凋零成兰
+cover: https://img.upyun.ytazwc.top/image202408082315507.png
 ---
 
 # Spring的配置类分为Full和Lite两种模式
