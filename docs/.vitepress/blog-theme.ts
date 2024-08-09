@@ -25,6 +25,16 @@ const blogTheme = getThemeConfig({
   // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
   // search: false,
 
+  // imageStyle: {
+  //   coverPreview: [
+  //     // 又拍云
+  //     {
+  //       rule: '//img.upyun.ytazwc.top',
+  //       suffix: '-cover'
+  //     }
+  //   ]
+  // },
+  
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
 

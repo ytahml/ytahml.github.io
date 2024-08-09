@@ -4,7 +4,6 @@ import mathjax3 from 'markdown-it-mathjax3';
 // import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
-
 // const customElements = [
 //   'mjx-container',
 //   'mjx-assistive-mml',
@@ -120,12 +119,14 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/ok.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
+    ['link', {rel: 'canonical', href: 'https://www.ytazwc.top' }],
     // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
 
   // Sitemap
   sitemap: {
-    host: 'https://ytazwc.top',
+    hostname: 'https://www.ytazwc.top',
+    lastmodDateOnly: false
   },
   
   // Latex渲染
