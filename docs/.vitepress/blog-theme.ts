@@ -51,7 +51,7 @@ const blogTheme = getThemeConfig({
       name: '湘公网安备43018102000552号',
       link: 'https://www.beian.gov.cn/portal/index.do'
     },
-    message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="display:flex;align-items:center;justify-content:center;">本网站由 <img src="/又拍云_logo5.png" style="width:56px;height:24px;" alt="又拍云"> 提供CDN加速/云存储服务</a>'
+    message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="display:flex;align-items:center;justify-content:center;">本网站由 <img src="https://img.upyun.ytazwc.top/blog/202408091125124.png" style="width:56px;height:24px;" alt="又拍云"> 提供CDN加速/云存储服务</a>'
   },
 
   // 主题色修改
