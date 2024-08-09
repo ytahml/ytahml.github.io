@@ -174,6 +174,7 @@ export default defineConfig({
       { text: '卡码网', link: '/KamaCoder/' },
       { text: '多线程练习题', link: '/MultiThread/exercises/' },
       { text: '杂记', link: '/MisNotes/' },
+      { text: '读书随记', link: '/读书随记/' },
       {
         text: '我的',
         items: [
