@@ -119,6 +119,8 @@ export default defineConfig({
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
     ['link', { rel: 'icon', href: '/ok.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
+    
     // [
     //   'script', {}, `
     //     window._hmt = window._hmt || [];
