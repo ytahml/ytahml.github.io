@@ -15,13 +15,13 @@ import busuanzi from 'busuanzi.pure.js'
 import { inBrowser } from 'vitepress'
 export default {
   extends: BlogTheme,
-  enhanceApp({ app , router }) {
+  enhanceApp({ router }) {
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
-         busuanzi.fetch()
+        busuanzi.fetch()
       }
     }
-  },
+  }
 }
 
 // export default BlogTheme
