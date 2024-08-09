@@ -120,20 +120,14 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/ok.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
-    
-    // [
-    //   'script', {}, `
-    //     window._hmt = window._hmt || [];
-    //     (function() {
-    //       var hm = document.createElement("script");
-    //       hm.src = "https://hm.baidu.com/hm.js?bbd0a33b34e221aef0b8057325fd2f9d";
-    //       var s = document.getElementsByTagName("script")[0];
-    //       s.parentNode.insertBefore(hm, s);
-    //     })();
-    //     `
-    // ],
+    // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
 
+  // Sitemap
+  sitemap: {
+    host: 'https://ytazwc.top',
+  },
+  
   // Latex渲染
   markdown: {
     // config: (md) => {
