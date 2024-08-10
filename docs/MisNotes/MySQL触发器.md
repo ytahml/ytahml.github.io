@@ -35,8 +35,8 @@ FOR EACH ROW
 说明：
 
 - 表名：表示触发器监控的对象;
-- BEFORE|AFTER：表示触发时间, 在事件前或事件后触发;
-- INSERT|UPDATE|DELETE：表示触发事件;
+- `BEFORE | AFTER`：表示触发时间, 在事件前或事件后触发;
+- `INSERT | UPDATE | DELETE`：表示触发事件;
 - 触发器执行的语句块：触发器被触发之后执行的 SQL 语句, 可以是单条 SQL 语句, 也可以是 BEGIN...END 结构组成的复合语句块;
 
 ## 参考文章
