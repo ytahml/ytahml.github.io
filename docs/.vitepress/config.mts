@@ -119,6 +119,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/ok.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
+    ['meta', { name: 'sogou_site_verification', content: 'BwQr1kj0CD' }],
     ['link', {rel: 'canonical', href: 'https://www.ytazwc.top' }],
     // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
