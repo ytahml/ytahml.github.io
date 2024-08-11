@@ -174,6 +174,7 @@ export default defineConfig({
       { text: '力扣', link: '/Leetcode/' },
       { text: '卡码网', link: '/KamaCoder/' },
       { text: '多线程练习题', link: '/MultiThread/exercises/' },
+      { text: 'MySQL', link: '/Database/MySQL' },
       { text: '杂记', link: '/MisNotes/' },
       { text: '读书随记', link: '/读书随记/' },
       {
@@ -201,6 +202,13 @@ export default defineConfig({
     ],
     // 侧边栏
     sidebar: {
+      
+      "/Database/MySQL": [
+        { text: 'MySQL 触发器', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？.md' },
+        { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？' },
+      
+      ],
+      
       "/MultiThread/exercises/": [
         { text: '双线程轮流打印1-100', link: '/MultiThread/exercises/双线程轮流打印1-100' },
         { text: '三线程顺序打印1-100', link: '/MultiThread/exercises/三线程顺序打印1-100' },
@@ -218,8 +226,7 @@ export default defineConfig({
         { text: 'Synchronized关键字', link: '/MisNotes/Synchronized关键字' },
         { text: '为什么要使用双亲委派机制？', link: '/MisNotes/为什么要使用双亲委派机制？' },
         { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
-        { text: 'MySQL 触发器', link: '/MisNotes/MySQL触发器' },
-        { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/MisNotes/MySQL执行SQL时权限检查在哪个阶段？' },
+        
       ],
       
       "/Leetcode/": [
