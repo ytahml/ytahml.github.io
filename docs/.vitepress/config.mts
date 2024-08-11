@@ -208,6 +208,7 @@ export default defineConfig({
         { text: '100个线程各累加100次', link: '/MultiThread/exercises/100个线程各累加100次' },
         { text: '线程交叉打印12A34B56C等', link: '/MultiThread/exercises/线程交叉打印12A34B56C等' },
         { text: '两线程交替打印字母大小写', link: '/MultiThread/exercises/两线程交替打印字母大小写' },
+        { text: '两个线程交替打印a1b2...z26', link: '/MultiThread/exercises/两个线程交替打印a1b2...z26' },
 
       ],
       
