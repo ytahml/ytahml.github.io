@@ -189,6 +189,7 @@ export default defineConfig({
         text: '常用工具与网站',
         items: [
           { text: 'PicX图床', link: 'https://picx.xpoet.cn/#/upload' },
+          { text: '阿里图标库', link: 'https://www.iconfont.cn/?spm=a313x.home_index.i3.d4d0a486a.d6e53a81Ww99Z9' },
           { text: '开发常用网址', link: 'https://doc.istio.tech/index.html' },
           { text: 'Google 翻译', link: 'https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=en&tl=zh-CN&op=translate' },
           { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
