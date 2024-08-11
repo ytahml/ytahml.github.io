@@ -5,8 +5,9 @@ author: 花木凋零成兰
 cover: false
 hiddenCover: true
 ---
+# MySQL 学习
 
 ## 杂记文章
 
-- [MySQL 触发器](../数据库/MySQL/MySQL触发器.md)
-- [MySQL执行SQL时权限检查在哪个阶段？](../数据库/MySQL/MySQL执行SQL时权限检查在哪个阶段？.md)
+- [MySQL 触发器](../MySQL/MySQL触发器.md)
+- [MySQL执行SQL时权限检查在哪个阶段？](../MySQL/MySQL执行SQL时权限检查在哪个阶段？.md)
