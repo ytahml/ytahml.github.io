@@ -217,6 +217,7 @@ export default defineConfig({
         { text: '线程交叉打印12A34B56C等', link: '/MultiThread/exercises/线程交叉打印12A34B56C等' },
         { text: '两线程交替打印字母大小写', link: '/MultiThread/exercises/两线程交替打印字母大小写' },
         { text: '两个线程交替打印a1b2...z26', link: '/MultiThread/exercises/两个线程交替打印a1b2...z26' },
+        { text: '两线程交替打印a1b2c3d4十轮', link: '/MultiThread/exercises/两线程交替打印a1b2c3d4十轮' },
 
       ],
       
