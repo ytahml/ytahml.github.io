@@ -37,6 +37,8 @@ const blogTheme = getThemeConfig({
   
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
+  
+  taskCheckbox: true,
 
   // 页脚
   footer: {
