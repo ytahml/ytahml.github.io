@@ -206,6 +206,7 @@ export default defineConfig({
       "/Database/MySQL": [
         { text: 'MySQL 触发器', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？.md' },
         { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？' },
+        { text: '索引', link: '/Database/MySQL/索引' },
       
       ],
       
