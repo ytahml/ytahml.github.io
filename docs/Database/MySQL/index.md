@@ -14,6 +14,7 @@ hiddenCover: true
 
 ## 杂记文章
 
+- [MySQL测试数据集](../MySQL/MySQL测试数据集.md)
 - [MySQL 触发器](../MySQL/MySQL触发器.md)
 - [MySQL执行SQL时权限检查在哪个阶段？](../MySQL/MySQL执行SQL时权限检查在哪个阶段？.md)
 - [索引](../MySQL/索引.md)

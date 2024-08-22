@@ -204,7 +204,8 @@ export default defineConfig({
     sidebar: {
       
       "/Database/MySQL": [
-        { text: 'MySQL 触发器', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？.md' },
+        { text: 'MySQL测试数据集', link: '/Database/MySQL/MySQL测试数据集.md' },
+        { text: 'MySQL 触发器', link: '/Database/MySQL/MySQL触发器.md' },
         { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？' },
         { text: '索引', link: '/Database/MySQL/索引' },
         { text: '事务', link: '/Database/MySQL/事务' },
