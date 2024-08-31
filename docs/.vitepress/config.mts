@@ -194,6 +194,7 @@ export default defineConfig({
           { text: '开发常用网址', link: 'https://doc.istio.tech/index.html' },
           { text: '在线打字练习', link: 'https://www.type.fun/' },
           { text: 'Google 翻译', link: 'https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=en&tl=zh-CN&op=translate' },
+          { text: 'PDF 在线工具', link: 'https://www.ilovepdf.com/zh-tw' },
           { text: '图标在线生成器', link: 'https://www.logosc.cn/favicon-generator' },
           { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
           { text: 'Mermaid 中文网', link: 'https://mermaid.nodejs.cn/' },
