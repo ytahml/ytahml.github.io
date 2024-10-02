@@ -249,6 +249,14 @@ export default defineConfig({
             { text: '15.三数之和', link: '/Leetcode/Hot100/15.三数之和' },
             { text: '42.接雨水', link: '/Leetcode/Hot100/42.接雨水' },
           ]
+        },
+        {
+          text: '题库',
+          collapsed: false,
+          items: [
+            { text: '3.无重复字符的最长子串', link: '/Leetcode/题库/3.无重复字符的最长子串' },
+            
+          ]
         }
       ],
       "/KamaCoder/": [
