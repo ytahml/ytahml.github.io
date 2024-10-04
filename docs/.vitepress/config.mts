@@ -255,6 +255,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '3.无重复字符的最长子串', link: '/Leetcode/题库/3.无重复字符的最长子串' },
+            { text: '146.LRU缓存', link: '/Leetcode/题库/146.LRU缓存' },
             
           ]
         }
