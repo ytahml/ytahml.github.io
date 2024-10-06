@@ -255,6 +255,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '3.无重复字符的最长子串', link: '/Leetcode/题库/3.无重复字符的最长子串' },
+            { text: '15.三数之和', link: '/Leetcode/题库/15.三数之和' },
             { text: '25.K个一组翻转链表', link: '/Leetcode/题库/25.K个一组翻转链表' },
             { text: '146.LRU缓存', link: '/Leetcode/题库/146.LRU缓存' },
             { text: '206.反转链表', link: '/Leetcode/题库/206.反转链表' },
