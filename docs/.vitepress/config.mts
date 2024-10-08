@@ -258,6 +258,7 @@ export default defineConfig({
             { text: '15.三数之和', link: '/Leetcode/题库/15.三数之和' },
             { text: '25.K个一组翻转链表', link: '/Leetcode/题库/25.K个一组翻转链表' },
             { text: '53.最大子数组和', link: '/Leetcode/题库/53.最大子数组和' },
+            { text: '56.合并区间', link: '/Leetcode/题库/56.合并区间' },
             { text: '102.二叉树的层序遍历', link: '/Leetcode/题库/102.二叉树的层序遍历' },
             { text: '103.二叉树的锯齿形层序遍历', link: '/Leetcode/题库/103.二叉树的锯齿形层序遍历' },
             { text: '146.LRU缓存', link: '/Leetcode/题库/146.LRU缓存' },
