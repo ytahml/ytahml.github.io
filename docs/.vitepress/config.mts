@@ -171,12 +171,18 @@ export default defineConfig({
 
     // 导航栏
     nav: [
-      { text: '力扣', link: '/Leetcode/' },
-      { text: '卡码网', link: '/KamaCoder/' },
       { text: '多线程练习题', link: '/MultiThread/exercises/' },
       { text: 'MySQL', link: '/Database/MySQL' },
       { text: '杂记', link: '/MisNotes/' },
       { text: '读书随记', link: '/读书随记/' },
+      {
+        text: '算法',
+        items: [
+          { text: '基础知识', link: '/算法基础知识/' },
+          { text: '力扣', link: '/Leetcode/' },
+          { text: '卡码网', link: '/KamaCoder/' },
+        ]
+      },
       {
         text: '我的',
         items: [
@@ -199,6 +205,7 @@ export default defineConfig({
           { text: '在线图像编辑工具', link: 'https://imageonline.co/cn/' },
           { text: 'Mermaid 中文网', link: 'https://mermaid.nodejs.cn/' },
           { text: '视频无损压缩90%', link: 'https://tools.rotato.app/compress' },
+          { text: 'MP4 视频在线修复', link: 'https://repair.cleverfiles.com/' },
           { text: 'cron 表达式在线生成', link: 'https://cron.ciding.cc/' },
         ]
       },
@@ -298,6 +305,8 @@ export default defineConfig({
             { text: '55.右旋字符串', link: '/KamaCoder/题库/55.右旋字符串' },
           ]
         }
+      ],
+      "/算法基础知识/": [
       ],
     },
     socialLinks: [
