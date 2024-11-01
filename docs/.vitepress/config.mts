@@ -307,6 +307,7 @@ export default defineConfig({
         }
       ],
       "/算法基础知识/": [
+        { text: '图论', link: '/算法基础知识/图论' },
       ],
     },
     socialLinks: [

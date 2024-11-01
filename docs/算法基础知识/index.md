@@ -8,6 +8,8 @@ hiddenCover: true
 
 # 算法基础知识
 
+- [图论](./图论.md)
+
 ## 参考资料
 
 - [代码随想录](https://programmercarl.com/)
