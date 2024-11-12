@@ -116,7 +116,7 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'https://img.upyun.ytazwc.top/blog/202411121548668.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
     ['meta', { name: 'sogou_site_verification', content: 'BwQr1kj0CD' }],
@@ -159,11 +159,11 @@ export default defineConfig({
     
     // 设置logo
     logo: '/ok-modified.webp',
-    // editLink: {
-    //   pattern:
-    //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
-    //   text: '去 GitHub 上编辑内容'
-    // },
+    editLink: {
+      pattern:
+        'https://github.com/YTAZWC/YTAZWC.github.io/tree/master/docs/:path',
+      text: '去 GitHub 上编辑内容'
+    },
 
     // 全局配置
     darkModeSwitchTitle: 'before',
@@ -175,6 +175,7 @@ export default defineConfig({
       { text: 'MySQL', link: '/Database/MySQL' },
       { text: '杂记', link: '/MisNotes/' },
       { text: '读书随记', link: '/读书随记/' },
+      // { text: 'Spring Cloud', link: '/springCloud/' },
       {
         text: '算法',
         items: [
@@ -221,6 +222,10 @@ export default defineConfig({
         { text: '事务', link: '/Database/MySQL/事务' },
       
       ],
+      
+      // "/SpringCloud/": [
+      //   { text: '', link: '' },
+      // ],
       
       "/MultiThread/exercises/": [
         { text: '双线程轮流打印1-100', link: '/MultiThread/exercises/双线程轮流打印1-100' },
