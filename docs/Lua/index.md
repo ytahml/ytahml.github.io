@@ -10,7 +10,7 @@ hiddenCover: true
 
 ## 学习资料
 
-
+- [零基础学Lua脚本，轻松掌握Lua游戏脚本开发](https://www.bilibili.com/video/BV1RQ4y1t77H?spm_id_from=333.788.videopod.episodes&vd_source=67085386ad37b864cf255529b5a127f7)
 
 ## 笔记目录
 
@@ -18,3 +18,6 @@ hiddenCover: true
 - [02-Lua数据类型](./02-Lua数据类型.md)
 - [03-标识符](./03-标识符.md)
 - [04-运算符](./04-运算符.md)
+- [05-函数](./05-函数.md)
+- [06-流程控制语句](./06-流程控制语句.md)
+- [07-循环控制语句](./07-循环控制语句.md)
