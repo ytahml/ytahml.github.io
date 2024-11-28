@@ -11,6 +11,7 @@ hiddenCover: true
 ## 学习资料
 
 - [零基础学Lua脚本，轻松掌握Lua游戏脚本开发](https://www.bilibili.com/video/BV1RQ4y1t77H?spm_id_from=333.788.videopod.episodes&vd_source=67085386ad37b864cf255529b5a127f7)
+- [Lua 中文参考手册](https://cloudwu.github.io/lua53doc/contents.html#contents)
 
 ## 笔记目录
 
@@ -21,3 +22,4 @@ hiddenCover: true
 - [05-函数](./05-函数.md)
 - [06-流程控制语句](./06-流程控制语句.md)
 - [07-循环控制语句](./07-循环控制语句.md)
+- [08-table数据结构](./08-table数据结构.md)
