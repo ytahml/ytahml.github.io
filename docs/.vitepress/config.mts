@@ -158,7 +158,7 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     
     // 设置logo
-    logo: '/ok-modified.webp',
+    logo: 'https://img.upyun.ytazwc.top/blog/202412061154284.webp',
     editLink: {
       pattern:
         'https://github.com/YTAZWC/YTAZWC.github.io/tree/master/docs/:path',
