@@ -133,6 +133,10 @@ export default defineConfig({
   // Latex渲染
   markdown: {
     math: true,
+    image: {
+      // 设置图片懒加载
+      lazyLoading: true,
+    }
   },
   
   themeConfig: {
