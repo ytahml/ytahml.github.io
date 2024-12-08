@@ -37,8 +37,15 @@ const blogTheme = getThemeConfig({
   
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
-  
+  // 开启任务列表
   taskCheckbox: true,
+  // 开启 tabs
+  tabs: true,
+  
+  // 自定义代码分组图标
+  groupIcon: {
+  
+  },
 
   // 页脚
   footer: {

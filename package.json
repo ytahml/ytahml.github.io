@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
-    "@sugarat/theme": "^0.4.10",
+    "@sugarat/theme": "^0.5.2",
     "element-plus": "^2.7.2",
     "markdown-it-katex": "^2.0.3",
     "vitepress-plugin-google-analytics": "^1.0.2",
@@ -29,7 +29,7 @@
     "pagefind": "^1.1.0",
     "sass": "^1.76.0",
     "typescript": "^5.4.5",
-    "vitepress": "1.3.1",
+    "vitepress": "1.5.0",
     "vitepress-plugin-search": "1.0.4-alpha.22"
   },
   "pnpm": {
