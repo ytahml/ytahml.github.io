@@ -81,42 +81,54 @@ const blogTheme = getThemeConfig({
   author: '花木凋零成兰',
 
   // 友链
-  friend: [
-    {
-      nickname: 'Hexo旧博客',
-      des: '成功始于方法,巩固才能提高.',
-      avatar:
-        'https://img.upyun.ytazwc.top/ok.jpg',
-      url: 'https://ytazwc.top',
-    },
-    {
-      nickname: 'vuepress旧博客',
-      des: '成功始于方法,巩固才能提高.',
-      avatar:
-        'https://img.upyun.ytazwc.top/ok.jpg',
-      url: 'https://ytazwc.top/blogs',
-    },
-    {
-      nickname: '@sugarat/theme',
-      des: '博客主题',
-      avatar: 'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://theme.sugarat.top/'
-    },
-    {
-      nickname: '粥里有勺糖',
-      des: '你的指尖用于改变世界的力量',
-      avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://sugarat.top',
-    },
-    {
-      nickname: 'Vitepress',
-      des: 'Vite & Vue Powered Static Site Generator',
-      avatar:
-        'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://vitepress.dev/',
-    },
-  ],
+  friend: {
+    list: [
+      {
+        nickname: 'Hexo旧博客',
+        des: '成功始于方法,巩固才能提高.',
+        avatar:
+            'https://img.upyun.ytazwc.top/ok.jpg',
+        url: 'https://ytazwc.top',
+      },
+      {
+        nickname: 'vuepress旧博客',
+        des: '成功始于方法,巩固才能提高.',
+        avatar:
+            'https://img.upyun.ytazwc.top/ok.jpg',
+        url: 'https://ytazwc.top/blogs',
+      },
+      {
+        nickname: 'lss\'s blog',
+        des: '人生如逆旅，我亦是行人',
+        avatar:
+            'https://avatars.githubusercontent.com/u/104154611?s=48&v=4',
+        url: 'https://ljiangyu.github.io/lss-vuepress/',
+      },
+      {
+        nickname: '@sugarat/theme',
+        des: '博客主题',
+        avatar: 'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
+        url: 'https://theme.sugarat.top/'
+      },
+      {
+        nickname: '粥里有勺糖',
+        des: '你的指尖用于改变世界的力量',
+        avatar:
+            'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
+        url: 'https://sugarat.top',
+      },
+      {
+        nickname: 'Vitepress',
+        des: 'Vite & Vue Powered Static Site Generator',
+        avatar:
+            'https://vitepress.dev/vitepress-logo-large.webp',
+        url: 'https://vitepress.dev/',
+      },
+    ],
+    // 限制列表展示数量
+    limit: 5,
+    // scrollSpeed: true
+  },
 
   // 推荐文章的展示卡片
   recommend: false,
