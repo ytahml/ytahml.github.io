@@ -6,7 +6,7 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: false
+cover: https://img.upyun.ytazwc.top/blog/202412152156402.png
 hiddenCover: true
 ---
 
