@@ -12,6 +12,8 @@ hiddenCover: true
 
 # Lua 的协同线程和协同函数
 
+## 协同线程
+
 Lua 中有一种特殊线程, 称为 `coroutine`, 协同线程, 简称协程;
 
 coroutine 可以在运行时暂停执行, 然后转去执行其它线程; 也可以返回继续执行没有执行完毕的内容; 即可走可停再走;
@@ -100,3 +102,48 @@ print(success, result_1, result_2);
 执行结果如下:
 
 ![](https://img.upyun.ytazwc.top/blog/202412162335526.png)
+
+## 协同函数
+
+协同线程可以单独创建执行, 也可以通过协同函数的调用启动执行;
+
+使用 coroutine 的 wrap() 函数创建的就是协同函数, 类型为 function;
+
+由于协同函数的本质就是函数, 所以协同函数的调用方式就是标准的函数调用方式; 只是, 协同函数的调用会启动内置的协同线程;
+
+协同函数示例如下所示:
+
+```lua
+-- thread_function_test.lua
+
+-- 创建一个协同函数
+cf = coroutine.wrap(
+    function (a, b)
+        print(a, b);
+
+        -- 获取当前协同函数创建的协同线程
+        local tr = coroutine.running();
+        print("tr 的类型是: " .. type(tr));
+
+        -- 挂起当前的协同线程
+        coroutine.yield(a-b, a / b);
+
+        print("协同线程再次启动!!!");
+
+        return a+b, a*b;
+    end
+);
+-- 调用协同函数
+local r1, r2 = cf(3, 5);
+print(type(cf)); -- 协同函数类型
+print(r1, r2);
+
+r1, r2 = cf(3, 5); -- 再次启动协同函数 此时的参数是可省略的
+print(r1, r2);
+
+-- 另一种重启协同线程方式
+-- 将协同函数内的协同线程返回 并接收
+-- 然后再次调用协同线程的 resume 方法
+```
+
+![](https://img.upyun.ytazwc.top/blog/202412172248060.png)
