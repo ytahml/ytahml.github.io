@@ -13,6 +13,12 @@ hiddenCover: true
 - [零基础学Lua脚本，轻松掌握Lua游戏脚本开发](https://www.bilibili.com/video/BV1RQ4y1t77H?spm_id_from=333.788.videopod.episodes&vd_source=67085386ad37b864cf255529b5a127f7)
 - [Lua 中文参考手册](https://cloudwu.github.io/lua53doc/contents.html#contents)
 
+## 笔记源码
+
+笔记当中涉及到的源码在 github 仓库中, 可以按照代码第一行提示的文件名进行对应寻找, 源码地址如下所示:
+
+- [源码地址](https://github.com/YTAZWC/lua-study-code);
+
 ## 笔记目录
 
 - [01-Lua环境安装](./01-Lua环境安装.md)
