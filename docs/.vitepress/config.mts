@@ -180,6 +180,7 @@ export default defineConfig({
       { text: 'MySQL', link: '/Database/MySQL' },
       { text: '杂记', link: '/MisNotes/' },
       { text: '读书随记', link: '/读书随记/' },
+      { text: 'Lua 学习笔记', link: '/Lua/' },
       // { text: 'Spring Cloud', link: '/springCloud/' },
       {
         text: '算法',
@@ -226,6 +227,64 @@ export default defineConfig({
         { text: '索引', link: '/Database/MySQL/索引' },
         { text: '事务', link: '/Database/MySQL/事务' },
       
+      ],
+      "/Lua/": [
+        {
+          "text": "01-Lua环境安装",
+          "link": "/Lua/01-Lua环境安装"
+        },
+        {
+          "text": "02-Lua数据类型",
+          "link": "/Lua/02-Lua数据类型"
+        },
+        {
+          "text": "03-标识符",
+          "link": "/Lua/03-标识符"
+        },
+        {
+          "text": "04-运算符",
+          "link": "/Lua/04-运算符"
+        },
+        {
+          "text": "05-函数",
+          "link": "/Lua/05-函数"
+        },
+        {
+          "text": "06-流程控制语句",
+          "link": "/Lua/06-流程控制语句"
+        },
+        {
+          "text": "07-循环控制语句",
+          "link": "/Lua/07-循环控制语句"
+        },
+        {
+          "text": "08-table数据结构",
+          "link": "/Lua/08-table数据结构"
+        },
+        {
+          "text": "09-迭代器",
+          "link": "/Lua/09-迭代器"
+        },
+        {
+          "text": "10-模块数据结构",
+          "link": "/Lua/10-模块数据结构"
+        },
+        {
+          "text": "11-Lua元表与元方法",
+          "link": "/Lua/11-Lua元表与元方法"
+        },
+        {
+          "text": "12-lua面向对象",
+          "link": "/Lua/12-lua面向对象"
+        },
+        {
+          "text": "13-Lua的协同线程和协同函数",
+          "link": "/Lua/13-Lua的协同线程和协同函数"
+        },
+        {
+          "text": "14-Lua的文件IO",
+          "link": "/Lua/14-Lua的文件IO"
+        }
       ],
       
       // "/SpringCloud/": [
