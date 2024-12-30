@@ -310,6 +310,7 @@ export default defineConfig({
         { text: '为什么要使用双亲委派机制？', link: '/MisNotes/为什么要使用双亲委派机制？' },
         { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
+        { text: 'JMH详细使用', link: '/MisNotes/JMH详细使用' },
         
       ],
       

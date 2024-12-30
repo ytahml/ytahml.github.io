@@ -45,17 +45,107 @@ hiddenCover: true
 
 ## 注解介绍
 
-**@Warmup**：预热，可用在类级别和方法级别
+### @Warmup
+预热，可用在**类级别和方法级别**
 - iterations：表示预热的次数；默认为5；
 - time：表示每次预热的时间；默认为10
 - timeUnit：表示每次预热的时间的单位，默认为`TimeUnit.SECONDS`；
 
-**@Measurement**：具体的测试配置，可用在类级别和方法级别
+### @Measurement
+具体的测试配置，可用在**类级别和方法级别**
 - iterations：表示测试的次数；默认为5；
 - time：表示每次测试的时间；默认为10
 - timeUnit：表示每次测试的时间的单位，默认为`TimeUnit.SECONDS`；
 
-**@Benchmark**：测试方法，只可用在方法上，表示该方法是需要测试的方法；
+### @Benchmark
+
+测试方法，**只可用在方法上**，表示该方法是需要测试的方法；
+
+### @BenchmarkMode
+
+表示测试采用的模式; 可用在**类和方法**上;
+
+一共有四种Mode, 分别是:
+- Mode.Throughput: 吞吐量测试, 即指定时间单位该方法会执行多少次;
+- Mode.AverageTime: 平均耗时测试, 即输出每次操作平均耗时
+- Mode.SampleTime: 抽样测试, 会在执行过程中采样, 输出最快的, 50% 快, 90%, 95%, 99%, 99.9%, 99.99%, 100%
+- Mode.SingleShotTime: 冷启动测试, 设置后, 该方法一轮只会运行一次; 该模式主要为了测试冷启动的性能;
+
+也可以使用 `Mode.All` 对以上四种模式都进行测试; 或者通过 `@BenchmarkMode({Mode.SampleTime, Mode.SingleShotTime})` 方式选择需要进行测试的多种模式; 
+
+### @OutputTimeUnit
+
+表示输出测试报告的时间单位, 可用在类和方法上;
+
+### @State
+
+类注解, 表示类对象的作用域; 一般标记在静态内部类里;
+
+作用域主要有三种取值:
+
+- Scope.Thread: 表示类对象会在 Benchmark 各个线程执行之前初始化, 作为入参, 且各个线程的实参是相互独立的; 且参数类型为当前 `@State` 注解的类名;
+- Scope.Benchmark: 表示 Benchmark 的各个线程共用一个入参;
+- Scope.Group: 表示一个线程组共用一个对象
+
+示例如下:
+
+```java
+@State(Scope.Benchmark)
+public static class BenchmarkState {
+    int x;
+}
+@State(Scope.Thread)
+public static class ThreadState {
+    int x;
+}
+@Benchmark
+public void measureUnshared(ThreadState state) {
+    state.x++;
+}
+@Benchmark
+public void measureShared(BenchmarkState state) {
+    state.x++;
+}
+```
+
+
+也可以对最外部的类进行注解; 此时这个类中的测试方法可以直接操作成员变量, 不用特意去将静态内部类执行注入的操作, 示例如下所示;
+
+```java
+@State(Scope.Thread)
+public class Sample_04_DefaultState {
+    int x;
+
+    @Benchmark
+    public void measure() {     // 不用通过注入的方式来操作成员变量 x
+        x++;
+    }
+}
+```
+
+## 构造器
+
+是指如何启动测试并进行配置构造的; 示例如下所示:
+
+```java
+public static void main(String[] args) throws RunnerException {
+    Options opt = new OptionsBuilder()
+            .include(Sample_03_States.class.getSimpleName())
+            .threads(4)
+            .forks(1)
+            .build();
+    new Runner(opt).run();
+}
+```
+
+### include
+
+表示包含的测试类;
+
+### threads
+
+在执行每一个测试方法时, 即执行每一个 Benchmark 时,会创造多少个线程去执行;
+
 
 
 
