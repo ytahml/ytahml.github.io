@@ -128,8 +128,8 @@ public class Sample_04_DefaultState {
 方法级别注解, 表示在启动测试方法前做的准备工作; **必须在 `@State` 的类中才能使用;** 实际上就是 `@State` 管理的对象的生命周期的一部分;
 
 可以选择操作的执行方式,有以下三种情况:
-- Level.Iteration: 表示测试方法的每一轮测试结束后, 执行制定操作;
-- Level.Trial: 表示测试方法每轮测试都执行结束后, 才会执行一次该操作, 即该方法所有测试执行之后, 才执行一次;
+- Level.Iteration: 表示测试方法的每一轮测试开始前, 执行指定操作;
+- Level.Trial: 表示测试方法每轮测试都执行结束后, 才会执行一次该操作, 即该方法所有测试执行之前, 才只执行一次;
 - Level.Invocation: 一轮可能会调用测试方法多次, 该值表示测试方法每一次调用结束后都会执行指定操作;
 
 ### @TearDown
@@ -144,6 +144,31 @@ public class Sample_04_DefaultState {
 ### @OperationsPerInvocation
 
 类、方法级别注解,可以指定数值, 假设为n, 则用于告诉 JMH 标记的方法执行了一次相当于执行了 n 次, 最后统计结果时会除n取平均值;
+
+
+### @Fork
+
+可用在方法级别和类级别上; 默认不指定value时, 相当于 5;
+
+- value取0时, 测试默认只执行一次, 且测试方法会在 main 启动进程中执行;
+- value取1时, 会fork出一个线程来专门执行测试方法; 与 main 方法不在同一个进程中执行;
+- value取n时, 会fork出 n 个线程来执行测试方法;
+
+可以通过使用 `@Fork` 注解对测试方法多进行几轮测试, 提高测试结果的精确性;
+
+### @Group
+
+方法级别注解;
+
+指定方法所属的测试组; 相同测试组的方法会在一个 Benchmark 中执行; 可以模拟生产环境的资源竞争;
+
+### @GroupThreads
+
+方法级别注解;
+
+指定在测试组中, 创建多少个线程执行该测试方法;
+
+
 
 ## 内置类
 
@@ -174,7 +199,30 @@ public static void main(String[] args) throws RunnerException {
 
 在执行每一个测试方法时, 即执行每一个 Benchmark 时,会创造多少个线程去执行;
 
+### warmupIterations
 
+表示预热的次数;
+
+### measurementTime
+
+表示执行测试的时间;
+
+### measurementIterations
+
+表示执行测试的次数;
+
+### resultFormat
+
+指定输出结果文件的格式, 可以指定为 JSON 文件
+
+### result
+
+指定结果的输出位置; 示例如下所示:
+
+```java
+
+result("/E:/data/result.json")
+```
 
 
 ## 测试结果详解
@@ -319,3 +367,7 @@ Sample_01_HelloWorld.wellHelloThere           thrpt    5  3994797778.899 ± 8013
 ```
 
 在最后是一个类表格的形式，描述测试的方法(Benchmark)，采用的测试模式(Mode)，测试次数(Cnt)，测试的平均结果(Score)，结果误差(Error)，测试结果的单位(Units)等；
+
+## 测试结果可视化
+
+可以将测试结果输出为一个文件, 并将其上传到[在线可视化网址](https://jmh.morethan.io/)中, 可以将结果输出为可视化图表;
