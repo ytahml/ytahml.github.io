@@ -213,7 +213,11 @@ public static void main(String[] args) throws RunnerException {
 
 ### resultFormat
 
-指定输出结果文件的格式, 可以指定为 JSON 文件
+指定输出结果文件的格式, 可以指定为 JSON 文件, 如下所示:
+
+```java
+resultFormat(ResultFormatType.JSON)
+```
 
 ### result
 
