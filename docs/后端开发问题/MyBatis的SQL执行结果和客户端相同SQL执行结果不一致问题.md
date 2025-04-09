@@ -2,7 +2,11 @@
 title: MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题
 date: 2025/4/9
 author: 花木凋零成兰
-cover: false
+tags: 
+  - Java
+  - 后端  
+  - Mybatis
+cover: https://img.upyun.ytazwc.top/blog/20250409172647.png
 hiddenCover: true
 ---
 
@@ -30,8 +34,8 @@ hiddenCover: true
 
 ![](https://img.upyun.ytazwc.top/blog/20250409172647.png)
 
-::: info
-注意:此处为模拟场景
+::: warning 注意
+此处为模拟场景
 :::
 
 同时可以很显然发现, **虽然 Debug 会将参数值在旁边标出来, 但是不点击打开, 使很难发现隐藏字符的**;
