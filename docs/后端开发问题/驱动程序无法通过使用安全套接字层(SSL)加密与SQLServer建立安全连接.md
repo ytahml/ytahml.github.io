@@ -5,8 +5,8 @@ author: 花木凋零成兰
 tags: 
   - Java
   - SQL Server
-cover: false
-hiddenCover: true
+cover: https://img.upyun.ytazwc.top/blog/202504092205090.png
+hiddenCover: false
 ---
 
 # 驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接
