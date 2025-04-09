@@ -181,6 +181,7 @@ export default defineConfig({
       { text: '杂记', link: '/MisNotes/' },
       { text: '读书随记', link: '/读书随记/' },
       { text: 'Lua 学习笔记', link: '/Lua/' },
+      { text: '后端开发问题总结', link: '/后端开发问题/' },
       // { text: 'Spring Cloud', link: '/springCloud/' },
       {
         text: '算法',
@@ -227,6 +228,9 @@ export default defineConfig({
         { text: '索引', link: '/Database/MySQL/索引' },
         { text: '事务', link: '/Database/MySQL/事务' },
       
+      ],
+      "/后端开发问题/": [
+        { text: 'MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题', link: '/后端开发问题/MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题' },
       ],
       "/Lua/": [
         {
