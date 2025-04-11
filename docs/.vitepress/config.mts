@@ -347,7 +347,8 @@ export default defineConfig({
             { text: '103.二叉树的锯齿形层序遍历', link: '/Leetcode/题库/103.二叉树的锯齿形层序遍历' },
             { text: '146.LRU缓存', link: '/Leetcode/题库/146.LRU缓存' },
             { text: '206.反转链表', link: '/Leetcode/题库/206.反转链表' },
-            
+            { text: '215.数组中的第K个最大元素', link: '/Leetcode/题库/215.数组中的第K个最大元素' },
+
           ]
         }
       ],
