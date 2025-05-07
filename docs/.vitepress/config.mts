@@ -232,6 +232,7 @@ export default defineConfig({
       "/后端开发问题/": [
         { text: 'MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题', link: '/后端开发问题/MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题' },
         { text: '驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接', link: '/后端开发问题/驱动程序无法通过使用安全套接字层(SSL)加密与SQLServer建立安全连接' },
+        { text: 'AES加密结果有+号浏览器转义后解密失败', link: '/后端开发问题/AES加密结果有+号浏览器转义后解密失败' },
       ],
       "/Lua/": [
         {
