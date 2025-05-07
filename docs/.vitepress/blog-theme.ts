@@ -43,9 +43,9 @@ const blogTheme = getThemeConfig({
   tabs: true,
   
   // 自定义代码分组图标
-  groupIcon: {
-  
-  },
+  // groupIcon: {
+  //
+  // },
 
   // 页脚
   footer: {
@@ -149,7 +149,7 @@ const blogTheme = getThemeConfig({
     reopen: true,
     twinkle: false,
     body: [
-      { type: 'text', content: '👇 我的微信 👇---👇 我的 QQ 👇' },
+      { type: 'text', content: '👇 微信 👇---👇 QQ 👇' },
       {
         type: 'image',
         src: 'https://img.upyun.ytazwc.top/weixin.jpg',

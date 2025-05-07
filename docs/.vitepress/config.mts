@@ -176,11 +176,16 @@ export default defineConfig({
 
     // 导航栏
     nav: [
-      { text: '多线程练习题', link: '/MultiThread/exercises/' },
-      { text: 'MySQL', link: '/Database/MySQL' },
+      {
+        text: '技术学习',
+        // link: '/MultiThread/',
+        items: [
+          { text: 'MySQL 学习', link: '/Database/MySQL' },
+          { text: '多线程练习题', link: '/MultiThread/exercises' },
+          { text: 'Lua 学习笔记', link: '/Lua/' },
+        ]
+      },
       { text: '杂记', link: '/MisNotes/' },
-      { text: '读书随记', link: '/读书随记/' },
-      { text: 'Lua 学习笔记', link: '/Lua/' },
       { text: '后端开发问题总结', link: '/后端开发问题/' },
       // { text: 'Spring Cloud', link: '/springCloud/' },
       {
@@ -198,6 +203,7 @@ export default defineConfig({
           { text: 'Gitee', link: 'https://gitee.com/ytaml' },
           { text: 'CSDN', link: 'https://blog.csdn.net/qq_61457746' },
           { text: '旧博客', link: 'https://ytazwc.top/blog' },
+          { text: '读书随记', link: '/读书随记/' },
         ]
       },
       {
