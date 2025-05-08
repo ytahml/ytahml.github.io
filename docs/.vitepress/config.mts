@@ -176,8 +176,11 @@ export default defineConfig({
 
     // 导航栏
     nav: [
+      { text: '杂记', link: '/MisNotes/' },
+      { text: '后端开发问题总结', link: '/后端开发问题/' },
+      // { text: 'Spring Cloud', link: '/springCloud/' },
       {
-        text: '技术学习',
+        text: '技术学习笔记',
         // link: '/MultiThread/',
         items: [
           { text: 'MySQL 学习', link: '/Database/MySQL' },
@@ -185,9 +188,6 @@ export default defineConfig({
           { text: 'Lua 学习笔记', link: '/Lua/' },
         ]
       },
-      { text: '杂记', link: '/MisNotes/' },
-      { text: '后端开发问题总结', link: '/后端开发问题/' },
-      // { text: 'Spring Cloud', link: '/springCloud/' },
       {
         text: '算法',
         items: [
