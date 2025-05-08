@@ -2,6 +2,10 @@
 title: 并发学习
 date: 2025/5/7
 author: 花木凋零成兰
+tags: 
+  - Java
+  - 并发
+  - 多线程
 cover: false
 hiddenCover: true
 ---
