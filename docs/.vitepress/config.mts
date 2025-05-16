@@ -184,6 +184,7 @@ export default defineConfig({
         // link: '/MultiThread/',
         items: [
           { text: 'MySQL 学习', link: '/Database/MySQL' },
+          { text: '多线程学习', link: '/MultiThread/study' },
           { text: '多线程练习题', link: '/MultiThread/exercises' },
           { text: 'Lua 学习笔记', link: '/Lua/' },
         ]
