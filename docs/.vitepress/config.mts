@@ -166,7 +166,7 @@ export default defineConfig({
     logo: 'https://img.upyun.ytazwc.top/blog/202412061154284.webp',
     editLink: {
       pattern:
-        'https://github.com/YTAZWC/YTAZWC.github.io/tree/master/docs/:path',
+        'https://github.com/ytahml/ytahml.github.io/tree/master/docs/:path',
       text: '去 GitHub 上编辑内容'
     },
 
@@ -405,7 +405,7 @@ export default defineConfig({
       },
       {
         icon: 'github',
-        link: 'https://github.com/YTAZWC/YTAZWC.github.io'
+        link: 'https://github.com/ytahml/ytahml.github.io'
       },
     ],
     
