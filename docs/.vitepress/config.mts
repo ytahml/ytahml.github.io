@@ -187,6 +187,7 @@ export default defineConfig({
           { text: '多线程学习', link: '/MultiThread/study' },
           { text: '多线程练习题', link: '/MultiThread/exercises' },
           { text: 'Lua 学习笔记', link: '/Lua/' },
+          { text: 'Git 开发实践', link: '/Git/' },
         ]
       },
       {
@@ -241,6 +242,9 @@ export default defineConfig({
         { text: '驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接', link: '/后端开发问题/驱动程序无法通过使用安全套接字层(SSL)加密与SQLServer建立安全连接' },
         { text: 'AES加密结果有+号浏览器转义后解密失败', link: '/后端开发问题/AES加密结果有+号浏览器转义后解密失败' },
         { text: 'AES加密解密出现：缺省的iv长度不能小于16', link: '/后端开发问题/AES加密解密出现：缺省的iv长度不能小于16' },
+      ],
+      "/Git/": [
+        { text: 'GitHub经常出现push或pull超时', link: '/Git/GitHub经常出现push或pull超时' },
       ],
       "/Lua/": [
         {
