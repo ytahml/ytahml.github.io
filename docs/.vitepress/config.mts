@@ -245,6 +245,7 @@ export default defineConfig({
       ],
       "/Git/": [
         { text: 'GitHub经常出现push或pull超时', link: '/Git/GitHub经常出现push或pull超时' },
+        { text: 'idea配置.gitignore文件后不生效', link: '/Git/idea配置.gitignore文件后不生效' },
       ],
       "/Lua/": [
         {
