@@ -2,7 +2,7 @@
 title: idea配置.gitignore文件后不生效
 date: 2025/5/22
 author: 花木凋零成兰
-cover: false
+cover: https://img.upyun.ytazwc.top/blog/20250522154947.png
 hiddenCover: true
 ---
 
