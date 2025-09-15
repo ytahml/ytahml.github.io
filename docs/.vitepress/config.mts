@@ -330,7 +330,8 @@ export default defineConfig({
         { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
         { text: 'JMH详细使用', link: '/MisNotes/JMH详细使用' },
-        
+        { text: 'Github作为中央仓库', link: '/MisNotes/Github作为中央仓库' },
+
       ],
       
       "/Leetcode/": [
