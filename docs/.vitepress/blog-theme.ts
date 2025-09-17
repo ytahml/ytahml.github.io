@@ -83,19 +83,19 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: {
     list: [
-      {
-        nickname: 'Hexo旧博客',
-        des: '成功始于方法,巩固才能提高.',
-        avatar:
-            'https://img.upyun.ytazwc.top/ok.jpg',
-        url: 'https://ytazwc.top',
-      },
+      // {
+      //   nickname: 'Hexo旧博客',
+      //   des: '成功始于方法,巩固才能提高.',
+      //   avatar:
+      //       'ok-modified.webp',
+      //   url: 'https://ytazwc.top',
+      // },
       {
         nickname: 'vuepress旧博客',
         des: '成功始于方法,巩固才能提高.',
         avatar:
-            'https://img.upyun.ytazwc.top/ok.jpg',
-        url: 'https://ytazwc.top/blogs',
+            'ok-modified.webp',
+        url: 'https://imulan.top/blogs',
       },
       {
         nickname: 'lss\'s blog',
@@ -152,12 +152,12 @@ const blogTheme = getThemeConfig({
       { type: 'text', content: '👇 微信 👇---👇 QQ 👇' },
       {
         type: 'image',
-        src: 'https://img.upyun.ytazwc.top/weixin.jpg',
+        src: 'weixin.png',
         style: 'display: inline-block;width:46%;padding-right:6px'
       },
       {
         type: 'image',
-        src: 'https://img.upyun.ytazwc.top/qq.jpg',
+        src: 'qq.png',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
@@ -202,7 +202,7 @@ const blogTheme = getThemeConfig({
   authorList: [
     {
       nickname: '花木凋零成兰',
-      url: 'https://ytazwc.top',
+      url: 'https://imulan.top',
       des: '成功始于方法, 巩固才能提高!'
     }
   ],

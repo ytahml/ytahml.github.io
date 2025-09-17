@@ -120,13 +120,13 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
     ['meta', { name: 'sogou_site_verification', content: 'BwQr1kj0CD' }],
-    ['link', {rel: 'canonical', href: 'https://www.ytazwc.top' }],
+    ['link', {rel: 'canonical', href: 'https://www.imulan.top' }],
     // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
   
   // Sitemap
   sitemap: {
-    hostname: 'https://www.ytazwc.top',
+    hostname: 'https://www.imulan.top',
     lastmodDateOnly: false
   },
   
@@ -163,7 +163,7 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     
     // 设置logo
-    logo: 'https://img.upyun.ytazwc.top/blog/202412061154284.webp',
+    logo: 'ok-modified.webp',
     editLink: {
       pattern:
         'https://github.com/ytahml/ytahml.github.io/tree/master/docs/:path',
@@ -246,6 +246,8 @@ export default defineConfig({
       "/Git/": [
         { text: 'GitHub经常出现push或pull超时', link: '/Git/GitHub经常出现push或pull超时' },
         { text: 'idea配置.gitignore文件后不生效', link: '/Git/idea配置.gitignore文件后不生效' },
+        { text: 'idea如何将多次commit合并为一次commit', link: '/Git/idea如何将多次commit合并为一次commit' },
+        { text: 'Github作为中央仓库', link: '/Git/Github作为中央仓库' },
       ],
       "/Lua/": [
         {
@@ -330,7 +332,6 @@ export default defineConfig({
         { text: 'Spring的配置类分为Full和Lite两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
         { text: 'JMH详细使用', link: '/MisNotes/JMH详细使用' },
-        { text: 'Github作为中央仓库', link: '/MisNotes/Github作为中央仓库' },
 
       ],
       

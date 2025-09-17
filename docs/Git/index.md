@@ -15,3 +15,4 @@ hiddenCover: true
 - [GitHub经常出现push或pull超时](./GitHub经常出现push或pull超时.md)
 - [idea配置.gitignore文件后不生效](./idea配置.gitignore文件后不生效.md)
 - [idea如何将多次commit合并为一次commit](./idea如何将多次commit合并为一次commit.md)
+- [Github作为中央仓库](./Github作为中央仓库.md)
