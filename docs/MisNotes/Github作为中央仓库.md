@@ -18,7 +18,8 @@ hiddenCover: true
 
 `点击头像 -> Settings -> 最下面Developer Settings`即可找到生成 token 的界面;
 
-![](https://img.upyun.ytazwc.top/blog/202509152007351.png)
+![](assets/2025-09-17-ohj4dS.png)
+
 
 随便给token取个名字, 并指定对应的权限和过期期限即可; 注意只能复制一次;
 
@@ -91,8 +92,7 @@ mvn clean deploy -Dmaven.test.skip=true
 
 然后可以在 github 项目页面看到管理的包:
 
-![](https://img.upyun.ytazwc.top/blog/202509152021437.png)
-
+![](assets/2025-09-17-IrxGbg.png)
 
 
 ## 参考文章

@@ -5,7 +5,6 @@ author: 花木凋零成兰
 tags: 
   - Java
   - SQL Server
-cover: https://img.upyun.ytazwc.top/blog/202504092205090.png
 hiddenCover: false
 ---
 
@@ -27,7 +26,7 @@ hiddenCover: false
 
 根据参考文章的方式一, 找到Java的安装目录: `\jdk-1.8\jre\lib\security` 下的 `java.security` 文件, 删除其中的 TSLv1、TSLv1.1; 如下图所示:
 
-![](https://img.upyun.ytazwc.top/blog/202504092205090.png)
+![](assets/2025-09-17-ryXdJW.png)
 
 
 ## 参考文章

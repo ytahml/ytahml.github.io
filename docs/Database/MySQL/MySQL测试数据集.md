@@ -4,7 +4,6 @@ date: 2024-08-22 14:12:36
 author: 花木凋零成兰
 tags: 
   - MySQL
-cover: https://img.upyun.ytazwc.top/blog/202408221416379.png
 hiddenCover: true
 ---
 
@@ -16,21 +15,25 @@ MySQL 测试数据集是官方自带的测试数据集合, 最多有百万挑数
 
 下载解压后, 在命令行输入 cmd 如下图所示：
 
-![](https://img.upyun.ytazwc.top/blog/202408221416379.png)
+![](assets/2025-09-17-OsArL2.png)
+
 
 ## 方式一
 
 接着连接 MySQL 服务器, 输入命令：`mysql -uroot -p`, 并输入密码连接如下所示：
 
-![](https://img.upyun.ytazwc.top/blog/202408221418928.png)
+![](assets/2025-09-17-xijlhy.png)
+
 
 接着打开解压后文件夹中的 `employees.sql` 文件, 复制文件内容, 粘贴到命令行中执行：
 
-![](https://img.upyun.ytazwc.top/blog/202408221420870.png)
+![](assets/2025-09-17-4DttvS.png)
+
 
 等待执行结束后, 如下图所示验证是否成功执行：
 
-![](https://img.upyun.ytazwc.top/blog/202408221421749.png)
+![](assets/2025-09-17-5Uw5TM.png)
+
 
 然后便可以使用该数据集练习 MySQL了;
 
@@ -46,7 +49,8 @@ mysql -t -uroot -p[密码] -P[端口] < employees.sql
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202505172105356.png)
+![](assets/2025-09-17-AjinEC.png)
+
 
 接着执行如下命令, 校验是否安装测试数据成功:
 
@@ -55,4 +59,4 @@ mysql -t -uroot -p[密码] -P[端口] < test_employees_md5.sql
 ```
 执行结果如下图所示:
 
-![](https://img.upyun.ytazwc.top/blog/202505172106453.png)
+![](assets/2025-09-17-VpK3ag.png)

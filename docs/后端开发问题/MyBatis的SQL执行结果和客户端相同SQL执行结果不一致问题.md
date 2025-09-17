@@ -6,7 +6,6 @@ tags:
   - Java
   - 后端  
   - Mybatis
-cover: https://img.upyun.ytazwc.top/blog/20250409172647.png
 hiddenCover: true
 ---
 
@@ -32,7 +31,8 @@ hiddenCover: true
 
 使用 idea 自带的 Debug 最终发现了隐藏字符;
 
-![](https://img.upyun.ytazwc.top/blog/20250409172647.png)
+![](assets/2025-09-17-4cid9u.png)
+
 
 ::: warning 注意
 此处为模拟场景
@@ -42,11 +42,13 @@ hiddenCover: true
 
 我们可以查看控制台打印的 SQL 语句, 如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/20250409172931.png)
+![](assets/2025-09-17-B7uRGK.png)
+
 
 是完全看不出问题所在的, 这个时候一般会将 SQL 复制到客户端中执行来尝试找到问题, Navicat客户端执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/20250409173408.png)
+![](assets/2025-09-17-DVibr9.png)
+
 
 上述语句更加突显了隐藏字符带来的影响, 直接复制 `%Jack%` 显然是包含了隐藏字符;
 
@@ -58,7 +60,8 @@ hiddenCover: true
 
 尝试借助文本工具软件, 查看是否能显现隐藏字符, 采用软件有 Notepad++ 和 Windows自带的记事本, 结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/20250409173912.png)
+![](assets/2025-09-17-59RMNb.png)
+
 
 可以发现Windows的记事本显现了隐藏字符, 可以很容易看到奇怪的地方, 此外也可以尝试借助项目中的 `application.yml` 文件;
 

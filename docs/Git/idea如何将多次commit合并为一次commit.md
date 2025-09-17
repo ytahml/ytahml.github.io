@@ -16,19 +16,22 @@ hiddenCover: true
 
 可以使用idea自带的git可视化界面合并多个commit, 打开自带的git管理界面如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/20250522164640.png)
+![](assets/2025-09-17-HSy43w.png)
+
 
 选中(可按住ctrl键鼠标点击选中)需要合并的 commit, 并右键, 选择压缩提交, 如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/20250522164801.png)
+![](assets/2025-09-17-vMyhGx.png)
+
 
 然后重新填写新提交信息:
 
-![](https://img.upyun.ytazwc.top/blog/20250522165052.png)
+![](assets/2025-09-17-ps08EQ.png)
+
 
 压缩提交之后, 因为与远程提交出现不一致, 所以需要强制推送更新远程分支的提交信息, 如下:
 
-![](https://img.upyun.ytazwc.top/blog/20250522165232.png)
+![](assets/2025-09-17-mGs1BP.png)
 
 ## 参考文章
 

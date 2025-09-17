@@ -2,7 +2,6 @@
 title: idea配置.gitignore文件后不生效
 date: 2025/5/22
 author: 花木凋零成兰
-cover: https://img.upyun.ytazwc.top/blog/20250522154947.png
 hiddenCover: true
 ---
 
@@ -74,7 +73,7 @@ git commit -m 'update .gitignore'
 
 执行示例图如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/20250522154947.png)
+![](assets/2025-09-17-UiGNPK.png)
 
 ## 参考文章
 
