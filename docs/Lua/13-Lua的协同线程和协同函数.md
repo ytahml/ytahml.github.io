@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202412162325298.png
 hiddenCover: true
 ---
 
@@ -71,7 +70,8 @@ print("main-thread- " .. type(crt));
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412162325298.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412162325298.png&#41;)
+![](assets/2025-09-17-KYKHtb.png)
 
 基本示例二: 内置执行函数有返回值
 
@@ -101,7 +101,8 @@ print(success, result_1, result_2);
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412162335526.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412162335526.png&#41;)
+![](assets/2025-09-17-XvJo30.png)
 
 ## 协同函数
 
@@ -146,4 +147,5 @@ print(r1, r2);
 -- 然后再次调用协同线程的 resume 方法
 ```
 
-![](https://img.upyun.ytazwc.top/blog/202412172248060.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412172248060.png&#41;)
+![](assets/2025-09-17-c5VnMe.png)

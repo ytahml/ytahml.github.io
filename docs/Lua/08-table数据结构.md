@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202411281023492.png
 hiddenCover: true
 ---
 
@@ -59,7 +58,8 @@ end
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411281023492.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281023492.png&#41;)
+![](assets/2025-09-17-45IVJp.png)
 
 ### map
 
@@ -105,7 +105,8 @@ print(arr.hi)
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281046757.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281046757.png&#41;)
+![](assets/2025-09-17-TXGKup.png)
 
 ### 混合结构
 
@@ -141,7 +142,8 @@ print(emp.depart)
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281106273.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281106273.png&#41;)
+![](assets/2025-09-17-e8S59O.png)
 
 示例二: 按照一定规律的混合结构, 比如map结构的一维数组
 
@@ -165,7 +167,8 @@ end
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281117981.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281117981.png&#41;)
+![](assets/2025-09-17-92Ex7w.png)
 
 ## table 操作函数
 
@@ -204,7 +207,8 @@ print(table.concat(emp, ",", 2, 4))
 
 运行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281156027.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281156027.png&#41;)
+![](assets/2025-09-17-VYsomy.png)
 
 ### unpack()
 
@@ -233,7 +237,8 @@ print(a, b, c, d)
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281349659.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281349659.png&#41;)
+![](assets/2025-09-17-K5Jk5o.png)
 
 ### pack()
 
@@ -259,7 +264,8 @@ print("数组长度: " .. t.n)
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281937564.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281937564.png&#41;)
+![](assets/2025-09-17-Ifl3TU.png)
 
 ### maxn()
 
@@ -269,7 +275,8 @@ print("数组长度: " .. t.n)
 
 示例如下图所示: 
 
-![](https://img.upyun.ytazwc.top/blog/202411281941049.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281941049.png&#41;)
+![](assets/2025-09-17-nrkZfG.png)
 
 ### insert()
 
@@ -299,7 +306,8 @@ print(table.concat(cities, ", "))
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281955681.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281955681.png&#41;)
+![](assets/2025-09-17-AkQQGX.png)
 
 ### remove()
 
@@ -329,7 +337,8 @@ print(table.concat(cities, ", "))
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411282000923.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411282000923.png&#41;)
+![](assets/2025-09-17-O2dmO2.png)
 
 ### sort()
 
@@ -365,6 +374,7 @@ print(table.concat(strs, ", "))
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411282231520.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411282231520.png&#41;)
+![](assets/2025-09-17-XyYGqw.png)
 
 

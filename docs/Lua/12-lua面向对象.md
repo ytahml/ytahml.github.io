@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202412152156402.png
 hiddenCover: true
 ---
 
@@ -58,7 +57,8 @@ animal_2:bark("旺旺");
 ```
 最终执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412152156402.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412152156402.png&#41;)
+![](assets/2025-09-17-9mK5TZ.png)
 
 ## 类的创建
 
@@ -120,7 +120,8 @@ animal_1.type = "猫";
 
 运行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412162232351.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412162232351.png&#41;)
+![](assets/2025-09-17-BB5xdi.png)
 
 ## 类的继承
 
@@ -165,4 +166,5 @@ print(tomcat.type);
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412162242783.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412162242783.png&#41;)
+![](assets/2025-09-17-nqmKH1.png)

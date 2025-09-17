@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202412182215741.png
 hiddenCover: true
 ---
 
@@ -89,7 +88,8 @@ io.close(file);
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412182215741.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412182215741.png&#41;)
+![](assets/2025-09-17-im9f9P.png)
 
 示例二: 以追加的方式打开文件
 
@@ -112,7 +112,8 @@ io.close(file);
 
 执行后,打开 info.properties 文件后,结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412182219002.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412182219002.png&#41;)
+![](assets/2025-09-17-SeDbC8.png)
 
 ## 实例函数
 
@@ -170,7 +171,8 @@ file:close();   -- 替换为实例函数 close    // [!code ++]
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412182224713.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412182224713.png&#41;)
+![](assets/2025-09-17-TpJk4c.png)
 
 **示例二**: 测试 `seek()` 函数
 
@@ -224,4 +226,5 @@ file:close();
 
 运行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412182247872.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412182247872.png&#41;)
+![](assets/2025-09-17-hKeX8z.png)

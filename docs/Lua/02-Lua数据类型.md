@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202411261718056.png
 hiddenCover: true
 ---
 
@@ -47,6 +46,7 @@ print(str3)
 
 接着在命令行中输入 `lua type_test.lua` 即可运行脚本文件,得到结果如下图所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411261718056.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411261718056.png&#41;)
+![](assets/2025-09-17-e3R9O9.png)
 
 

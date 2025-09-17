@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202412141813448.png
 hiddenCover: true
 ---
 
@@ -79,7 +78,8 @@ print(emp[2]);
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412141813448.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412141813448.png&#41;)
+![](assets/2025-09-17-GbYz0I.png)
 
 示例二: 重写 `__index` 为一张表
 
@@ -123,7 +123,8 @@ print(emp[6])
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412141823221.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412141823221.png&#41;)
+![](assets/2025-09-17-6LGYoD.png)
 
 ### __newindex 元方法
 
@@ -167,7 +168,8 @@ print(emp.x);
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412142132998.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142132998.png&#41;)
+![](assets/2025-09-17-rPzH1m.png)
 
 示例二: 重写为一个普通表
 
@@ -202,7 +204,8 @@ print(other.x);
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412142134886.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142134886.png&#41;)
+![](assets/2025-09-17-gbGKN7.png)
 
 ### 运算符元方法
 
@@ -266,7 +269,8 @@ end
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412142159128.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142159128.png&#41;)
+![](assets/2025-09-17-aRIik7.png)
 
 ### tostring 元方法
 
@@ -305,7 +309,8 @@ print(emp);
 
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412142207583.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142207583.png&#41;)
+![](assets/2025-09-17-c377Rp.png)
 
 ### __call 元方法
 
@@ -352,7 +357,8 @@ end
 ```
 执行结果如下:
 
-![](https://img.upyun.ytazwc.top/blog/202412142220157.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142220157.png&#41;)
+![](assets/2025-09-17-q57wSI.png)
 
 ## 元表文件
 
@@ -434,4 +440,5 @@ print(emp.x);
 
 执行结果如下所示:
 
-![](https://img.upyun.ytazwc.top/blog/202412142310355.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202412142310355.png&#41;)
+![](assets/2025-09-17-AtEifT.png)

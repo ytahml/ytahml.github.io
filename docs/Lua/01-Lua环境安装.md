@@ -6,7 +6,6 @@ tags:
   - Lua
   - Redis
   - 游戏开发
-cover: https://img.upyun.ytazwc.top/blog/202411251533652.png
 hiddenCover: true
 ---
 
@@ -18,35 +17,42 @@ hiddenCover: true
 
 进入[官方地址](https://www.lua.org/)并点击 Download: 
 
-![](https://img.upyun.ytazwc.top/blog/202411281212502.png)
+![](assets/2025-09-17-LZuF52.png)
 
 找到并点击 get a binary:
 
-![](https://img.upyun.ytazwc.top/blog/202411281213927.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281213927.png&#41;)
+![](assets/2025-09-17-RkEt5X.png)
 
 继续选择 Download 并选择对应的版本, 一般选择最新版本即可;
 
-![](https://img.upyun.ytazwc.top/blog/202411281214636.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281214636.png&#41;)
+![](assets/2025-09-17-KXFZlP.png)
 
 然后解压到不含有中文的指定目录下:
 
-![](https://img.upyun.ytazwc.top/blog/202411281215372.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281215372.png&#41;)
+![](assets/2025-09-17-yAowXb.png)
+
 
 可以将 lua54.exe 文件改名为 lua.exe, 这样调用时输入命令不用输入lua54, 输入lua即可(本人已经安装过lua 5.1.5, 此处不进行改名); 
 
 然后配置系统环境变量:
 
-![](https://img.upyun.ytazwc.top/blog/202411281217640.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281217640.png&#41;)
+![](assets/2025-09-17-eJFOzZ.png)
 
 接着配置系统环境变量的PATH变量, 将新增加的 LUA_HOME 添加进去:
 
-![](https://img.upyun.ytazwc.top/blog/202411281218617.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281218617.png&#41;)
+![](assets/2025-09-17-LqxmJo.png)
 
 注意添加的值为: `%LUA_HOME%\`, 不要忽略 `\`;
 
 接着打开 cmd 查看环境是否配置成功:
 
-![](https://img.upyun.ytazwc.top/blog/202411281220222.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281220222.png&#41;)
+![](assets/2025-09-17-D1DWGh.png)
 
 ### 安装模拟环境
 
@@ -54,7 +60,8 @@ hiddenCover: true
 
 完成下载后, 会有lua语言的命令行工具和编辑器, 如下图所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411251533652.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251533652.png&#41;)
+![](assets/2025-09-17-hhlODR.png)
 
 一般更多是使用编辑器来编写 lua 脚本文件;
 
@@ -64,25 +71,32 @@ hiddenCover: true
 
 这是 Windows 环境下, 安装Lua模拟环境时自带的编辑器, 如下图所示:
 
-![](https://img.upyun.ytazwc.top/blog/202411251536617.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251536617.png&#41;)
+![](assets/2025-09-17-4mECfC.png)
 
 运行脚本时, 可能会出现输出中文乱码问题, 此时打开 `Options` 菜单中的 `Open Global Options File` 全局配置文件;
 
-![](https://img.upyun.ytazwc.top/blog/202411251539314.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251539314.png&#41;)
+![](assets/2025-09-17-9jYPV8.png)
 
 在该配置文件中, 修改如下图所示配置, 即可正确输出中文;
 
-![](https://img.upyun.ytazwc.top/blog/202411251540979.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251540979.png&#41;)
+![](assets/2025-09-17-V2Q096.png)
 
 ### VS code
 
 是常用的文本编辑器, 可以通过下载lua语言插件, 来配置lua开发环境, 插件如下所示:
 
 - 提供 lua 语言开发环境
-![](https://img.upyun.ytazwc.top/blog/202411251542560.png)
+
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251542560.png&#41;)
+![](assets/2025-09-17-3bw1iW.png)
 
 - 可以用来格式化 lua 代码
-![](https://img.upyun.ytazwc.top/blog/202411251543982.png)
+
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411251543982.png&#41;)
+![](assets/2025-09-17-RHxPJP.png)
 
 在命令看板搜索关键字`format`, 并选择格式化文档即可;
 
@@ -110,7 +124,8 @@ hiddenCover: true
 
 此外可以安装插件 Code Runner 来配置直接运行 lua 文件, 避免需要在 vscode 中连接终端来运行lua脚本命令;
 
-![](https://img.upyun.ytazwc.top/blog/202411281339868.png)
+[//]: # (![]&#40;https://img.upyun.ytazwc.top/blog/202411281339868.png&#41;)
+![](assets/2025-09-17-38V0IN.png)
 
 ## 参考文章
 
