@@ -52,14 +52,14 @@ const blogTheme = getThemeConfig({
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
     // message: '下面 的内容和图标都是可以修改的噢（当然本条内容也是可以隐藏的）',
     copyright: 'MIT License | 花木凋零成兰',
-    icpRecord: {
-      name: '湘ICP备2024077074号',
-      link: 'https://beian.miit.gov.cn/'
-    },
-    securityRecord: {
-      name: '湘公网安备43018102000552号',
-      link: 'https://www.beian.gov.cn/portal/index.do'
-    },
+    // icpRecord: {
+    //   name: '湘ICP备2024077074号',
+    //   link: 'https://beian.miit.gov.cn/'
+    // },
+    // securityRecord: {
+    //   name: '湘公网安备43018102000552号',
+    //   link: 'https://www.beian.gov.cn/portal/index.do'
+    // },
     message: [
         '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="display:flex;align-items:center;justify-content:center;">本网站由 <img src="https://img.upyun.ytazwc.top/blog/202408091125124.png" style="width:56px;height:24px;" alt="又拍云"> 提供CDN加速/云存储服务</a>',
         // '<template>\n' +
