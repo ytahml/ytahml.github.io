@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
-    "@sugarat/theme": "^0.5.2",
+    "@sugarat/theme": "^0.5.6",
+    "cn-fontsource-lxgw-wen-kai-screen-r": "^1.0.6",
     "element-plus": "^2.7.2",
     "markdown-it-katex": "^2.0.3",
     "vitepress-plugin-google-analytics": "^1.0.2",

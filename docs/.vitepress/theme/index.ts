@@ -12,6 +12,7 @@ import './style.scss'
 // 自定义字体
 // import './custom-font.css'
 
+import 'cn-fontsource-lxgw-wen-kai-screen-r/font.css'
 import './custom.css'
 
 // 自定义主题色
