@@ -2,7 +2,6 @@
 title: Github作为中央仓库
 date: 2025/9/15 19:47
 author: 花木凋零成兰
-cover: false
 tags: 
   - Github
   - Maven
