@@ -172,7 +172,6 @@ export default defineConfig({
 
     // 全局配置
     darkModeSwitchTitle: 'before',
-    
 
     // 导航栏
     nav: [
