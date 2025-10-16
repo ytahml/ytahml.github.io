@@ -16,4 +16,5 @@ top: 10
 - [Spring的配置类分为Full和Lite两种模式](./Spring的配置类分为Full和Lite两种模式.md)
 - [接口幂等性](./接口幂等性.md)
 - [JMH详细使用](./JMH详细使用.md)
+- [Mac 美化终端](./Mac美化终端.md)
 
