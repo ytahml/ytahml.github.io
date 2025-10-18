@@ -88,7 +88,7 @@ export default defineConfig({
     nav: [
       { text: '杂记', link: '/MisNotes/' },
       { text: '后端开发问题总结', link: '/后端开发问题/' },
-      // { text: 'Spring Cloud', link: '/springCloud/' },
+
       {
         text: '技术学习笔记',
         // link: '/MultiThread/',
@@ -118,6 +118,7 @@ export default defineConfig({
           { text: '读书随记', link: '/读书随记/' },
         ]
       },
+      { text: 'Mac 环境搭建', link: '/Mac环境搭建/' },
       {
         text: '常用工具与网站',
         items: [
@@ -138,14 +139,18 @@ export default defineConfig({
     ],
     // 侧边栏
     sidebar: {
-      
       "/Database/MySQL": [
-        { text: 'MySQL测试数据集', link: '/Database/MySQL/MySQL测试数据集' },
+        { text: 'MySQL 测试数据集', link: '/Database/MySQL/MySQL测试数据集' },
         { text: 'MySQL 触发器', link: '/Database/MySQL/MySQL触发器' },
         { text: 'MySQL执行SQL时权限检查在哪个阶段？', link: '/Database/MySQL/MySQL执行SQL时权限检查在哪个阶段？' },
         { text: '索引', link: '/Database/MySQL/索引' },
         { text: '事务', link: '/Database/MySQL/事务' },
-      
+      ],
+      "/Mac环境搭建/": [
+        { text: 'Mac 好用软件整理', link: '/Mac环境搭建/Mac好用软件整理' },
+        { text: '在 Mac 上搭建 Java 环境', link: '/Mac环境搭建/在Mac上搭建Java环境' },
+        { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
+
       ],
       "/后端开发问题/": [
         { text: 'MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题', link: '/后端开发问题/MyBatis的SQL执行结果和客户端相同SQL执行结果不一致问题' },

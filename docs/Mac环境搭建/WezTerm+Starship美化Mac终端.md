@@ -1,5 +1,5 @@
 ---
-title: Mac 美化终端
+title: WezTerm+Starship 美化 Mac 终端
 date: 2025/10/16 21:16
 author: 花木凋零成兰
 tags: 
@@ -9,7 +9,7 @@ tags:
 hiddenCover: true
 ---
 
-# Mac 美化终端
+# WezTerm+Starship 美化 Mac 终端
 
 > 使用 Homebrew 安装相关软件
 
@@ -27,11 +27,11 @@ brew install --cask wezterm
 ```shell
 http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890 brew install --cask wezterm
 ```
-![](Mac美化终端/1760624410690.png)
+![](WezTerm+Starship美化Mac终端/1760624410690.png)
 
-安装完成后，关闭终端，打开 WezTerm；可以为自己创建一个文件夹用来存放配置文件，WezTerm 的配置文件使用 Lua 脚本，如下所示：
+安装完成后，关闭终端，打开 WezTerm；运行如下命令创建一个配置文件，WezTerm 的配置文件使用 Lua 脚本：
 
-![](Mac美化终端/1760624668048.png)
+![](WezTerm+Starship美化Mac终端/1760624668048.png)
 
 接着可以使用 Lua 编写个性化配置，如下所示：
 
@@ -86,7 +86,7 @@ return config
 brew search Nerd
 ```
 
-![](Mac美化终端/1760626505673.png)
+![](WezTerm+Starship美化Mac终端/1760626505673.png)
 
 执行如下命令可以查看如何在 `WezTerm` 上配置字体，直接复制对应格式即可：
 
@@ -95,7 +95,7 @@ brew search Nerd
 wezterm ls-fonts --list-system | grep Nerd
 ```
 
-![](Mac美化终端/1760626751857.png)
+![](WezTerm+Starship美化Mac终端/1760626751857.png)
 
 ## 安装 Starship
 
@@ -106,7 +106,7 @@ wezterm ls-fonts --list-system | grep Nerd
 brew install starship
 ```
 
-![](./Mac美化终端/1760716613609.png)
+![](WezTerm+Starship美化Mac终端/1760716613609.png)
 
 安装成功后，需要配置 `~/.zshrc` 文件，添加如下配置：
 
@@ -118,7 +118,7 @@ fi
 
 运行 `source ~/.zshrc` 命令加载配置后，终端会变成：
 
-![](./Mac美化终端/1760717135786.png)
+![](WezTerm+Starship美化Mac终端/1760717135786.png)
 
 如同 WezTerm 一样，创建一个专门的文件用于管理 Starship 的配置，如下所示：
 
@@ -295,4 +295,9 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # 指定语法建议颜色
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
 ```
+
+## 参考文章
+
+- [2024年度Mac终端美化指南：轻松安装WezTerm和Starship](https://www.bilibili.com/video/BV1miWMe9Esq/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=67085386ad37b864cf255529b5a127f7)
+
 
