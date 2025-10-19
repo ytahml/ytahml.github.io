@@ -1,5 +1,5 @@
 import {defineConfig} from 'vitepress'
-import mathjax3 from 'markdown-it-mathjax3';
+// import mathjax3 from 'markdown-it-mathjax3';
 // import { SearchPlugin } from 'vitepress-plugin-search'
 // import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 // 导入主题的配置
@@ -37,7 +37,7 @@ export default defineConfig({
   
   // Sitemap
   sitemap: {
-    hostname: 'https://www.imulan.top',
+    hostname: 'https://imulan.top',
     lastmodDateOnly: false
   },
   
@@ -330,6 +330,6 @@ export default defineConfig({
         link: 'https://github.com/ytahml/ytahml.github.io'
       },
     ],
-    
+
   }
 })
