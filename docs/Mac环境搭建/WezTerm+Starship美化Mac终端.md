@@ -38,11 +38,23 @@ http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890 brew install 
 ```lua
 local wezterm = require("wezterm")
 
--- 编辑配置
+-- 控制打开窗口的位置，打开即居中
+wezterm.on("gui-startup", function(cmd)
+  local screen = wezterm.gui.screens().active
+  local ratio = 0.4
+  local width, height = screen.width * ratio, screen.height * ratio
+  local tab, pane, window = wezterm.mux.spawn_window {
+    position = {
+      x = (screen.width - width) / 2,
+      y = (screen.height - height) / 2,
+      origin = 'ActiveScreen' }
+  }
+  window:gui_window():set_inner_size(width, height)
+end)
 
+-- 编辑配置
 -- table 数组
 config = wezterm.config_builder()
-
 config = {
     -- 自动重新加载配置
     automatically_reload_config = true,

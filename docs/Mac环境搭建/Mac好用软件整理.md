@@ -35,7 +35,8 @@ hiddenCover: true
 - [妙言](https://miaoyan.app/?from=thosefree.com)：支持在 iCloud 同步，非常好看强大的 Markdown 编辑器；适合作为主用的笔记软件;
 - [JetBrains 全家桶](https://www.jetbrains.com/toolbox-app/)：毋庸置疑的开发工具；
 - [termius](https://termius.com/)：好用的 SSH 工具；
-- [VS Code](https://code.visualstudio.com/)：强大的编辑器；[如何在终端安装 Code 命令](https://blog.csdn.net/weixin_42881768/article/details/119635248)
+- [VS Code](https://code.visualstudio.com/)：强大的编辑器；[如何在终端安装 Code 命令](https://blog.csdn.net/weixin_42881768/article/details/119635248)；
+- CotEditor：轻量级文本编辑器，安装后不需要配置就很好用，在终端运行命令`sudo ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot`；即可在终端通过`cot`打开文件进行编辑；
 
 ### 网盘及下载
 
