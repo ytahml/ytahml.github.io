@@ -9,7 +9,7 @@ hiddenCover: true
 
 ## 目录
 
-[01_JVM初探](./01_JVM初探)
+[01_JVM初识](./01_JVM初识)
 
 ## 学习资料
 
