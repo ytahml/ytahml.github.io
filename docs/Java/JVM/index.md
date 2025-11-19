@@ -9,7 +9,8 @@ hiddenCover: true
 
 ## 目录
 
-[01_JVM初识](./01_JVM初识)
+[01 JVM初识](./01_JVM初识)
+[02 Java字节码](./02_Java字节码)
 
 ## 学习资料
 

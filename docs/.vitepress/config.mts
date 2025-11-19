@@ -155,7 +155,7 @@ export default defineConfig({
       ],
       "/Java/JVM/": [
         { text: '01 JVM 初识', link: '/Java/JVM/01_JVM初识' },
-        // { text: '在 Mac 上搭建 Java 环境', link: '/Mac环境搭建/在Mac上搭建Java环境' },
+        { text: '02 Java 字节码', link: '/Java/JVM/02_Java字节码' },
         // { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
 
       ],

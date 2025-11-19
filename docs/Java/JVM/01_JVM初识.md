@@ -1,11 +1,14 @@
 ---
-title: JVM 初探
+title: JVM 初识
 date: 2025/10/22 20:51
+tags: 
+  - Java
+  - JVM
 author: 花木凋零成兰
 hiddenCover: true
 ---
 
-# JVM 初探
+# JVM 初识
 
 ## 什么是 JVM
 
