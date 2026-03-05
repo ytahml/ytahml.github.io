@@ -98,6 +98,7 @@ export default defineConfig({
           { text: '多线程练习题', link: '/MultiThread/exercises' },
           { text: 'Lua 学习笔记', link: '/Lua/' },
           { text: 'Git 开发实践', link: '/Git/' },
+          { text: 'JVM 学习笔记', link: '/Java/JVM/' },
         ]
       },
       {
@@ -149,7 +150,13 @@ export default defineConfig({
       "/Mac环境搭建/": [
         { text: 'Mac 好用软件整理', link: '/Mac环境搭建/Mac好用软件整理' },
         { text: '在 Mac 上搭建 Java 环境', link: '/Mac环境搭建/在Mac上搭建Java环境' },
-        { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
+        { text: 'WezTerm+Starship 美化 Mac 终端'}
+
+      ],
+      "/Java/JVM/": [
+        { text: '01 JVM 初识', link: '/Java/JVM/01_JVM初识' },
+        { text: '02 Java 字节码', link: '/Java/JVM/02_Java字节码' },
+        // { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
 
       ],
       "/后端开发问题/": [
