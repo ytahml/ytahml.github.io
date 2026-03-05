@@ -16,3 +16,4 @@ hiddenCover: true
 - [idea配置.gitignore文件后不生效](./idea配置.gitignore文件后不生效.md)
 - [idea如何将多次commit合并为一次commit](./idea如何将多次commit合并为一次commit.md)
 - [Github作为中央仓库](./Github作为中央仓库.md)
+- [如何移动其他分支提交到指定分支并修改提交时间](./如何移动其他分支提交到指定分支并修改提交时间.md)

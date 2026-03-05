@@ -170,6 +170,7 @@ export default defineConfig({
         { text: 'idea配置.gitignore文件后不生效', link: '/Git/idea配置.gitignore文件后不生效' },
         { text: 'idea如何将多次commit合并为一次commit', link: '/Git/idea如何将多次commit合并为一次commit' },
         { text: 'Github作为中央仓库', link: '/Git/Github作为中央仓库' },
+        { text: '移动其他分支提交到指定分支并修改提交时间', link: '/Git/如何移动其他分支提交到指定分支并修改提交时间' },
       ],
       "/Lua/": [
         {
