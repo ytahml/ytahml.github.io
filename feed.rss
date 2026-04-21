@@ -4,7 +4,7 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Mon, 20 Apr 2026 08:56:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Apr 2026 13:24:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
@@ -152,21 +152,25 @@
 </div><p>执行结果如下所示：
 <img src="https://imulan.top/assets/file-20260416221323.BKEJrRie.jpg" alt="" loading="lazy"></p>
 <h2 id="springboot-整合-axis2" tabindex="-1">SpringBoot 整合 Axis2 <a class="header-anchor" href="#springboot-整合-axis2" aria-label="Permalink to &quot;SpringBoot 整合 Axis2&quot;"></a></h2>
-<p>Stub 对象是线程安全的，因此我们可以将 Stub 对象由 Spring 容器管理，避免反复创建的开销，如下所示：</p>
+<p><s>Stub 对象是线程安全的，因此我们可以将 Stub 对象由 Spring 容器管理，避免反复创建的开销</s>，后续经过确认 Stub 对象不是线程安全的，因此不能直接将对象交由 Spring 对象容器管理；调整为使用抽象工厂的方式来管理 Stub 对象的配置和创建，基本示例如下所示：</p>
+<blockquote>
+<p>若需要优化性能，减少每次创建 Stub 对象的开销，则只能采用手搓对象池的方式；我这里业务不需要频繁调用 Webservice 服务，所以使用抽象工厂来进行统一配置的管理和对象的创建；</p>
+<p>对象池的方式有找到一篇文章：<a href="https://blog.csdn.net/fdsfdf3434/article/details/78923941" target="_blank" rel="noreferrer">多线程调用AXIS2 线程不安全客户端stub 解决办法:对象池</a></p>
+</blockquote>
 <div class="language-java vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">java</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.apache.axis2.AxisFault;  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.apache.axis2.client.Options;  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.apache.axis2.transport.http.HTTPConstants;  </span></span>
-<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.springframework.context.annotation.Bean;  </span></span>
-<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.springframework.context.annotation.Configuration;  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.springframework.stereotype.Component;  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> top.imulan.webservice.weather.WeatherWebServiceStub;  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/**  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> * * </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">@author</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> 花木凋零成兰  </span></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> * </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">@since</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> 2026/4/16 22:15  </span></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> */</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">@</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Configuration</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
-<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">public</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> class</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> WebServiceConfig</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {  </span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Bean</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
-<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    public</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> WeatherWebServiceStub </span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">weatherWebServiceStub</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">() {  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> * </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">@since</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> 2026/4/21 20:58  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> */</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">@</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Component</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">public</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> class</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> WebserviceFactoryImpl</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> implements</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> WebserviceFactory</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Override</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    public</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> WeatherWebServiceStub </span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">createWeatherStub</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">() {  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        try</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">            // 1. 创建客户端对象，调用地址一般是去掉 ?wsdl 之后的地址，也可以在网页 xml 底部找到对应方法调用地址  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">            WeatherWebServiceStub stub </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> WeatherWebServiceStub</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"http://www.webxml.com.cn/WebServices/WeatherWebService.asmx"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);  </span></span>
@@ -181,25 +185,41 @@
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">            options.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">setProperty</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(HTTPConstants.REUSE_HTTP_CLIENT, </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"true"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">            return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> stub;  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">catch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (AxisFault </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">e</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {  </span></span>
-<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">            throw</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> RuntimeException</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"初始化天气 Webservice 客户端失败："</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> +</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> e.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getMessage</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(), e);  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">            throw</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> RuntimeException</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"创建天气 Webservice 客户端失败："</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> +</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> e.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getMessage</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(), e);  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        }  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
 </div><p>接下来我们只需要调用本地 Servcie 服务一样，正常调用方法接口即可，如下所示：</p>
-<div class="language-java vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">java</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/**  </span></span>
+<div class="language-java vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">java</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.springframework.beans.factory.annotation.Autowired;  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> org.springframework.stereotype.Service;  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> top.imulan.webservice.config.WebserviceFactory;  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> top.imulan.webservice.weather.WeatherWebServiceStub;  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> java.rmi.RemoteException;  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/**  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> * * </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">@author</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> 花木凋零成兰  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> * </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">@since</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> 2026/4/16 22:20  </span></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> */</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">@</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Service</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"> */</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Service</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">public</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> class</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> WeatherService</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // stub 对象存在安全问题  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Autowired</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    private</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> WeatherWebServiceStub weatherWebServiceStub;  </span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 改用每次调用时，创建获取一个 stub 对象实例  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">Autowired</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    private</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> WebserviceFactory webserviceFactory;  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    public</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> String</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[] </span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getWeatherByCityName</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(String </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">city</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">throws</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> RemoteException {  </span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 1、获取客户端对象实例  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        WeatherWebServiceStub weatherStub </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> webserviceFactory.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">createWeatherStub</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 2. 创建请求对象  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        WeatherWebServiceStub.GetWeatherbyCityName getWeather </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> WeatherWebServiceStub.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">GetWeatherbyCityName</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        getWeather.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">setTheCityName</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"New York"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 3. 调用服务并获取响应  </span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        WeatherWebServiceStub.GetWeatherbyCityNameResponse response </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> weatherWebServiceStub.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getWeatherbyCityName</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(getWeather);  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        WeatherWebServiceStub.GetWeatherbyCityNameResponse response </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> weatherStub.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getWeatherbyCityName</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(getWeather);  </span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 返回结果，并转化为 Java 类型  </span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> response.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getGetWeatherbyCityNameResult</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">().</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">getString</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }  </span></span>
@@ -208,7 +228,8 @@
 <p>由于当时了解 Webservice 时，第三方系统还没提供正式的接口，后续查看第三方系统提供的服务接口文档，提到采用 Webservice 协议，<strong>传输报文使用 JSON 格式</strong>；</p>
 <p>就感觉很奇怪，这样和平常使用 HTTP 请求有什么区别？DeepSeek 大概解释如下：</p>
 <p><img src="https://imulan.top/assets/file-20260416223047.DhIyXo6g.jpg" alt="" loading="lazy"></p>
-<p>虽然可能最后还是和平常对接第三方 HTTP 接口一样去发送 JSON 数据，响应解析 JSON 数据一样，但也算是了解了下严格的 SOAP 协议的 Webservice 服务基本对接流程了；</p>
+<p><s>虽然可能最后还是和平常对接第三方 HTTP 接口一样去发送 JSON 数据，响应解析 JSON 数据一样，但也算是了解了下严格的 SOAP 协议的 Webservice 服务基本对接流程了；</s></p>
+<p>经过一个星期左右的等待，第三方系统的 Webservice 服务终于搭建好，结果还是使用的标准 soap 协议来传输数据，只是传输的内容是：JSON 格式的字符串罢了...</p>
 <h2 id="参考文章" tabindex="-1">参考文章 <a class="header-anchor" href="#参考文章" aria-label="Permalink to &quot;参考文章&quot;"></a></h2>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/394377813" target="_blank" rel="noreferrer">JAVA调用Web Service接口的五种方式</a></li>
