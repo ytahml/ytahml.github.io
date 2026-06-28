@@ -4,10 +4,18 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Sun, 21 Jun 2026 12:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 01:11:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
+        <item>
+            <title><![CDATA[文章归档]]></title>
+            <link>https://imulan.top/archive.html</link>
+            <guid isPermaLink="false">https://imulan.top/archive.html</guid>
+            <pubDate>Sun, 28 Jun 2026 01:08:56 GMT</pubDate>
+            <description><![CDATA[&lt;BlogArchive /]]></description>
+            <content:encoded><![CDATA[<BlogArchive />]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[JCo 连接 SAP 出现 Field XXX not a member of XXX 错误]]></title>
             <link>https://imulan.top/后端开发问题/JCo连接SAP出现Field XXX not a member of XXX错误.html</link>
