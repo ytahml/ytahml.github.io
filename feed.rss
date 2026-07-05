@@ -4,7 +4,7 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Sun, 28 Jun 2026 14:47:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jul 2026 11:58:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
@@ -652,7 +652,8 @@
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        }  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
-</div>]]></content:encoded>
+</div><p><strong>执行流程</strong></p>
+]]></content:encoded>
             <author>花木凋零成兰</author>
             <enclosure url="https://imulan.top/assets/file-20260414205543.DZMgzQ1T.jpg" length="0" type="image/jpg"/>
         </item>
@@ -2676,7 +2677,7 @@ Java 虚拟机(JVM)全称 _Java Virtual Machine_, 本质上是一个在计算机
 <li><a href="https://z.weixin.qq.com/" target="_blank" rel="noreferrer">微信输入法</a>：多端剪切板同步，满足基本日常使用</li>
 <li><a href="https://lemon.qq.com/" target="_blank" rel="noreferrer">Tencent Lemon</a>：腾讯柠檬清理，免费的 Mac 垃圾清理工具，缺点是界面风格很 Windows</li>
 <li><a href="https://github.com/MrKai77/Loop" target="_blank" rel="noreferrer">Loop</a>：分屏增强工具，通过 快捷键+鼠标移动 的方式实现快速分屏</li>
-<li>RunCat：系统检测工具，可以实时查看 CPU 和内存压力；在APP Store 安装即可；</li>
+<li><s>RunCat：系统检测工具，可以实时查看 CPU 和内存压力；在APP Store 安装即可；</s> <a href="https://mac-stats.com/" target="_blank" rel="noreferrer">stats</a>：在 RunCat 基础上，可以查看 CPU 和 GPU 温度，看到的信息更多一些；</li>
 <li>Hidden Bar：顶部 Finder 图标显示管理，在APP Store 安装即可；</li>
 <li><a href="https://keyboardholder.leavesc.com/zh-cn/" target="_blank" rel="noreferrer">KeyboardHolder</a>：灵活自动切换输入法，可以为每个 APP 定制使用的输入法；</li>
 <li><a href="https://www.raycast.com/" target="_blank" rel="noreferrer">Raycast</a>：快速启动器，比自带的 Spotlight 更为强大；<a href="https://juejin.cn/post/7343863800145494079?searchId=20251018125434DA1E6F235F0C45D146D3" target="_blank" rel="noreferrer">参考文章</a></li>
@@ -2686,34 +2687,38 @@ Java 虚拟机(JVM)全称 _Java Virtual Machine_, 本质上是一个在计算机
 <li><a href="https://brew.sh/" target="_blank" rel="noreferrer">Homebrew</a>：无法避开的 Mac 软件安装命令工具，<a href="https://blog.csdn.net/weixin_38716347/article/details/123838344" target="_blank" rel="noreferrer">参考文章</a>；结合<a href="./WezTerm+Starship美化Mac终端.html">终端美化</a></li>
 </ul>
 <h2 id="好用软件" tabindex="-1">好用软件 <a class="header-anchor" href="#好用软件" aria-label="Permalink to &quot;好用软件&quot;"></a></h2>
+<ul>
+<li><a href="https://www.tabbit.ai/?lang=zh" target="_blank" rel="noreferrer">Tabbit</a>：美团新出的 AI 浏览器，挺好用的；国际版可以用国外模型；</li>
+<li><a href="https://activity.adspower.com/ap/dist/fast/?utm_source=google&amp;utm_medium=cpc&amp;utm_term=Search-Brand-EN&amp;utm_content=Brand-exact&amp;utm_campaign=adspower%20global&amp;campaignid=17422161751&amp;adgroupid=170672794557&amp;adid=721940134533&amp;network=g&amp;device=c&amp;locid=9030938&amp;utm_matchtype=e&amp;utm_targetid=kwd-1606894738209&amp;gad_source=1&amp;gad_campaignid=17422161751&amp;gbraid=0AAAAACQgKVO9nk59Q-9Fohmlx3ePQAakr&amp;gclid=CjwKCAjwgajSBhBEEiwASicJU7oMCkyYaFS5XM5aWkGnQK1IOTJFiYzNEvp-2n0w6tVbwYVpn6gCpRoCIMMQAvD_BwE" target="_blank" rel="noreferrer">AdsPower Global</a>：指纹浏览器</li>
+<li><a href="https://dida365.com/" target="_blank" rel="noreferrer">滴答清单</a>：待办事项，多端同步；</li>
+<li><a href="https://jipika.github.io/WaifuX" target="_blank" rel="noreferrer">Waifux</a>：Mac 好用的开源壁纸软件，可以免费下载好看的壁纸；</li>
+</ul>
 <h3 id="开发及笔记" tabindex="-1">开发及笔记 <a class="header-anchor" href="#开发及笔记" aria-label="Permalink to &quot;开发及笔记&quot;"></a></h3>
 <ul>
 <li><a href="https://miaoyan.app/?from=thosefree.com" target="_blank" rel="noreferrer">妙言</a>：支持在 iCloud 同步，非常好看强大的 Markdown 编辑器；适合作为主用的笔记软件;</li>
 <li><a href="https://www.jetbrains.com/toolbox-app/" target="_blank" rel="noreferrer">JetBrains 全家桶</a>：毋庸置疑的开发工具；</li>
 <li><a href="https://termius.com/" target="_blank" rel="noreferrer">termius</a>：好用的 SSH 工具；</li>
 <li><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">VS Code</a>：强大的编辑器；<a href="https://blog.csdn.net/weixin_42881768/article/details/119635248" target="_blank" rel="noreferrer">如何在终端安装 Code 命令</a>；</li>
+<li><a href="https://zed.dev/" target="_blank" rel="noreferrer">Zed</a>：新的轻量级编辑器，自带 agent，界面比 VSCode 更舒适；</li>
 <li>CotEditor：轻量级文本编辑器，在 APP Store 获取；安装后不需要配置就很好用，在终端运行命令<code>sudo ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot</code>；即可在终端通过<code>cot</code>打开文件进行编辑；</li>
 <li><a href="https://obsidian.md/" target="_blank" rel="noreferrer">Obsidian</a>：早有耳闻却又相见恨晚的 MD 文档阅读和编辑工具，不论是作为阅读器还是编辑器体验都很好，社区里也有很多插件，目前还在摸索；喜欢 Primary 主题</li>
 <li><a href="https://www.drawio.com/" target="_blank" rel="noreferrer">draw.io</a>：画图工具，能满足偶尔的画图需求；支持 web 端使用，可以在浏览器直接绘图；</li>
 <li><a href="https://github.com/ingokegel/jclasslib" target="_blank" rel="noreferrer">jclasslib</a>：Java 字节码文件查看工具，有 idea 插件；</li>
 <li><a href="https://github.com/HexFiend/HexFiend" target="_blank" rel="noreferrer">Hex Fiend</a>：可以直接查看编辑文件二进制字符内容；APP Store 提供下载；</li>
+<li><a href="https://eclipse.dev/mat/download/" target="_blank" rel="noreferrer">MemoryAnalyzer</a>：Eclipse 官方推出的 JVM 内存分析工具；</li>
 </ul>
 <h3 id="网盘及下载" tabindex="-1">网盘及下载 <a class="header-anchor" href="#网盘及下载" aria-label="Permalink to &quot;网盘及下载&quot;"></a></h3>
 <ul>
 <li><a href="https://pan.quark.cn/list#/list/all" target="_blank" rel="noreferrer">夸克网盘</a></li>
 <li><a href="https://pan.baidu.com/disk/main?from=oldversion#/index" target="_blank" rel="noreferrer">百度网盘</a></li>
 <li><a href="https://www.aliyundrive.com/download" target="_blank" rel="noreferrer">阿里云盘</a></li>
+<li><a href="https://www.jianguoyun.com/" target="_blank" rel="noreferrer">坚果云</a>：免费够用的 WebDev 服务；</li>
 <li><a href="https://motrix.app/zh-CN/" target="_blank" rel="noreferrer">Motrix</a>：磁力链接下载工具</li>
 </ul>
 <h3 id="office" tabindex="-1">Office <a class="header-anchor" href="#office" aria-label="Permalink to &quot;Office&quot;"></a></h3>
 <ul>
 <li><a href="https://platform.wps.cn/" target="_blank" rel="noreferrer">WPS Office</a>：偶尔用来看可能有的 word/Excel 文件；</li>
 <li>PDFgear：免费的 PDF 阅读器，也有编辑功能，APP Store 直接下载即可；</li>
-</ul>
-<h2 id="软件网站-仅学习使用" tabindex="-1">软件网站(仅学习使用) <a class="header-anchor" href="#软件网站-仅学习使用" aria-label="Permalink to &quot;软件网站(仅学习使用)&quot;"></a></h2>
-<ul>
-<li><a href="https://www.macbl.com/" target="_blank" rel="noreferrer">马克波罗</a></li>
-<li><a href="https://macwk.cn/" target="_blank" rel="noreferrer">macWk</a></li>
 </ul>
 <h2 id="参考文章" tabindex="-1">参考文章 <a class="header-anchor" href="#参考文章" aria-label="Permalink to &quot;参考文章&quot;"></a></h2>
 <ul>
@@ -2746,14 +2751,378 @@ Java 虚拟机(JVM)全称 _Java Virtual Machine_, 本质上是一个在计算机
             <link>https://imulan.top/Mac环境搭建/WezTerm+Starship美化Mac终端.html</link>
             <guid isPermaLink="false">https://imulan.top/Mac环境搭建/WezTerm+Starship美化Mac终端.html</guid>
             <pubDate>Thu, 16 Oct 2025 21:16:00 GMT</pubDate>
-            <description><![CDATA[WezTerm+Starship 美化 Mac 终端
+            <description><![CDATA[
+# WezTerm+Starship 美化 Mac 终端
 
- 安装 WezTerm
-WezTerm 官网
+> 使用 Homebrew 安装相关软件
+
+## 安装 WezTerm
+
+[WezTerm 官网](https://wezterm.org/config/appearance.html)
+
 执行如下命令安装：
+
 ```shell
 brew install --cask wezterm
-``]]></description>
+```
+下载缓慢可以考虑使用代理进行下载安装：
+
+```shell
+http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890 brew install --cask wezterm
+```
+![](WezTerm+Starship美化Mac终端/1760624410690.png)
+
+安装完成后，关闭终端，打开 WezTerm；运行如下命令创建一个配置文件，WezTerm 的配置文件使用 Lua 脚本：
+
+![](WezTerm+Starship美化Mac终端/1760624668048.png)
+
+接着可以使用 Lua 编写个性化配置，如下所示（配置文件路径为 `~/.config/wezterm/wezterm.lua`）：
+
+```lua
+local wezterm = require("wezterm")
+local act = wezterm.action
+
+-- 控制打开窗口的位置，打开即居中
+wezterm.on("gui-startup", function(cmd)
+  local screen = wezterm.gui.screens().active
+  local ratio = 0.4
+  local width, height = screen.width * ratio, screen.height * ratio
+  local tab, pane, window = wezterm.mux.spawn_window {
+    position = {
+      x = (screen.width - width) / 2,
+      y = (screen.height - height) / 2,
+      origin = 'ActiveScreen' }
+  }
+  window:gui_window():set_inner_size(width, height)
+end)
+
+-- 在右下角显示当前日期和时间
+wezterm.on('update-right-status', function(window, pane)
+  window:set_right_status(wezterm.format {
+    { Foreground = { AnsiColor = 'Blue' } },
+    { Text = wezterm.strftime('%Y-%m-%d %H:%M:%S  ') },
+  })
+end)
+
+-- 编辑配置
+-- table 数组
+config = wezterm.config_builder()
+config = {
+    -- 自动重新加载配置
+    automatically_reload_config = true,
+    -- 禁用标签栏
+    enable_tab_bar = false,
+    -- 关闭窗口时不询问
+    window_close_confirmation = "NeverPrompt",
+    -- 移除顶部图标窗口,加载大小
+    window_decorations = "RESIZE",
+    -- 鼠标光标样式：闪烁条形
+    default_cursor_style = "BlinkingBar",
+    -- 颜色主题
+    color_scheme = "Solarized Light (Gogh)",
+    -- 字体及大小
+    font = wezterm.font("JetBrains Mono", {weight = "Bold"}),
+    font_size = 15,
+    line_height = 1.2,
+    -- 设置透明度
+    window_background_opacity = 0.90,
+    -- 设置毛玻璃效果（仅 macOS 生效）
+    macos_window_background_blur = 20,
+    -- 设置终端窗口边界，便于提示符与终端窗口的边界分开
+    window_padding = {
+        left = 3,
+        right = 3,
+        top = 10,
+        bottom = 0,
+    },
+    -- 窗口初始大小
+    initial_cols = 120,
+    initial_rows = 28,
+}
+
+-- 快捷键配置
+config.keys = {
+    -- 垂直分栏（左右）
+    { key = 'd', mods = 'CMD', action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },
+    -- 水平分栏（上下）
+    { key = 'd', mods = 'CMD|SHIFT', action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
+    -- 关闭当前分栏
+    { key = 'w', mods = 'CMD', action = act.CloseCurrentPane { confirm = true } },
+    -- 切换分栏面板
+    { key = 'LeftArrow', mods = 'CMD|OPT', action = act.ActivatePaneDirection 'Left' },
+    { key = 'RightArrow', mods = 'CMD|OPT', action = act.ActivatePaneDirection 'Right' },
+    { key = 'UpArrow', mods = 'CMD|OPT', action = act.ActivatePaneDirection 'Up' },
+    { key = 'DownArrow', mods = 'CMD|OPT', action = act.ActivatePaneDirection 'Down' },
+    -- 将当前分栏移动到新标签页
+    { key = 'T', mods = 'CMD|SHIFT', action = act.PaneSelect { mode = 'MoveToNewTab' } },
+    -- 唤起 Tab 选择器（模糊搜索切换）
+    { key = 'l', mods = 'CMD|OPT', action = act.ShowTabNavigator },
+    -- 快速切换工作区
+    { key = 's', mods = 'CMD|SHIFT', action = act.ShowLauncherArgs { flags = 'WORKSPACES' } },
+    -- 默认的命令面板（强烈推荐习惯使用）
+    { key = 'p', mods = 'CTRL|SHIFT', action = act.ActivateCommandPalette },
+}
+
+-- 自定义 ANSI 颜色（基于 Solarized 调整，增强对比度）
+config.colors = {
+  ansi = {
+    '#073642', -- black (深蓝黑)
+    '#d30102', -- red (深红)
+    '#228b22', -- green (森林绿)
+    '#a57a00', -- yellow (深金赭)
+    '#005f87', -- blue (深海蓝)
+    '#b1158d', -- magenta (深品红)
+    '#008787', -- cyan (深青色)
+    '#eee8d5', -- white
+  },
+  brights = {
+    '#002b36',
+    '#cb4b16',
+    '#1a631a',
+    '#8b6508',
+    '#004f70',
+    '#821068',
+    '#005f5f',
+    '#fdf6e3',
+  },
+  -- 强化光标和选中效果
+  cursor_bg = '#d33682',
+  selection_bg = '#d7d7af',
+  selection_fg = '#073642',
+}
+
+-- 返回配置
+return config
+```
+
+配置保存后，按快捷键 `ctrl/cmd + E` 加载配置；主题及相关配置见[官方文档](https://wezterm.org/colorschemes/s/index.html#selenized-light-gogh)。
+
+## 安装字体
+
+执行如下命令搜索字体，对于已安装的字体会在旁边显示`☑️`：
+
+```shell
+brew search Nerd
+```
+
+![](WezTerm+Starship美化Mac终端/1760626505673.png)
+
+执行如下命令可以查看如何在 `WezTerm` 上配置字体，直接复制对应格式即可：
+
+```shell
+# 查看并筛选指定字体
+wezterm ls-fonts --list-system | grep Nerd
+```
+
+![](WezTerm+Starship美化Mac终端/1760626751857.png)
+
+## 安装 Starship
+
+> [Starship 官网](https://starship.rs/)
+
+执行如下命令：
+```shell
+brew install starship
+```
+
+![](WezTerm+Starship美化Mac终端/1760716613609.png)
+
+安装成功后，需要配置 `~/.zshrc` 文件，添加如下配置：
+
+```shell
+if command -v starship &> /dev/null; then
+    eval "$(starship init zsh)"
+fi
+```
+
+运行 `source ~/.zshrc` 命令加载配置后，终端会变成：
+
+![](WezTerm+Starship美化Mac终端/1760717135786.png)
+
+如同 WezTerm 一样，创建一个专门的文件用于管理 Starship 的配置，如下所示：
+
+```shell
+touch .config/starship.toml
+```
+
+我们可以自定义配置，也可以在[官网](https://starship.rs/zh-CN/presets/#nerd-%E5%AD%97%E4%BD%93%E7%AC%A6%E5%8F%B7)中找到预设好的配置直接使用；
+
+```toml
+format = """
+$directory\
+$git_branch\
+$git_status\
+$fill\
+$python\
+$lua\
+$nodejs\
+$golang\
+$haskell\
+$rust\
+$ruby\
+$aws\
+$docker_context\
+$jobs\
+$cmd_duration\
+$line_break\
+$character"""
+
+add_newline = true
+palette = "Solarized"
+
+[directory]
+style = 'bold fg:dark_blue'
+format = '[$path ]($style)'
+truncation_length = 3
+truncation_symbol = '…/'
+truncate_to_repo = false
+
+[directory.substitutions]
+'Documents' = '󰈙'
+'Downloads' = ' '
+'Music' = ' '
+'Pictures' = ' '
+
+[git_branch]
+style = 'fg:green'
+symbol = ' '
+format = '[on](white) [$symbol$branch ]($style)'
+
+[git_status]
+style = 'fg:red'
+format = '([$all_status$ahead_behind]($style) )'
+
+[fill]
+symbol = ' '
+
+[python]
+style = 'teal'
+symbol = ' '
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+pyenv_version_name = true
+pyenv_prefix = ''
+
+[lua]
+format = '[$symbol($version )]($style)'
+symbol = ' '
+
+[nodejs]
+style = 'blue'
+symbol = ' '
+
+[golang]
+style = 'blue'
+symbol = ' '
+
+[haskell]
+style = 'blue'
+symbol = ' '
+
+[rust]
+style = 'orange'
+symbol = ' '
+
+[ruby]
+style = 'blue'
+symbol = ' '
+
+[package]
+symbol = '󰏗 '
+
+[aws]
+symbol = ' '
+style = 'yellow'
+format = '[$symbol($profile )(\[$duration\] )]($style)'
+
+[docker_context]
+symbol = ' '
+style = 'fg:#06969A'
+format = '[$symbol]($style) $path'
+detect_files = ['docker-compose.yml', 'docker-compose.yaml', 'Dockerfile']
+detect_extensions = ['Dockerfile']
+
+[jobs]
+symbol = ' '
+style = 'red'
+number_threshold = 1
+format = '[$symbol]($style)'
+
+[cmd_duration]
+min_time = 500
+style = 'fg:gray'
+format = '[$duration]($style)'
+
+[palettes.Solarized]
+dark_blue = '#268BD2' # 深蓝色 - 用于重要状态和目录
+blue = '#6C71C4'      # 蓝色 - 用于分支和链接
+teal = '#2AA198'      # 青蓝色 - 用于版本信息和Python
+red = '#DC322F'       # 红色 - 用于错误和警告
+orange = '#CB4B16'    # 橙色 - 用于版本号和Rust
+green = '#859900'     # 绿色 - 用于成功状态和Node.js
+yellow = '#B58900'    # 黄色 - 用于修改状态
+purple = '#D33682'    # 紫色 - 用于包管理和特殊状态
+gray = '#93A1A1'      # 灰色 - 用于次要信息
+black = '#002B36'     # 黑色 - 用于主要文本
+white = '#FDF6E3'     # 白色 - 用于背景或高亮
+
+[palettes.nord]
+dark_blue = '#5E81AC'
+blue = '#81A1C1'
+teal = '#88C0D0'
+red = '#BF616A'
+orange = '#D08770'
+green = '#A3BE8C'
+yellow = '#EBCB8B'
+purple = '#B48EAD'
+gray = '#434C5E'
+black = '#2E3440'
+white = '#D8DEE9'
+
+[palettes.onedark]
+dark_blue = '#61afef'
+blue = '#56b6c2'
+red = '#e06c75'
+green = '#98c379'
+purple = '#c678dd'
+cyan = '#56b6c2'
+orange = '#be5046'
+yellow = '#e5c07b'
+gray = '#828997'
+white = '#abb2bf'
+black = '#2c323c'
+
+```
+
+## 语法高亮和补全
+
+执行如下命令：
+
+```shell
+brew install zsh-syntax-highlighting zsh-autosuggestions
+```
+
+接着在 `~/.zshrc` 文件，添加如下配置：
+```shell
+# 启动终端时加载高亮
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighing.zsh
+# 禁用高亮中的下划线
+(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+# 启用语法建议
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# 指定语法建议颜色
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
+```
+
+## 常用快捷键
+
+以下是 WezTerm 中常用的快捷键，其中自定义快捷键已在上方配置文件的 `config.keys` 中定义：
+
+### 分栏操作
+
+| 快捷键 | 功能 |
+| ]]></description>
             <content:encoded><![CDATA[<h1 id="wezterm-starship-美化-mac-终端" tabindex="-1">WezTerm+Starship 美化 Mac 终端 <a class="header-anchor" href="#wezterm-starship-美化-mac-终端" aria-label="Permalink to &quot;WezTerm+Starship 美化 Mac 终端&quot;"></a></h1>
 <blockquote>
 <p>使用 Homebrew 安装相关软件</p>
@@ -2767,8 +3136,9 @@ brew install --cask wezterm
 </div><p><img src="https://imulan.top/assets/1760624410690.DWuW4XAq.png" alt="" loading="lazy"></p>
 <p>安装完成后，关闭终端，打开 WezTerm；运行如下命令创建一个配置文件，WezTerm 的配置文件使用 Lua 脚本：</p>
 <p><img src="https://imulan.top/assets/1760624668048.CcpBiV1M.png" alt="" loading="lazy"></p>
-<p>接着可以使用 Lua 编写个性化配置，如下所示：</p>
+<p>接着可以使用 Lua 编写个性化配置，如下所示（配置文件路径为 <code>~/.config/wezterm/wezterm.lua</code>）：</p>
 <div class="language-lua vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">lua</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">local</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> wezterm </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> require</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"wezterm"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">local</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> wezterm.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">action</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 控制打开窗口的位置，打开即居中</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">on</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"gui-startup"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(cmd)</span></span>
@@ -2784,6 +3154,14 @@ brew install --cask wezterm
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">  window</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">gui_window</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">():</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">set_inner_size</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(width, height)</span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
 <span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 在右下角显示当前日期和时间</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">on</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'update-right-status'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(window, pane)</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">  window</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">set_right_status</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">format</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { Foreground </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { AnsiColor </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'Blue' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">} },</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { Text </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">strftime</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'%Y-%m-%d %H:%M:%S  '</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) },</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  })</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 编辑配置</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- table 数组</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">config </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">config_builder</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">()</span></span>
@@ -2793,7 +3171,7 @@ brew install --cask wezterm
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 禁用标签栏</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    enable_tab_bar </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> false</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 关闭窗口时不询问</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    window_close_confirmation </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "NeverPrompt"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    window_close_confirmation </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "NeverPrompt"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 移除顶部图标窗口,加载大小</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    window_decorations </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "RESIZE"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 鼠标光标样式：闪烁条形</span></span>
@@ -2801,21 +3179,76 @@ brew install --cask wezterm
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 颜色主题</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    color_scheme </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "Solarized Light (Gogh)"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 字体及大小</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    font_size </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 13</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    font </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> wezterm.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">font</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"JetBrains Mono"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, {weight </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "Bold"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}),</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    font_size </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 15</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    line_height </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1.2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 设置透明度</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    window_background_opacity </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0.90</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 设置毛玻璃效果（仅 macOS 生效）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    macos_window_background_blur </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 20</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 设置终端窗口边界，便于提示符与终端窗口的边界分开</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    window_padding </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        left </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        right </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        top </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        top </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        bottom </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 窗口初始大小</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    initial_cols </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 120</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    initial_rows </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 28</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 快捷键配置</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">config.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">keys</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 垂直分栏（左右）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'd'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">SplitHorizontal</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { domain </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CurrentPaneDomain' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">} },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 水平分栏（上下）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'd'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|SHIFT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">SplitVertical</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { domain </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CurrentPaneDomain' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">} },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 关闭当前分栏</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'w'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">CloseCurrentPane</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { confirm </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> true</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> } },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 切换分栏面板</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'LeftArrow'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|OPT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">ActivatePaneDirection</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'Left' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'RightArrow'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|OPT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">ActivatePaneDirection</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'Right' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'UpArrow'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|OPT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">ActivatePaneDirection</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'Up' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'DownArrow'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|OPT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">ActivatePaneDirection</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'Down' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 将当前分栏移动到新标签页</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'T'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|SHIFT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">PaneSelect</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { mode </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'MoveToNewTab' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">} },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 唤起 Tab 选择器（模糊搜索切换）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'l'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|OPT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">ShowTabNavigator</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 快速切换工作区</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 's'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CMD|SHIFT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">ShowLauncherArgs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> { flags </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'WORKSPACES' </span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">} },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    -- 默认的命令面板（强烈推荐习惯使用）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    { key </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'p'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, mods </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'CTRL|SHIFT'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, action </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> act.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">ActivateCommandPalette</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 自定义 ANSI 颜色（基于 Solarized 调整，增强对比度）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">config.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">colors</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  ansi </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#073642'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- black (深蓝黑)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#d30102'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- red (深红)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#228b22'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- green (森林绿)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#a57a00'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- yellow (深金赭)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#005f87'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- blue (深海蓝)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#b1158d'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- magenta (深品红)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#008787'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- cyan (深青色)</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#eee8d5'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- white</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  brights </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#002b36'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#cb4b16'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#1a631a'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#8b6508'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#004f70'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#821068'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#005f5f'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    '#fdf6e3'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  -- 强化光标和选中效果</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  cursor_bg </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '#d33682'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  selection_bg </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '#d7d7af'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  selection_fg </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '#073642'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">-- 返回配置</span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> config</span></span></code></pre>
 </div><p>配置保存后，按快捷键 <code>ctrl/cmd + E</code> 加载配置；主题及相关配置见<a href="https://wezterm.org/colorschemes/s/index.html#selenized-light-gogh" target="_blank" rel="noreferrer">官方文档</a>。</p>
@@ -2874,13 +3307,13 @@ brew install --cask wezterm
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">directory</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">substitutions</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Documents' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'󰈙'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Downloads' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Music' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Pictures' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Downloads' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Music' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">'Pictures' = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">git_branch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'fg:green'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[on](white) [$symbol$branch ]($style)'</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">git_status</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
@@ -2892,52 +3325,52 @@ brew install --cask wezterm
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">python</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'teal'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">pyenv_version_name = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">true</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">pyenv_prefix = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">''</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">lua</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[$symbol($version )]($style)'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">nodejs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'blue'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">golang</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'blue'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">haskell</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'blue'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">rust</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'orange'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">ruby</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'blue'</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">package</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'󰏗 '</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">aws</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'yellow'</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[$symbol($profile )(\[$duration\] )]($style)'</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">docker_context</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'fg:#06969A'</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[$symbol]($style) $path'</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">detect_files = [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'docker-compose.yml'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'docker-compose.yaml'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'Dockerfile'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">detect_extensions = [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'Dockerfile'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">jobs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">]</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">symbol = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">' '</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">style = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'red'</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">number_threshold = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">1</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">format = </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'[$symbol]($style)'</span></span>
@@ -2999,7 +3432,102 @@ brew install --cask wezterm
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">source</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> $(</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> --prefix</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">/share/zsh-autosuggestions/zsh-autosuggestions.zsh</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 指定语法建议颜色</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'fg=240'</span></span></code></pre>
-</div><h2 id="参考文章" tabindex="-1">参考文章 <a class="header-anchor" href="#参考文章" aria-label="Permalink to &quot;参考文章&quot;"></a></h2>
+</div><h2 id="常用快捷键" tabindex="-1">常用快捷键 <a class="header-anchor" href="#常用快捷键" aria-label="Permalink to &quot;常用快捷键&quot;"></a></h2>
+<p>以下是 WezTerm 中常用的快捷键，其中自定义快捷键已在上方配置文件的 <code>config.keys</code> 中定义：</p>
+<h3 id="分栏操作" tabindex="-1">分栏操作 <a class="header-anchor" href="#分栏操作" aria-label="Permalink to &quot;分栏操作&quot;"></a></h3>
+<table tabindex="0">
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Cmd + D</code></td>
+<td>垂直分栏（左右）</td>
+</tr>
+<tr>
+<td><code>Cmd + Shift + D</code></td>
+<td>水平分栏（上下）</td>
+</tr>
+<tr>
+<td><code>Cmd + W</code></td>
+<td>关闭当前分栏</td>
+</tr>
+<tr>
+<td><code>Cmd + Opt + ←/→/↑/↓</code></td>
+<td>切换分栏面板</td>
+</tr>
+<tr>
+<td><code>Cmd + Shift + T</code></td>
+<td>将当前分栏移动到新标签页</td>
+</tr>
+</tbody>
+</table>
+<h3 id="工作区与导航" tabindex="-1">工作区与导航 <a class="header-anchor" href="#工作区与导航" aria-label="Permalink to &quot;工作区与导航&quot;"></a></h3>
+<table tabindex="0">
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Cmd + Opt + L</code></td>
+<td>唤起 Tab 选择器（模糊搜索切换）</td>
+</tr>
+<tr>
+<td><code>Cmd + Shift + S</code></td>
+<td>快速切换工作区</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + P</code></td>
+<td>打开命令面板</td>
+</tr>
+</tbody>
+</table>
+<h3 id="内置默认快捷键" tabindex="-1">内置默认快捷键 <a class="header-anchor" href="#内置默认快捷键" aria-label="Permalink to &quot;内置默认快捷键&quot;"></a></h3>
+<table tabindex="0">
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Cmd + C</code></td>
+<td>复制</td>
+</tr>
+<tr>
+<td><code>Cmd + V</code></td>
+<td>粘贴</td>
+</tr>
+<tr>
+<td><code>Cmd + F</code></td>
+<td>搜索/查找</td>
+</tr>
+<tr>
+<td><code>Cmd + N</code></td>
+<td>新建窗口</td>
+</tr>
+<tr>
+<td><code>Cmd + T</code></td>
+<td>新建标签页</td>
+</tr>
+<tr>
+<td><code>Cmd + =</code> / <code>Cmd + -</code></td>
+<td>放大/缩小字体</td>
+</tr>
+<tr>
+<td><code>Cmd + 0</code></td>
+<td>重置字体大小</td>
+</tr>
+</tbody>
+</table>
+<h2 id="参考文章" tabindex="-1">参考文章 <a class="header-anchor" href="#参考文章" aria-label="Permalink to &quot;参考文章&quot;"></a></h2>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1miWMe9Esq/?spm_id_from=333.788.top_right_bar_window_history.content.click&amp;vd_source=67085386ad37b864cf255529b5a127f7" target="_blank" rel="noreferrer">2024年度Mac终端美化指南：轻松安装WezTerm和Starship</a></li>
 </ul>
