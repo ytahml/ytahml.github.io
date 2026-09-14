@@ -4,10 +4,133 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Mon, 07 Sep 2026 00:33:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 13:35:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
+        <item>
+            <title><![CDATA[GitHub 热门 AI 项目（2026 年第 38 周）]]></title>
+            <link>https://imulan.top/GitHub相关/GitHub热门AI项目（2026年第38周）.html</link>
+            <guid isPermaLink="false">https://imulan.top/GitHub相关/GitHub热门AI项目（2026年第38周）.html</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub 热门 AI 项目（2026 年第 38 周）
+
+本周主线：Agent Skills 从"能用"转向"好用"——输出治理（去 AI 味、反过度工程、结论不埋没）、上下文与多 CLI 性能优]]></description>
+            <content:encoded><![CDATA[<h1 id="github-热门-ai-项目-2026-年第-38-周" tabindex="-1">GitHub 热门 AI 项目（2026 年第 38 周） <a class="header-anchor" href="#github-热门-ai-项目-2026-年第-38-周" aria-label="Permalink to &quot;GitHub 热门 AI 项目（2026 年第 38 周）&quot;"></a></h1>
+<blockquote>
+<p>数据来源：GitHub Trending 周榜（2026 年第 38 周）。Star 数为周榜快照值，周增量为当周新增数据，适合观察趋势。</p>
+</blockquote>
+<p>本周主线：<strong>Agent Skills 从&quot;能用&quot;转向&quot;好用&quot;</strong>——输出治理（去 AI 味、反过度工程、结论不埋没）、上下文与多 CLI 性能优化成为新焦点；同时平台方正加速入场，OpenAI、GitHub 相继以官方仓库定义插件与规格驱动开发的目录标准。</p>
+<h2 id="项目清单" tabindex="-1">项目清单 <a class="header-anchor" href="#项目清单" aria-label="Permalink to &quot;项目清单&quot;"></a></h2>
+<h3 id="_1-i-have-adhd-ayghri-i-have-adhd" tabindex="-1">1. i-have-adhd（ayghri/i-have-adhd） <a class="header-anchor" href="#_1-i-have-adhd-ayghri-i-have-adhd" aria-label="Permalink to &quot;1. i-have-adhd（ayghri/i-have-adhd）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noreferrer">https://github.com/ayghri/i-have-adhd</a></li>
+<li><strong>Star 数</strong>：45,042（本周 +16,740）</li>
+<li><strong>项目简介</strong>：让编码 Agent 不再把答案埋在长篇输出里的技能，面向 ADHD 的简明输出范式。</li>
+<li><strong>本周热度亮点</strong>：本周全站增长第一，单周飙涨超 1.6 万 Star，&quot;Agent 输出可读性&quot;成为新的显性痛点。</li>
+<li><strong>技术栈</strong>：Python</li>
+</ul>
+<h3 id="_2-archify-tt-a1i-archify" tabindex="-1">2. Archify（tt-a1i/archify） <a class="header-anchor" href="#_2-archify-tt-a1i-archify" aria-label="Permalink to &quot;2. Archify（tt-a1i/archify）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/tt-a1i/archify" target="_blank" rel="noreferrer">https://github.com/tt-a1i/archify</a></li>
+<li><strong>Star 数</strong>：61,714（本周 +10,132）</li>
+<li><strong>项目简介</strong>：Agent 技能库，为架构、工作流、时序、数据流与生命周期图生成可验证的漂亮图表，输出自包含 HTML，带动画与高质量导出。</li>
+<li><strong>本周热度亮点</strong>：连续第三周位列 AI 榜首，单周再增超 1 万 Star，AI 可视化输出赛道的现象级项目。</li>
+<li><strong>技术栈</strong>：JavaScript</li>
+</ul>
+<h3 id="_3-ponytail-dietrichgebert-ponytail" tabindex="-1">3. Ponytail（DietrichGebert/ponytail） <a class="header-anchor" href="#_3-ponytail-dietrichgebert-ponytail" aria-label="Permalink to &quot;3. Ponytail（DietrichGebert/ponytail）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noreferrer">https://github.com/DietrichGebert/ponytail</a></li>
+<li><strong>Star 数</strong>：137,988（本周 +8,444）</li>
+<li><strong>项目简介</strong>：让 AI Agent 像&quot;最懒的资深工程师&quot;一样思考——最好的代码是你从没写过的代码。</li>
+<li><strong>本周热度亮点</strong>：以&quot;反过度工程&quot;定位精准切入，呼应团队对 Agent 产出冗余、复杂度失控的普遍焦虑。</li>
+<li><strong>技术栈</strong>：JavaScript</li>
+</ul>
+<h3 id="_4-ecc-affaan-m-ecc" tabindex="-1">4. ECC（affaan-m/ECC） <a class="header-anchor" href="#_4-ecc-affaan-m-ecc" aria-label="Permalink to &quot;4. ECC（affaan-m/ECC）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/affaan-m/ECC" target="_blank" rel="noreferrer">https://github.com/affaan-m/ECC</a></li>
+<li><strong>Star 数</strong>：258,104（本周 +7,264）</li>
+<li><strong>项目简介</strong>：Agent harness 性能优化系统：技能、直觉、记忆、安全与研究优先开发，兼容 Claude Code、Codex、Opencode、Cursor 等。</li>
+<li><strong>本周热度亮点</strong>：把&quot;Agent 的运行方式&quot;本身当作可优化对象，面向多 CLI 生态的性能调优层。</li>
+<li><strong>技术栈</strong>：JavaScript</li>
+</ul>
+<h3 id="_5-diagram-design-cathrynlavery-diagram-design" tabindex="-1">5. diagram-design（cathrynlavery/diagram-design） <a class="header-anchor" href="#_5-diagram-design-cathrynlavery-diagram-design" aria-label="Permalink to &quot;5. diagram-design（cathrynlavery/diagram-design）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noreferrer">https://github.com/cathrynlavery/diagram-design</a></li>
+<li><strong>Star 数</strong>：39,605（本周 +7,129）</li>
+<li><strong>项目简介</strong>：38 种编辑级图表类型，适配 Claude Code、Codex 与 Pi，输出自包含 HTML + SVG，无阴影、无 Mermaid 套路、零依赖。</li>
+<li><strong>本周热度亮点</strong>：连续多周霸榜，本周再增 7 千+，图表质量成为 AI 输出核心评判维度。</li>
+<li><strong>技术栈</strong>：HTML</li>
+</ul>
+<h3 id="_6-markitdown-microsoft-markitdown" tabindex="-1">6. MarkItDown（microsoft/markitdown） <a class="header-anchor" href="#_6-markitdown-microsoft-markitdown" aria-label="Permalink to &quot;6. MarkItDown（microsoft/markitdown）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">https://github.com/microsoft/markitdown</a></li>
+<li><strong>Star 数</strong>：183,878（本周 +5,191）</li>
+<li><strong>项目简介</strong>：把各类文件与 Office 文档转换为 Markdown 的 Python 工具。</li>
+<li><strong>本周热度亮点</strong>：LLM 数据摄入的事实标准工具，本周大幅回榜，文档解析与 RAG 前置处理需求持续旺盛。</li>
+<li><strong>技术栈</strong>：Python</li>
+</ul>
+<h3 id="_7-hyperframes-heygen-com-hyperframes" tabindex="-1">7. HyperFrames（heygen-com/hyperframes） <a class="header-anchor" href="#_7-hyperframes-heygen-com-hyperframes" aria-label="Permalink to &quot;7. HyperFrames（heygen-com/hyperframes）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noreferrer">https://github.com/heygen-com/hyperframes</a></li>
+<li><strong>Star 数</strong>：49,878（本周 +5,146）</li>
+<li><strong>项目简介</strong>：写 HTML，渲染视频——为 Agent 构建的视频渲染框架。</li>
+<li><strong>本周热度亮点</strong>：把&quot;HTML → 视频&quot;做成 Agent 友好的渲染管线，多模态生成的新入口。</li>
+<li><strong>技术栈</strong>：TypeScript</li>
+</ul>
+<h3 id="_8-openmaic-thu-maic-openmaic" tabindex="-1">8. OpenMAIC（THU-MAIC/OpenMAIC） <a class="header-anchor" href="#_8-openmaic-thu-maic-openmaic" aria-label="Permalink to &quot;8. OpenMAIC（THU-MAIC/OpenMAIC）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" rel="noreferrer">https://github.com/THU-MAIC/OpenMAIC</a></li>
+<li><strong>Star 数</strong>：36,713（本周 +4,202）</li>
+<li><strong>项目简介</strong>：开源多 Agent 交互课堂，一键获得沉浸式多 Agent 学习体验。</li>
+<li><strong>本周热度亮点</strong>：清华团队开源，连续两周上榜，多 Agent 协作在教育场景落地的标杆项目。</li>
+<li><strong>技术栈</strong>：TypeScript</li>
+</ul>
+<h3 id="_9-superpowers-obra-superpowers" tabindex="-1">9. Superpowers（obra/superpowers） <a class="header-anchor" href="#_9-superpowers-obra-superpowers" aria-label="Permalink to &quot;9. Superpowers（obra/superpowers）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">https://github.com/obra/superpowers</a></li>
+<li><strong>Star 数</strong>：286,501（本周 +4,068）</li>
+<li><strong>项目简介</strong>：以一组 Skills 约束编码 Agent 的开发过程：先澄清需求与设计，再拆解计划，按红绿重构推进实现，通过子 Agent 分工与审查控制质量。</li>
+<li><strong>本周热度亮点</strong>：强调跨模型（Codex、Claude Code、Cursor、Gemini CLI 等）通用的工程方法层，长期霸榜、本周继续增长。</li>
+<li><strong>技术栈</strong>：Shell</li>
+</ul>
+<h3 id="_10-humanizer-blader-humanizer" tabindex="-1">10. Humanizer（blader/humanizer） <a class="header-anchor" href="#_10-humanizer-blader-humanizer" aria-label="Permalink to &quot;10. Humanizer（blader/humanizer）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/blader/humanizer" target="_blank" rel="noreferrer">https://github.com/blader/humanizer</a></li>
+<li><strong>Star 数</strong>：47,949（本周 +3,673）</li>
+<li><strong>项目简介</strong>：去除文本中 AI 生成痕迹的 Agent 技能。</li>
+<li><strong>本周热度亮点</strong>：&quot;内容去 AI 味&quot;工具走红，与 no-ai-slop 等共同形成&quot;AI 输出治理&quot;赛道。</li>
+<li><strong>技术栈</strong>：Python</li>
+</ul>
+<h3 id="_11-marketingskills-coreyhaines31-marketingskills" tabindex="-1">11. Marketingskills（coreyhaines31/marketingskills） <a class="header-anchor" href="#_11-marketingskills-coreyhaines31-marketingskills" aria-label="Permalink to &quot;11. Marketingskills（coreyhaines31/marketingskills）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/coreyhaines31/marketingskills" target="_blank" rel="noreferrer">https://github.com/coreyhaines31/marketingskills</a></li>
+<li><strong>Star 数</strong>：50,155（本周 +2,678）</li>
+<li><strong>项目简介</strong>：面向 Claude Code 与 AI Agent 的营销技能库：CRO、文案、SEO、分析与增长工程。</li>
+<li><strong>本周热度亮点</strong>：营销/增长垂直 Skills 出圈，Agent Skill 正从工程领域扩散到业务职能。</li>
+<li><strong>技术栈</strong>：JavaScript</li>
+</ul>
+<h3 id="_12-spec-kit-github-spec-kit" tabindex="-1">12. Spec Kit（github/spec-kit） <a class="header-anchor" href="#_12-spec-kit-github-spec-kit" aria-label="Permalink to &quot;12. Spec Kit（github/spec-kit）&quot;"></a></h3>
+<ul>
+<li><strong>仓库地址</strong>：<a href="https://github.com/github/spec-kit" target="_blank" rel="noreferrer">https://github.com/github/spec-kit</a></li>
+<li><strong>Star 数</strong>：136,654（本周 +2,642）</li>
+<li><strong>项目简介</strong>：GitHub 官方开源的规范驱动开发（Spec-Driven Development）工具包。</li>
+<li><strong>本周热度亮点</strong>：GitHub 官方下场定义&quot;规格先行&quot;的 Agent 编码工作流，规范驱动开发从社区实践走向平台标准。</li>
+<li><strong>技术栈</strong>：Python</li>
+</ul>
+<h2 id="本周趋势总结" tabindex="-1">本周趋势总结 <a class="header-anchor" href="#本周趋势总结" aria-label="Permalink to &quot;本周趋势总结&quot;"></a></h2>
+<ol>
+<li><strong>Agent 输出质量治理成主线</strong>：i-have-adhd（结论不埋没）、ponytail（反过度工程）、humanizer（去 AI 味）集中霸榜，&quot;写得好、写得像人、别啰嗦&quot;成为新的竞争焦点。</li>
+<li><strong>垂直技能库继续外扩</strong>：marketingskills 覆盖营销/增长，Skills 形态从编码工程延伸到业务职能，行业技能资产化趋势明确。</li>
+<li><strong>平台方正加速入场</strong>：github/spec-kit、openai/skills 等官方仓库进榜，插件与技能目录正从社区自发走向官方标准。</li>
+<li><strong>可视化与多模态生成仍是刚需</strong>：archify、diagram-design 稳住图表赛道，hyperframes 把视频渲染纳入 Agent 输出链路，&quot;好看 + 会做视频&quot;成为新标配。</li>
+</ol>
+<blockquote>
+<p>注：以上 Star 数与周增量为 GitHub Trending 周榜快照值，仅供参考。</p>
+</blockquote>
+]]></content:encoded>
+            <author>花木凋零成兰</author>
+        </item>
         <item>
             <title><![CDATA[GitHub 热门 AI 项目（2026 年第 37 周）]]></title>
             <link>https://imulan.top/GitHub相关/GitHub热门AI项目（2026年第37周）.html</link>
@@ -384,12 +507,13 @@
             <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[GitHub 相关
  文章列表
+- GitHub 热门 AI 项目（2026 年第 38 周）
 - GitHub 热门 AI 项目（2026 年第 37 周）
-- GitHub 热门 AI 项目（2026 年第 36 周）
 - GitHub 热门 AI 项目（20]]></description>
             <content:encoded><![CDATA[<h1 id="github-相关" tabindex="-1">GitHub 相关 <a class="header-anchor" href="#github-相关" aria-label="Permalink to &quot;GitHub 相关&quot;"></a></h1>
 <h2 id="文章列表" tabindex="-1">文章列表 <a class="header-anchor" href="#文章列表" aria-label="Permalink to &quot;文章列表&quot;"></a></h2>
 <ul>
+<li><a href="./GitHub热门AI项目（2026年第38周）.html">GitHub 热门 AI 项目（2026 年第 38 周）</a></li>
 <li><a href="./GitHub热门AI项目（2026年第37周）.html">GitHub 热门 AI 项目（2026 年第 37 周）</a></li>
 <li><a href="./GitHub热门AI项目（2026年第36周）.html">GitHub 热门 AI 项目（2026 年第 36 周）</a></li>
 <li><a href="./GitHub热门AI项目（2026年第35周）.html">GitHub 热门 AI 项目（2026 年第 35 周）</a></li>
