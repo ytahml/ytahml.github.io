@@ -4,7 +4,7 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Tue, 13 Oct 2026 13:20:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 14:37:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
@@ -2371,6 +2371,68 @@
 <ul>
 <li>大型的互联网系统中用户请求数据量大、频率高的场景，比如订单接口、商品接口等</li>
 </ul>
+<h4 id="年轻代-parallel-scavenge" tabindex="-1">年轻代 Parallel Scavenge <a class="header-anchor" href="#年轻代-parallel-scavenge" aria-label="Permalink to &quot;年轻代 Parallel Scavenge&quot;"></a></h4>
+<p>Parallel Scavenge是JDK8默认的年轻代垃圾回收器，多线程并行回收，关注的是系统的吞吐量。</p>
+<p>具备自<strong>动调整堆内存大小</strong>的特点。</p>
+<ul>
+<li><code>XX:MaxGCPauseMillis=n</code> 设置每次垃圾回收时的最大停顿毫秒数。</li>
+<li><code>XX:GCTimeRatio=n</code> 设置吞吐量为n（用户线程执行时间 = n/n + 1）</li>
+<li><code>XX:+UseAdaptiveSizePolicy</code> 设置可以让垃圾回收器根据吞吐量和最大停顿的毫秒数自动调整内存大小</li>
+</ul>
+<p><img src="https://imulan.top/assets/%E5%B9%B4%E8%BD%BB%E4%BB%A3-Parallel-Scavenge%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8.D6b3KCp6.png" alt="年轻代-Parallel-Scavenge垃圾回收器.png" loading="lazy"></p>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>年轻代</li>
+<li>复制算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>吞吐量高，而且手动可控。</li>
+<li>为了提高吞吐量，虚拟机会动态调整堆的参数。</li>
+</ul>
+<p><strong>缺点</strong></p>
+<p>不能保证单次的停顿时间</p>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>后台任务：不需要与用户交互，并且容易产生大量的对象，比如大数据的处理，大文件导出。</li>
+</ul>
+<h4 id="老年代-parallel-old" tabindex="-1">老年代 Parallel Old <a class="header-anchor" href="#老年代-parallel-old" aria-label="Permalink to &quot;老年代 Parallel Old&quot;"></a></h4>
+<p>Parallel Old是为Parallel Scavenge收集器设计的老年代版本，利用多线程并发收集。</p>
+<p>参数：<code>-XX:+UseParallelGC</code> 或 <code>-XX:+UseParallelOldGC</code>。
+可以使用 Parallel Scavenge + Parallel Old 这种组合。</p>
+<p><img src="https://imulan.top/assets/Parallel-Old-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8.7Y7xh1ut.png" alt="Parallel-Old-垃圾回收器.png" loading="lazy"></p>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>老年代</li>
+<li>标记-整理算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>并发收集，在多核 CPU 下效率较高。</li>
+</ul>
+<p><strong>缺点</strong></p>
+<p>暂停时间会比较长</p>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>与Parallel Scavenge配套使用</li>
+</ul>
+<h4 id="g1-垃圾回收器" tabindex="-1">G1 垃圾回收器 <a class="header-anchor" href="#g1-垃圾回收器" aria-label="Permalink to &quot;G1 垃圾回收器&quot;"></a></h4>
+<blockquote>
+<p>JDK 9 之后默认的垃圾回收器是 G1 （Garbage First）垃圾回收器。</p>
+</blockquote>
+<p>Parallel Scavenge 关注吞吐量，允许用户设置最大暂停时间，但是会减少年轻代可用空间的大小；</p>
+<p>CMS 关注暂停时间，但是吞吐量会下降。</p>
+<p>G1 的设计目标是将上述两种垃圾回收器的优点融合：</p>
+<ol>
+<li>支持巨大的堆空间回收，并有较高吞吐量；</li>
+<li>支持多 CPU 并行垃圾回收；</li>
+<li>允许用户设置最大暂停时间。</li>
+</ol>
+<p>在 G1 出现之前的垃圾回收器，内存结构一般是连续的：</p>
+<p><img src="https://imulan.top/assets/G1%E5%87%BA%E7%8E%B0%E4%B9%8B%E5%89%8D%E7%9A%84%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8.CYWMc5oC.png" alt="G1出现之前的垃圾回收器.png" loading="lazy"></p>
+<p>G1 垃圾回收器会将整个堆划分成多个大小相等的区域，称之为区（Region），区域不要求是连续的。</p>
+<p>并且将区分为 Eden、Survivor、Old，Region 的大小通过堆空间大小/2048 计算得到，也可以通过参数 <code>-XX:G1HeapRegionSize=32m</code> 指定，Region 的大小必须是 2 的指数幂，范围从 1M 到 32M。</p>
+<p><img src="https://imulan.top/assets/G1-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.CKsPztAU.png" alt="G1-垃圾回收器内存结构.png" loading="lazy"></p>
 ]]></content:encoded>
             <author>花木凋零成兰</author>
             <enclosure url="https://imulan.top/assets/file-20260414205543.DZMgzQ1T.jpg" length="0" type="image/jpg"/>
