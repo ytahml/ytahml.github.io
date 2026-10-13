@@ -4,7 +4,7 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Mon, 12 Oct 2026 01:26:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 13:20:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
@@ -1618,11 +1618,6 @@
             <author>花木凋零成兰</author>
         </item>
         <item>
-            <link>https://imulan.top/未命名.html</link>
-            <guid isPermaLink="false">https://imulan.top/未命名.html</guid>
-            <pubDate>Sun, 28 Jun 2026 14:44:38 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[文章归档]]></title>
             <link>https://imulan.top/archive.html</link>
             <guid isPermaLink="false">https://imulan.top/archive.html</guid>
@@ -2262,6 +2257,120 @@
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
 </div><p><strong>执行流程</strong></p>
+<ol>
+<li>分代回收，创建的对象首先放入 Eden 区；随着对象在 Eden 区越来越多，放不下时触发年轻代 GC，称为 Minor GC或 Young GC；</li>
+<li>年轻代 GC 将 eden 和 from 中需要回收的对象回收，没有回收的对象放入 To 区；</li>
+<li>接着，S0 变成 To 区，S1 变成 From 区；Eden 区满时，继续发生年轻代 GC；依旧回收 eden 和 from 中的对象，并将剩余对象放入 to 区；<strong>每次 Minor GC 都会给对象记录年龄，初始值为 0，每次 GC 加1</strong>；</li>
+<li>在多次 Minor GC 后，对象年龄达到阈值（最大可设为15，默认值和垃圾回收器有关）会晋升为老年代；</li>
+<li>若老年代空间不足，无法放入新对象时；先尝试 Minor GC（<em>如果年轻代已满，Minor GC 后新对象依旧无法放入年轻代，此时会把一些未达到年龄的对象放入老年代，所以这里先进行一次 Minor GC 尝试回收年轻代</em>），若还是不足就触发 Full GC对整个堆进行回收；</li>
+<li>如果 Full GC 后依旧无法回收掉老年代对象，则对象继续放入老年代时会抛出 Out Of Memory 异常；</li>
+</ol>
+<p><img src="https://imulan.top/assets/%E5%88%86%E4%BB%A3-GC-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.CV6vFTI-.png" alt="分代-GC-执行流程.png" loading="lazy"></p>
+<div class="tip custom-block github-alert"><p class="custom-block-title">TIP</p>
+<p>分代 GC 算法将堆分成年轻代和老年代主要原因：</p>
+<p>1、可以通过<strong>调整年轻代和老年代的比例来适应不同类型的应用程序</strong>，提高内存的利用率和性能；</p>
+<p>2、<strong>新生代和老年代可以使用不同的垃圾回收算法</strong>；新生代一般选择复制算法，老年代可以选择标记清除和标记整理算法；</p>
+<p>3、<strong>分代的设计中允许只回收新生代</strong>，如果能满足对象的分配要求就不用对整个堆进行回收，STW 时间会减少。</p>
+</div>
+<h3 id="垃圾回收器" tabindex="-1">垃圾回收器 <a class="header-anchor" href="#垃圾回收器" aria-label="Permalink to &quot;垃圾回收器&quot;"></a></h3>
+<p>垃圾回收器是垃圾回收算法的具体实现。</p>
+<p>垃圾回收器也分为年轻代和老年代，除了 G1 之外其他垃圾回收器必须成对组合进行使用；</p>
+<p><img src="https://imulan.top/assets/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8%E7%BB%84%E5%90%88%E4%BD%BF%E7%94%A8.4KPYTI4H.png" alt="垃圾回收器组合使用.png" loading="lazy"></p>
+<h4 id="年轻代-serial" tabindex="-1">年轻代 Serial <a class="header-anchor" href="#年轻代-serial" aria-label="Permalink to &quot;年轻代 Serial&quot;"></a></h4>
+<p>Serial 是一种<strong>单线程串行回收</strong>年轻代的垃圾回收器；</p>
+<p><img src="https://imulan.top/assets/Serial-%E5%8D%95%E7%BA%BF%E7%A8%8B%E4%B8%B2%E8%A1%8C%E6%94%B6%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8.DoX5zp9Q.png" alt="Serial-单线程串行收垃圾回收器.png" loading="lazy"></p>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>年轻代</li>
+<li>复制算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>单 CPU 处理器下吞吐量非常出色；</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>多 CPU 下吞吐量不如其他垃圾回收器，堆如果偏大会让用户线程处于长时间的等待；</li>
+</ul>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>Java 编写的客户端程序或硬件配置有限的场景</li>
+</ul>
+<h4 id="老年代-serialold" tabindex="-1">老年代 SerialOld <a class="header-anchor" href="#老年代-serialold" aria-label="Permalink to &quot;老年代 SerialOld&quot;"></a></h4>
+<p>SerialOld 是 Serial 垃圾回收器的老年代版本，也是采用<strong>单线程串行回收</strong>；</p>
+<p><img src="https://imulan.top/assets/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8-%E8%80%81%E5%B9%B4%E4%BB%A3-SerialOld.BlFpOke3.png" alt="垃圾回收器-老年代-SerialOld.png" loading="lazy"></p>
+<div class="note custom-block github-alert"><p class="custom-block-title">NOTE</p>
+<p></p>
+<p>使用 <code>-XX:+UseSerialGC</code> JVM 运行参数，新生代、老年代都使用串行回收器；</p>
+</div>
+<p><img src="https://imulan.top/assets/UseSerialGc-%E5%8F%82%E6%95%B0-Serial-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8.yNLKedxA.png" alt="UseSerialGc-参数-Serial-垃圾回收器.png" loading="lazy"></p>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>老年代</li>
+<li>标记-整理算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>单 CPU 处理器下吞吐量非常出色；</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>多 CPU 下吞吐量不如其他垃圾回收器，堆如果偏大会让用户线程处于长时间的等待；</li>
+</ul>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>与 Serial 垃圾回收器搭配使用，或在 CMS 特殊情况下使用</li>
+</ul>
+<h4 id="年轻代-parnew" tabindex="-1">年轻代 ParNew <a class="header-anchor" href="#年轻代-parnew" aria-label="Permalink to &quot;年轻代 ParNew&quot;"></a></h4>
+<p>ParNew 垃圾回收器本质上是对 Serial 在多 CPU 下的优化，使用<strong>多线程</strong>进行垃圾回收；</p>
+<p><img src="https://imulan.top/assets/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8-%E5%B9%B4%E8%BD%BB%E4%BB%A3-ParNew.D7VLKc0k.png" alt="垃圾回收器-年轻代-ParNew.png" loading="lazy"></p>
+<div class="note custom-block github-alert"><p class="custom-block-title">NOTE</p>
+<p></p>
+<p>使用 <code>-XX:+UseParNewGC</code> JVM 运行参数，新生代使用 ParNew 回收器、老年代使用串行回收器；</p>
+</div>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>年轻代</li>
+<li>复制算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>多 CPU 处理器下停顿时间较短</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>吞吐量和停顿时间不如 G1，所以在 JDK9 之后不建议使用</li>
+</ul>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>JDK8 及之前的版本中，与 CMS 老年代垃圾回收器搭配使用</li>
+</ul>
+<h4 id="老年代-cms-concurrent-mark-sweep" tabindex="-1">老年代 CMS（Concurrent Mark Sweep） <a class="header-anchor" href="#老年代-cms-concurrent-mark-sweep" aria-label="Permalink to &quot;老年代 CMS（Concurrent Mark Sweep）&quot;"></a></h4>
+<p>CMS 垃圾回收器关注的是系统的<strong>暂停时间</strong>，允许用户线程和垃圾回收线程在某些步骤中同时执行，减少用户线程的等待时间；</p>
+<p>JVM 参数：<code>XX:+UseConcMarkSweepGC</code></p>
+<p><img src="https://imulan.top/assets/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8-%E8%80%81%E5%B9%B4%E4%BB%A3-CMS.DUdKgiFc.png" alt="垃圾回收器-老年代-CMS.png" loading="lazy"></p>
+<p>CMS 执行步骤：</p>
+<p>1、初始标记，用极短时间标记出 GC Roots 能直接关联到的对象；
+2、并发标记，标记所有对象哪些需要回收，哪些不需要回收，用户线程不需要暂停，保障用户体验；
+3、重新标记，由于<strong>并发标记阶段有些对象发生了变化</strong>，存在错标、漏标的情况，所以需要重新标记；<strong>是对并发标记的补充，花费时间较短</strong>；
+4、并发清理，清理死亡的对象，用户线程不需要暂停；</p>
+<p><strong>回收年代和算法</strong></p>
+<ul>
+<li>老年代</li>
+<li>标记清除算法</li>
+</ul>
+<p><strong>优点</strong></p>
+<ul>
+<li>系统由于垃圾回收出现的停顿时间较短，用户体验好</li>
+</ul>
+<p><strong>缺点</strong></p>
+<p>1、使用标记清除算法，在垃圾回收结束之后会出现大量内存碎片，CMS 需要在 Full GC 时进行碎片整理，会导致用户线程暂停（内存整理是无法避免的）；可以使用<code>-XX:CMSFullGCsBeforeCompaction=N</code> 参数（默认0）调整 N 次 Full GC 之后再整理。
+2、无法处理并发清理过程中产生的“浮动垃圾”，不能做到完全的垃圾回收；可能会导致即使垃圾回收后内存依旧不足的情况；
+3、如果老年代内存不足无法分配对象，CMS 会退化成 Serial Old 单线程回收老年代。</p>
+<p><strong>适用场景</strong></p>
+<ul>
+<li>大型的互联网系统中用户请求数据量大、频率高的场景，比如订单接口、商品接口等</li>
+</ul>
 ]]></content:encoded>
             <author>花木凋零成兰</author>
             <enclosure url="https://imulan.top/assets/file-20260414205543.DZMgzQ1T.jpg" length="0" type="image/jpg"/>
