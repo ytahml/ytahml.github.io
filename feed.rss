@@ -4,7 +4,7 @@
         <title>花木凋零成兰</title>
         <link>https://imulan.top/</link>
         <description></description>
-        <lastBuildDate>Sat, 24 Oct 2026 13:53:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 05:04:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2025-present, 花木雕成兰</copyright>
@@ -17488,7 +17488,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-77"  graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20Integer%20id%0A%20%20%20%20-%20String%20name%0A%20%20%20%20%2B%20setName(String%20name)%20void%0A%20%20%20%20%2B%20getName()%20String%0A%7D%0A"></Mermaid>
+      <Mermaid id="mermaid-77" class="mermaid" graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20Integer%20id%0A%20%20%20%20-%20String%20name%0A%20%20%20%20%2B%20setName(String%20name)%20void%0A%20%20%20%20%2B%20getName()%20String%0A%7D%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17526,7 +17526,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 </div>
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-27"  graph="classDiagram%0Aclass%20Head%0Aclass%20IDCard%0Aclass%20Person%20%7B%0A%20%20%20%20-%20idCard%3A%20IDCard%0A%20%20%20%20-%20head%3A%20Head%20%3D%20new%20HEad()%0A%7D%0APerson%20o--%20IDCard%0APerson%20*--%20Head%0A"></Mermaid>
+      <Mermaid id="mermaid-27" class="mermaid" graph="classDiagram%0Aclass%20Head%0Aclass%20IDCard%0Aclass%20Person%20%7B%0A%20%20%20%20-%20idCard%3A%20IDCard%0A%20%20%20%20-%20head%3A%20Head%20%3D%20new%20HEad()%0A%7D%0APerson%20o--%20IDCard%0APerson%20*--%20Head%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17576,7 +17576,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-33"  graph="classDiagram%0Aclass%20Mouse%0Aclass%20Monitor%0Aclass%20Computer%20%7B%0A%20%20%20%20-%20Mouse%20mouse%0A%20%20%20%20-%20Monitor%20monitor%0A%20%20%20%20%2B%20setMouse(Mouse%20mouse)%20void%0A%20%20%20%20%2B%20setMonitor(Monitor%20monitor)%20void%0A%7D%0Anote%20for%20Computer%20%22Mouse%20%E5%92%8C%20Monitor%E7%B1%BB%E5%9D%87%E5%8F%AF%E4%BB%A5%E7%A6%BB%E5%BC%80%E7%94%B5%E8%84%91%E8%80%8C%E7%8B%AC%E7%AB%8B%E5%AD%98%E5%9C%A8%22%0AComputer%20o--%20Mouse%0AComputer%20o--%20Monitor%0A"></Mermaid>
+      <Mermaid id="mermaid-33" class="mermaid" graph="classDiagram%0Aclass%20Mouse%0Aclass%20Monitor%0Aclass%20Computer%20%7B%0A%20%20%20%20-%20Mouse%20mouse%0A%20%20%20%20-%20Monitor%20monitor%0A%20%20%20%20%2B%20setMouse(Mouse%20mouse)%20void%0A%20%20%20%20%2B%20setMonitor(Monitor%20monitor)%20void%0A%7D%0Anote%20for%20Computer%20%22Mouse%20%E5%92%8C%20Monitor%E7%B1%BB%E5%9D%87%E5%8F%AF%E4%BB%A5%E7%A6%BB%E5%BC%80%E7%94%B5%E8%84%91%E8%80%8C%E7%8B%AC%E7%AB%8B%E5%AD%98%E5%9C%A8%22%0AComputer%20o--%20Mouse%0AComputer%20o--%20Monitor%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17610,7 +17610,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-33"  graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20IDCard%20card%0A%7D%0Aclass%20IDCard%0AIDCard%20%221%22%20%3C--%20%221%22%20Person%0A"></Mermaid>
+      <Mermaid id="mermaid-33" class="mermaid" graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20IDCard%20card%0A%7D%0Aclass%20IDCard%0AIDCard%20%221%22%20%3C--%20%221%22%20Person%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17621,7 +17621,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-40"  graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20IDCard%20card%0A%7D%0Aclass%20IDCard%20%7B%0A%20%20%20%20-%20Person%20person%0A%7D%0AIDCard%20%221%22%20--%20%221%22%20Person%0A"></Mermaid>
+      <Mermaid id="mermaid-40" class="mermaid" graph="classDiagram%0Aclass%20Person%20%7B%0A%20%20%20%20-%20IDCard%20card%0A%7D%0Aclass%20IDCard%20%7B%0A%20%20%20%20-%20Person%20person%0A%7D%0AIDCard%20%221%22%20--%20%221%22%20Person%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17660,7 +17660,7 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-26"  graph="classDiagram%0Aclass%20PersonService%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20delete(Integer%20id)%20void%0A%7D%0Aclass%20PersonServiceBean%20%7B%0A%20%20%20%20%2B%20delete(Integer%20id)%20void%0A%7D%0APersonService%20%3C%7C..%20PersonServiceBean%0A"></Mermaid>
+      <Mermaid id="mermaid-26" class="mermaid" graph="classDiagram%0Aclass%20PersonService%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20delete(Integer%20id)%20void%0A%7D%0Aclass%20PersonServiceBean%20%7B%0A%20%20%20%20%2B%20delete(Integer%20id)%20void%0A%7D%0APersonService%20%3C%7C..%20PersonServiceBean%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17707,7 +17707,7 @@ public abstract class DaoSupport]]></description>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-26"  graph="classDiagram%0A%0Aclass%20DaoSupport%20%7B%0A%20%20%20%20%3C%3Cabstract%3E%3E%0A%20%20%20%20%2B%20save()%20void%0A%20%20%20%20%2B%20delete()%20void%0A%7D%0Aclass%20PersonServiceBean%0A%0ADaoSupport%20%3C%7C--%20PersonServiceBean%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-26" class="mermaid" graph="classDiagram%0A%0Aclass%20DaoSupport%20%7B%0A%20%20%20%20%3C%3Cabstract%3E%3E%0A%20%20%20%20%2B%20save()%20void%0A%20%20%20%20%2B%20delete()%20void%0A%7D%0Aclass%20PersonServiceBean%0A%0ADaoSupport%20%3C%7C--%20PersonServiceBean%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -17888,7 +17888,7 @@ public c]]></description>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-38"  graph="classDiagram%0A%0Aclass%20PersonDao%0Aclass%20IDCard%0Aclass%20PersonServiceBean%20%7B%0A%20%20%20%20-%20PersonDao%20personDao%0A%20%20%20%20%2B%20save(Person%20person)%20void%0A%20%20%20%20%2B%20getIDCard(Integer%20personId)%20IDCard%0A%20%20%20%20%2B%20modify()%20void%0A%7D%0Aclass%20Person%0Aclass%20Department%0A%0AIDCard%20%3C..%20PersonServiceBean%0APersonDao%20%3C..%20PersonServiceBean%0APerson%20%3C..%20PersonServiceBean%0ADepartment%20%3C..%20PersonServiceBean%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-38" class="mermaid" graph="classDiagram%0A%0Aclass%20PersonDao%0Aclass%20IDCard%0Aclass%20PersonServiceBean%20%7B%0A%20%20%20%20-%20PersonDao%20personDao%0A%20%20%20%20%2B%20save(Person%20person)%20void%0A%20%20%20%20%2B%20getIDCard(Integer%20personId)%20IDCard%0A%20%20%20%20%2B%20modify()%20void%0A%7D%0Aclass%20Person%0Aclass%20Department%0A%0AIDCard%20%3C..%20PersonServiceBean%0APersonDao%20%3C..%20PersonServiceBean%0APerson%20%3C..%20PersonServiceBean%0ADepartment%20%3C..%20PersonServiceBean%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -18332,7 +18332,7 @@ class A {
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-15"  graph="classDiagram%0A%0Aclass%20A%20%7B%0A%20%20%20%20%2B%20operation1()%20void%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%7D%0Aclass%20B%0A%0AA%20%3C%7C--%20B%0A%0Anote%20%22%E5%A6%82%E6%9E%9C%E6%88%91%E4%BB%AC%E5%8F%AA%E6%98%AF%E8%AE%A9B%E7%B1%BB%E5%8E%BB%E4%BD%BF%E7%94%A8A%E7%B1%BB%E6%96%B9%E6%B3%95%2C%20%5Cn%E4%BD%BF%E7%94%A8%E7%BB%A7%E6%89%BF%E4%BC%9A%E8%AE%A9B%E5%92%8CA%E7%9A%84%E8%80%A6%E5%90%88%E6%80%A7%E5%A2%9E%E5%BC%BA%2C%5Cn%E8%80%8C%E4%B8%94B%E7%B1%BB%E5%8F%AF%E8%83%BD%E5%8F%AA%E4%BD%BF%E7%94%A8%E5%88%B0%E4%BA%86A%E4%B8%AD%E7%9A%84%E9%83%A8%E5%88%86%E6%96%B9%E6%B3%95%22%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-15" class="mermaid" graph="classDiagram%0A%0Aclass%20A%20%7B%0A%20%20%20%20%2B%20operation1()%20void%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%7D%0Aclass%20B%0A%0AA%20%3C%7C--%20B%0A%0Anote%20%22%E5%A6%82%E6%9E%9C%E6%88%91%E4%BB%AC%E5%8F%AA%E6%98%AF%E8%AE%A9B%E7%B1%BB%E5%8E%BB%E4%BD%BF%E7%94%A8A%E7%B1%BB%E6%96%B9%E6%B3%95%2C%20%5Cn%E4%BD%BF%E7%94%A8%E7%BB%A7%E6%89%BF%E4%BC%9A%E8%AE%A9B%E5%92%8CA%E7%9A%84%E8%80%A6%E5%90%88%E6%80%A7%E5%A2%9E%E5%BC%BA%2C%5Cn%E8%80%8C%E4%B8%94B%E7%B1%BB%E5%8F%AF%E8%83%BD%E5%8F%AA%E4%BD%BF%E7%94%A8%E5%88%B0%E4%BA%86A%E4%B8%AD%E7%9A%84%E9%83%A8%E5%88%86%E6%96%B9%E6%B3%95%22%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -18697,7 +18697,7 @@ class SchoolManager {
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-34"  graph="classDiagram%0A%0Aclass%20GraphicEditor%20%7B%0A%20%20%20%20%2B%20drawCircle()%20void%0A%20%20%20%20%2B%20drawRectangle()%20void%0A%20%20%20%20%2B%20drawShape()%20void%0A%7D%0Aclass%20Shape%0Aclass%20Rectangle%0Aclass%20Circle%0A%0AShape%20%3C%7C--%20Rectangle%0ARectangle%20%3C..%20GraphicEditor%0AShape%20%3C..%20GraphicEditor%0AShape%20%3C%7C--%20Circle%0ACircle%20%3C..%20GraphicEditor%0A%0Anote%20for%20GraphicEditor%20%22%E4%B8%BB%E8%A6%81%E6%98%AF%E9%80%9A%E8%BF%87%E4%BE%9D%E8%B5%96Shape%E7%B1%BB%2C%E5%AE%9E%E7%8E%B0%E4%BE%9D%E8%B5%96%E5%85%B6%E5%AD%90%E7%B1%BB%22%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-34" class="mermaid" graph="classDiagram%0A%0Aclass%20GraphicEditor%20%7B%0A%20%20%20%20%2B%20drawCircle()%20void%0A%20%20%20%20%2B%20drawRectangle()%20void%0A%20%20%20%20%2B%20drawShape()%20void%0A%7D%0Aclass%20Shape%0Aclass%20Rectangle%0Aclass%20Circle%0A%0AShape%20%3C%7C--%20Rectangle%0ARectangle%20%3C..%20GraphicEditor%0AShape%20%3C..%20GraphicEditor%0AShape%20%3C%7C--%20Circle%0ACircle%20%3C..%20GraphicEditor%0A%0Anote%20for%20GraphicEditor%20%22%E4%B8%BB%E8%A6%81%E6%98%AF%E9%80%9A%E8%BF%87%E4%BE%9D%E8%B5%96Shape%E7%B1%BB%2C%E5%AE%9E%E7%8E%B0%E4%BE%9D%E8%B5%96%E5%85%B6%E5%AD%90%E7%B1%BB%22%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -18951,7 +18951,6 @@ class SchoolManager {
 ## 架构演进
 
 ```mermaid
-
 ]]></description>
             <content:encoded><![CDATA[<h1 id="分布式系统中的相关概念" tabindex="-1">分布式系统中的相关概念 <a class="header-anchor" href="#分布式系统中的相关概念" aria-label="Permalink to &quot;分布式系统中的相关概念&quot;"></a></h1>
 <h2 id="项目架构目标" tabindex="-1">项目架构目标 <a class="header-anchor" href="#项目架构目标" aria-label="Permalink to &quot;项目架构目标&quot;"></a></h2>
@@ -18980,7 +18979,7 @@ class SchoolManager {
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-70"  graph="%0A---%0Atitle%3A%20flowchart%0A---%0A%0Aflowchart%20LR%0A%20%20%20%20%E5%8D%95%E4%BD%93%E6%9E%B6%E6%9E%84%20--%3E%20%E5%9E%82%E7%9B%B4%E6%9E%B6%E6%9E%84%20--%3E%20%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%20--%3E%20SOA%E6%9E%B6%E6%9E%84%20--%3E%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-70" class="mermaid" graph="---%0Atitle%3A%20flowchart%0A---%0A%0Aflowchart%20LR%0A%20%20%20%20%E5%8D%95%E4%BD%93%E6%9E%B6%E6%9E%84%20--%3E%20%E5%9E%82%E7%9B%B4%E6%9E%B6%E6%9E%84%20--%3E%20%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%20--%3E%20SOA%E6%9E%B6%E6%9E%84%20--%3E%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -19260,7 +19259,7 @@ public class Liskov1 {
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-81"  graph="classDiagram%0A%0Aclass%20Base%0Aclass%20A%0Aclass%20B%0A%0ABase%20%3C%7C--%20A%0ABase%20%3C%7C--%20B%0AB%20*--%20A%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-81" class="mermaid" graph="classDiagram%0A%0Aclass%20Base%0Aclass%20A%0Aclass%20B%0A%0ABase%20%3C%7C--%20A%0ABase%20%3C%7C--%20B%0AB%20*--%20A%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -19577,7 +19576,7 @@ classDiagram
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-15"  graph="classDiagram%0A%0Aclass%20Interface1%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation1()%20void%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%20%20%20%20%2B%20operation4()%20void%0A%20%20%20%20%2B%20operation5()%20void%0A%7D%0Aclass%20B%0Aclass%20D%0Aclass%20A%0Aclass%20C%0A%0AInterface1%20%3C..%20A%0AInterface1%20%3C%7C..%20B%0AInterface1%20%3C%7C..%20D%0AInterface1%20%3C..%20C%0A%0Anote%20for%20A%20%22A%E9%80%9A%E8%BF%87Interface1%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8B%E7%B1%BB%5Cn%E4%BD%86%E6%98%AFA%E4%B8%AD%E5%8F%AA%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%88%B0%E6%8E%A5%E5%8F%A3%E7%9A%841%2C2%2C3%E6%96%B9%E6%B3%95%22%0Anote%20for%20C%20%22C%E9%80%9A%E8%BF%87Interface1%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8D%E7%B1%BB%5Cn%E4%BD%86%E6%98%AFC%E4%B8%AD%E5%8F%AA%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%88%B0%E6%8E%A5%E5%8F%A3%E7%9A%841%2C4%2C5%E6%96%B9%E6%B3%95%22%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-15" class="mermaid" graph="classDiagram%0A%0Aclass%20Interface1%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation1()%20void%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%20%20%20%20%2B%20operation4()%20void%0A%20%20%20%20%2B%20operation5()%20void%0A%7D%0Aclass%20B%0Aclass%20D%0Aclass%20A%0Aclass%20C%0A%0AInterface1%20%3C..%20A%0AInterface1%20%3C%7C..%20B%0AInterface1%20%3C%7C..%20D%0AInterface1%20%3C..%20C%0A%0Anote%20for%20A%20%22A%E9%80%9A%E8%BF%87Interface1%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8B%E7%B1%BB%5Cn%E4%BD%86%E6%98%AFA%E4%B8%AD%E5%8F%AA%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%88%B0%E6%8E%A5%E5%8F%A3%E7%9A%841%2C2%2C3%E6%96%B9%E6%B3%95%22%0Anote%20for%20C%20%22C%E9%80%9A%E8%BF%87Interface1%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8D%E7%B1%BB%5Cn%E4%BD%86%E6%98%AFC%E4%B8%AD%E5%8F%AA%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%88%B0%E6%8E%A5%E5%8F%A3%E7%9A%841%2C4%2C5%E6%96%B9%E6%B3%95%22%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -19660,7 +19659,7 @@ classDiagram
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-31"  graph="classDiagram%0A%0Aclass%20Interface1%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation1()%20void%0A%7D%0Aclass%20Interface2%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%7D%0Aclass%20Interface3%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation4()%20void%0A%20%20%20%20%2B%20operation5()%20void%0A%7D%0Aclass%20B%0Aclass%20D%0Aclass%20A%0Aclass%20C%0A%0AInterface1%20%3C..%20A%0AInterface2%20%3C..%20A%0AInterface1%20%3C%7C..%20B%0AInterface2%20%3C%7C..%20B%0AInterface1%20%3C%7C..%20D%0AInterface3%20%3C%7C..%20D%0AInterface1%20%3C..%20C%0AInterface3%20%3C..%20C%0A%0Anote%20for%20A%20%22A%E9%80%9A%E8%BF%87Interface1%E5%92%8CInterface2%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8B%E7%B1%BB%5Cn%E4%B8%94%E4%BF%9D%E8%AF%81A%E7%9A%84%E4%BE%9D%E8%B5%96%E5%BB%BA%E7%AB%8B%E5%9C%A8%E6%9C%80%E5%B0%8F%E6%8E%A5%E5%8F%A3%E4%B8%8A%22%0Anote%20for%20C%20%22C%E9%80%9A%E8%BF%87Interface1%E5%92%8CInterface3%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8D%E7%B1%BB%5Cn%E4%B8%94%E4%BF%9D%E8%AF%81C%E7%9A%84%E4%BE%9D%E8%B5%96%E5%BB%BA%E7%AB%8B%E5%9C%A8%E6%9C%80%E5%B0%8F%E6%8E%A5%E5%8F%A3%E4%B8%8A%22%0A%0A"></Mermaid>
+      <Mermaid id="mermaid-31" class="mermaid" graph="classDiagram%0A%0Aclass%20Interface1%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation1()%20void%0A%7D%0Aclass%20Interface2%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation2()%20void%0A%20%20%20%20%2B%20operation3()%20void%0A%7D%0Aclass%20Interface3%20%7B%0A%20%20%20%20%3C%3Cinterface%3E%3E%0A%20%20%20%20%2B%20operation4()%20void%0A%20%20%20%20%2B%20operation5()%20void%0A%7D%0Aclass%20B%0Aclass%20D%0Aclass%20A%0Aclass%20C%0A%0AInterface1%20%3C..%20A%0AInterface2%20%3C..%20A%0AInterface1%20%3C%7C..%20B%0AInterface2%20%3C%7C..%20B%0AInterface1%20%3C%7C..%20D%0AInterface3%20%3C%7C..%20D%0AInterface1%20%3C..%20C%0AInterface3%20%3C..%20C%0A%0Anote%20for%20A%20%22A%E9%80%9A%E8%BF%87Interface1%E5%92%8CInterface2%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8B%E7%B1%BB%5Cn%E4%B8%94%E4%BF%9D%E8%AF%81A%E7%9A%84%E4%BE%9D%E8%B5%96%E5%BB%BA%E7%AB%8B%E5%9C%A8%E6%9C%80%E5%B0%8F%E6%8E%A5%E5%8F%A3%E4%B8%8A%22%0Anote%20for%20C%20%22C%E9%80%9A%E8%BF%87Interface1%E5%92%8CInterface3%E4%BE%9D%E8%B5%96%E4%BD%BF%E7%94%A8D%E7%B1%BB%5Cn%E4%B8%94%E4%BF%9D%E8%AF%81C%E7%9A%84%E4%BE%9D%E8%B5%96%E5%BB%BA%E7%AB%8B%E5%9C%A8%E6%9C%80%E5%B0%8F%E6%8E%A5%E5%8F%A3%E4%B8%8A%22%0A%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
@@ -21177,7 +21176,7 @@ Animal &lt;|-]]></description>
 
       <Suspense> 
       <template #default>
-      <Mermaid id="mermaid-6"  graph="classDiagram%0Anote%20%22From%20Duck%20till%20Zebra%22%0AAnimal%20%3C%7C--%20Duck%0AAnimal%20%3C%7C--%20Fish%0AAnimal%20%3C%7C--%20Zebra%0Aclass%20Animal%20%7B%0A%20%20%20%20%2Bint%20age%0A%20%20%20%20%2BString%20gender%0A%20%20%20%20%2BisMammal(void)%20Boolean%0A%20%20%20%20%2Bmate()%0A%7D%0Aclass%20Duck%7B%0A%20%20%2BString%20beakColor%0A%20%20%2Bswim()%0A%20%20%2Bquack()%0A%7D%0Aclass%20Fish%7B%0A%20%20-int%20sizeInFeet%0A%20%20-canEat()%0A%7D%0Aclass%20Zebra%7B%0A%20%20%2Bbool%20is_wild%0A%20%20%2Brun()%0A%7D%0A"></Mermaid>
+      <Mermaid id="mermaid-6" class="mermaid" graph="classDiagram%0Anote%20%22From%20Duck%20till%20Zebra%22%0AAnimal%20%3C%7C--%20Duck%0AAnimal%20%3C%7C--%20Fish%0AAnimal%20%3C%7C--%20Zebra%0Aclass%20Animal%20%7B%0A%20%20%20%20%2Bint%20age%0A%20%20%20%20%2BString%20gender%0A%20%20%20%20%2BisMammal(void)%20Boolean%0A%20%20%20%20%2Bmate()%0A%7D%0Aclass%20Duck%7B%0A%20%20%2BString%20beakColor%0A%20%20%2Bswim()%0A%20%20%2Bquack()%0A%7D%0Aclass%20Fish%7B%0A%20%20-int%20sizeInFeet%0A%20%20-canEat()%0A%7D%0Aclass%20Zebra%7B%0A%20%20%2Bbool%20is_wild%0A%20%20%2Brun()%0A%7D%0A"></Mermaid>
       </template>
         <!-- loading state via #fallback slot -->
         <template #fallback>
